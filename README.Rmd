@@ -1,0 +1,37 @@
+---
+title: "Framingham City Data (Unofficial)"
+author: "Sharon Machlis"
+date: "November 9, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Main directory will include R files for processing data.
+
+data directory includes data both raw and cleaned. When both raw and cleaned data are included, the unedited file names will include `_original`.
+
+The gis subdirectory includes GIS files and maps.
+
+
+## Data files
+
+
+
+
+## GIS files
+
+*data/gis/FramPrecincts/* - shapefiles of Framingham precincts. Includes District info. Read in with
+
+```{r eval=FALSE}
+library(sf)
+framgeo <- tmaptools::read_shape("data/gis/FramPrecincts/FramPrecincts.shp", as.sf = TRUE)
+
+```
+
+*data/gis/framingham_basemap.Rda* - A leaflet HTML widget of Framingham districts and precincts.
+
+
+
