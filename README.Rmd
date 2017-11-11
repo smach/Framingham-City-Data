@@ -9,9 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Main directory will include R files for processing data.
+I will be adding information about all the files to an index.xlsx spreadsheet. index.Rmd will create an index.html file.
 
-data directory includes data both raw and cleaned. When both raw and cleaned data are included, the unedited file names will include `_original`.
+In general:
+
+The data directory includes data both raw and cleaned. When both raw and cleaned data are included, the unedited file names will usually include `_original`.
 
 The gis subdirectory includes GIS files and maps.
 
