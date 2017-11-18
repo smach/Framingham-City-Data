@@ -123,9 +123,12 @@ $(document).ready(function () {
 </div>
 
 
-<p>Main directory will include R files for processing data.</p>
-<p>data directory includes data both raw and cleaned. When both raw and cleaned data are included, the unedited file names will include <code>_original</code>.</p>
-<p>The gis subdirectory includes GIS files and maps.</p>
+<p>I will be adding information about all the files to an index.xlsx spreadsheet. index.Rmd will create an index.html file.</p>
+<p>In general:</p>
+<p>The data directory includes data in usable format for analysis.</p>
+<p>The data gis subdirectory includes GIS files and maps, such as precinct/district shapefiles.</p>
+<p>The data elections subdirectory includes, not surprisingly, information about election results but also precinct polling places.</p>
+<p>When initial data was not in a usable format for analysis, the original data file is in the data-raw directory. R files used to reshape the data are in the R directory. (This will not include initial conversion from PDF to Excel, which is done using the <a href="https://www.cometdocs.com/">CometDocs cloud service</a>.)</p>
 <div id="data-files" class="section level2">
 <h2>Data files</h2>
 </div>
@@ -134,7 +137,7 @@ $(document).ready(function () {
 <p><em>data/gis/FramPrecincts/</em> - shapefiles of Framingham precincts. Includes District info. Read in with</p>
 <pre class="r"><code>library(sf)
 framgeo &lt;- tmaptools::read_shape(&quot;data/gis/FramPrecincts/FramPrecincts.shp&quot;, as.sf = TRUE)</code></pre>
-<p><strong>data/gis/framingham_basemap.Rda</strong> - A leaflet HTML widget of Framingham districts and precincts.</p>
+<p><em>data/gis/framingham_basemap.Rda</em> - A leaflet HTML widget of Framingham districts and precincts.</p>
 </div>
 
 

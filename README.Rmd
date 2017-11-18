@@ -13,14 +13,27 @@ I will be adding information about all the files to an index.xlsx spreadsheet. i
 
 In general:
 
-The data directory includes data both raw and cleaned. When both raw and cleaned data are included, the unedited file names will usually include `_original`.
+The data directory includes data in usable format for analysis.
 
-The gis subdirectory includes GIS files and maps.
+The data gis subdirectory includes GIS files and maps, such as precinct/district shapefiles. 
+
+The data elections subdirectory includes, not surprisingly, information about election results but also precinct polling places.
+
+When initial data was not in a usable format for analysis, the original data file is in the data-raw directory. R files used to reshape the data are in the R directory. (This will not include initial conversion from PDF to Excel, which is done using the [CometDocs cloud service](https://www.cometdocs.com/).)
 
 
 ## Data files
 
+*data/district_precinct_info.csv* -- which Framingham precincts make up each district.
 
+### elections
+
+
+## Raw data files
+
+*data-raw/elections/election_general_2017_framingham.pdf* -- PDF of official Framingham November 2017 election results. [File posted on the Framingham website](http://www.framinghamma.gov/DocumentCenter/View/28924). 
+
+*data-raw/elections/election_general_2017_framingham.xlsx* -- Official Framingham November 2017 election results converted from PDF to Excel by [CometDocs](https://www.cometdocs.com/).
 
 
 ## GIS files
@@ -34,6 +47,12 @@ framgeo <- tmaptools::read_shape("data/gis/FramPrecincts/FramPrecincts.shp", as.
 ```
 
 *data/gis/framingham_basemap.Rda* - A leaflet HTML widget of Framingham districts and precincts.
+
+## R files
+
+*R/config.R* -- Setup needed to run these scripts, including installing packages not on your system. **Run config.R before trying to run any other R scripts in this project.**
+
+*R/election_general_2017_framingham.R* -- R file to convert November 2017 official results spreadsheet to an analysis-friendly format.
 
 
 
