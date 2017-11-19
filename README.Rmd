@@ -9,18 +9,25 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-I will be adding information about all the files to an index.xlsx spreadsheet. index.Rmd will create an index.html file.
+This project aims to collect important data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. Data may be in one of two conceptual formats -- "tidy", sometimes called "long", with one observation in each row. This is useful for analysis in R and other platforms (including as a basis for Excel pivot tables). It starts in 2017 with Framingham's  transition from town to city form of government.
 
-In general:
+The project is currently in its early stages. I plan to post usable data on data.world in addition to the full project with code here.
 
-The data directory includes data in usable format for analysis.
+The first two groups of data added: GIS files for precincts in new city districts, and results of Framingham's first-ever city general election in November 2017.
 
-The data gis subdirectory includes GIS files and maps, such as precinct/district shapefiles. 
+A few notes on structure and format:
 
-The data elections subdirectory includes, not surprisingly, information about election results but also precinct polling places.
+* The data directory includes data in usable format for analysis.
 
-When initial data was not in a usable format for analysis, the original data file is in the data-raw directory. R files used to reshape the data are in the R directory. (This will not include initial conversion from PDF to Excel, which is done using the [CometDocs cloud service](https://www.cometdocs.com/).)
+* The data gis subdirectory includes GIS files and maps, such as precinct/district shapefiles. 
 
+* The data elections subdirectory includes, not surprisingly, information about election results but also precinct polling places.
+
+* When initial data was not in a usable format for analysis, the original data file is in the data-raw directory. 
+
+* R files used to reshape the data are in the R directory. 
+
+* PDFs were converted to Excel using the [CometDocs cloud service](https://www.cometdocs.com/).)
 
 ## Data files
 
@@ -28,12 +35,23 @@ When initial data was not in a usable format for analysis, the original data fil
 
 ### elections
 
+#### 2017 general
+
+*turnout_election_general_2017_framingham.csv* <br />
+*turnout_bydistrict_election_general_2017_framingham.csv* <br />
+*data/elections/election_general_2017_framingham_tidy.csv* <br />
+*data/elections/mayor_election_general_2017_framingham.csv* <br />
+*data/elections/mayor_bydistrict_election_general_2017_framingham.csv*<br />
+*data/elections/atlarge_election_general_2017_framingham.csv* <br />
+*data/elections/atlarge_bydistrict_election_general_2017_framingham.csv* <br />
+*data/elections/district_council_bydistrict_tidy_election_general_2017_framingham.csv* <br />
+*data/elections/school_committee_bydistrict_tidy_election_general_2017_framingham.csv*
 
 ## Raw data files
 
-*data-raw/elections/election_general_2017_framingham.pdf* -- PDF of official Framingham November 2017 election results. [File posted on the Framingham website](http://www.framinghamma.gov/DocumentCenter/View/28924). 
+*data-raw/elections/election_general_2017_framingham_raw.pdf* -- PDF of official Framingham November 2017 election results. [File posted on the Framingham website](http://www.framinghamma.gov/DocumentCenter/View/28924). 
 
-*data-raw/elections/election_general_2017_framingham.xlsx* -- Official Framingham November 2017 election results converted from PDF to Excel by [CometDocs](https://www.cometdocs.com/).
+*data-raw/elections/election_general_2017_framingham_raw.xlsx* -- Official Framingham November 2017 election results converted from PDF to Excel by [CometDocs](https://www.cometdocs.com/).
 
 
 ## GIS files
@@ -53,6 +71,9 @@ framgeo <- tmaptools::read_shape("data/gis/FramPrecincts/FramPrecincts.shp", as.
 *R/config.R* -- Setup needed to run these scripts, including installing packages not on your system. **Run config.R before trying to run any other R scripts in this project.**
 
 *R/election_general_2017_framingham.R* -- R file to convert November 2017 official results spreadsheet to an analysis-friendly format.
+
+*R/election_helpers.R* -- file with some useful functions for working with Framingham election data.
+
 
 
 

@@ -123,14 +123,33 @@ $(document).ready(function () {
 </div>
 
 
-<p>I will be adding information about all the files to an index.xlsx spreadsheet. index.Rmd will create an index.html file.</p>
-<p>In general:</p>
-<p>The data directory includes data in usable format for analysis.</p>
-<p>The data gis subdirectory includes GIS files and maps, such as precinct/district shapefiles.</p>
-<p>The data elections subdirectory includes, not surprisingly, information about election results but also precinct polling places.</p>
-<p>When initial data was not in a usable format for analysis, the original data file is in the data-raw directory. R files used to reshape the data are in the R directory. (This will not include initial conversion from PDF to Excel, which is done using the <a href="https://www.cometdocs.com/">CometDocs cloud service</a>.)</p>
+<p>This project aims to collect important data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. Data may be in one of two conceptual formats – “tidy”, sometimes called “long”, with one observation in each row. This is useful for analysis in R and other platforms (including as a basis for Excel pivot tables). It starts in 2017 with Framingham’s transition from town to city form of government.</p>
+<p>The project is currently in its early stages. I plan to post usable data on data.world in addition to the full project with code here.</p>
+<p>The first two groups of data added: GIS files for precincts in new city districts, and results of Framingham’s first-ever city general election in November 2017.</p>
+<p>A few notes on structure and format:</p>
+<ul>
+<li><p>The data directory includes data in usable format for analysis.</p></li>
+<li><p>The data gis subdirectory includes GIS files and maps, such as precinct/district shapefiles.</p></li>
+<li><p>The data elections subdirectory includes, not surprisingly, information about election results but also precinct polling places.</p></li>
+<li><p>When initial data was not in a usable format for analysis, the original data file is in the data-raw directory.</p></li>
+<li><p>R files used to reshape the data are in the R directory.</p></li>
+<li><p>PDFs were converted to Excel using the <a href="https://www.cometdocs.com/">CometDocs cloud service</a>.)</p></li>
+</ul>
 <div id="data-files" class="section level2">
 <h2>Data files</h2>
+<p><em>data/district_precinct_info.csv</em> – which Framingham precincts make up each district.</p>
+<div id="elections" class="section level3">
+<h3>elections</h3>
+<div id="general" class="section level4">
+<h4>2017 general</h4>
+<p><em>turnout_election_general_2017_framingham.csv</em> <br /> <em>turnout_bydistrict_election_general_2017_framingham.csv</em> <br /> <em>data/elections/election_general_2017_framingham_tidy.csv</em> <br /> <em>data/elections/mayor_election_general_2017_framingham.csv</em> <br /> <em>data/elections/mayor_bydistrict_election_general_2017_framingham.csv</em><br /> <em>data/elections/atlarge_election_general_2017_framingham.csv</em> <br /> <em>data/elections/atlarge_bydistrict_election_general_2017_framingham.csv</em></p>
+</div>
+</div>
+</div>
+<div id="raw-data-files" class="section level2">
+<h2>Raw data files</h2>
+<p><em>data-raw/elections/election_general_2017_framingham_raw.pdf</em> – PDF of official Framingham November 2017 election results. <a href="http://www.framinghamma.gov/DocumentCenter/View/28924">File posted on the Framingham website</a>.</p>
+<p><em>data-raw/elections/election_general_2017_framingham_raw.xlsx</em> – Official Framingham November 2017 election results converted from PDF to Excel by <a href="https://www.cometdocs.com/">CometDocs</a>.</p>
 </div>
 <div id="gis-files" class="section level2">
 <h2>GIS files</h2>
@@ -138,6 +157,12 @@ $(document).ready(function () {
 <pre class="r"><code>library(sf)
 framgeo &lt;- tmaptools::read_shape(&quot;data/gis/FramPrecincts/FramPrecincts.shp&quot;, as.sf = TRUE)</code></pre>
 <p><em>data/gis/framingham_basemap.Rda</em> - A leaflet HTML widget of Framingham districts and precincts.</p>
+</div>
+<div id="r-files" class="section level2">
+<h2>R files</h2>
+<p><em>R/config.R</em> – Setup needed to run these scripts, including installing packages not on your system. <strong>Run config.R before trying to run any other R scripts in this project.</strong></p>
+<p><em>R/election_general_2017_framingham.R</em> – R file to convert November 2017 official results spreadsheet to an analysis-friendly format.</p>
+<p><em>R/election_helpers.R</em> – file with some useful functions for working with Framingham election data.</p>
 </div>
 
 
