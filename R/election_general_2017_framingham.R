@@ -63,7 +63,7 @@ turnout_by_precinct <- turnout_tidy %>%
   janitor::clean_names()
 
 
-rio::export(turnout_by_precinct, file = "data/elections/turnout_election_general_2017_framingham.csv")
+rio::export(turnout_by_precinct, file = "data/elections/2017_general_turnout_framingham.csv")
 
 turnout_by_district <- turnout_tidy %>%
  janitor::clean_names() %>%
@@ -77,11 +77,11 @@ turnout_by_district <- turnout_tidy %>%
     Year = 2017
   )
 
-rio::export(turnout_by_district, file = "data/elections/turnout_bydistrict_election_general_2017_framingham.csv")
+rio::export(turnout_by_district, file = "data/elections/2017_general_turnout_bydistrict_framingham.csv")
 
 election_general_2017_framingham_tidy <- bind_rows(mayor_tidy, atlarge_tidy, district_council_tidy, school_committee_tidy)
 
-rio::export(election_general_2017_framingham_tidy, file = "data/elections/election_general_2017_framingham_tidy.csv")
+rio::export(election_general_2017_framingham_tidy, file = "data/elections/2017_general_tidy_framingham.csv")
 
 election_bydistrict_general_2017_framingham_tidy <- election_general_2017_framingham_tidy %>%
   mutate(
@@ -93,7 +93,7 @@ election_bydistrict_general_2017_framingham_tidy <- election_general_2017_framin
   ) %>%
   select(Candidate, District, Votes, Race, Year, Election)
 
-rio::export(election_bydistrict_general_2017_framingham_tidy, file = "data/elections/election_bydistrict_general_2017_framingham_tidy.csv")
+rio::export(election_bydistrict_general_2017_framingham_tidy, file = "data/elections/2017_general_bydistrict_tidy_framingham.csv")
 
 mayor_summary <- mayor_tidy %>%
   select(Precinct, Candidate, Votes) %>%
@@ -120,8 +120,8 @@ mayor_summary_by_district <- mayor_summary %>%
   )
 mayor_summary_by_district[10,1] <- "Total"
 
-rio::export(mayor_summary, file = "data/elections/mayor_election_general_2017_framingham.csv")
-rio::export(mayor_summary_by_district, file = "data/elections/mayor_bydistrict_election_general_2017_framingham.csv")
+rio::export(mayor_summary, file = "data/elections/2017_general_mayor_framingham.csv")
+rio::export(mayor_summary_by_district, file = "data/elections/2017_general_mayor_bydistrict_framingham.csv")
 
 atlarge_summary <- atlarge_tidy %>%
   select(Precinct, Candidate, Votes) %>%
@@ -151,8 +151,8 @@ atlarge_summary_by_district <- atlarge_summary %>%
   )
 atlarge_summary_by_district[10,1] <- "Total" 
 
-rio::export(atlarge_summary, file = "data/elections/atlarge_election_general_2017_framingham.csv")
-rio::export(atlarge_summary_by_district, file = "data/elections/atlarge_bydistrict_election_general_2017_framingham.csv")
+rio::export(atlarge_summary, file = "data/elections/2017_general_atlarge_framingham.csv")
+rio::export(atlarge_summary_by_district, file = "data/elections/2017_general_atlarge_bydistrict_framingham.csv")
 
 district_council_by_district_tidy <- district_council_tidy %>%
   mutate(
@@ -164,7 +164,7 @@ district_council_by_district_tidy <- district_council_tidy %>%
     ) %>%
   arrange(Race, desc(Votes))
 
-rio::export(district_council_by_district_tidy, file = "data/elections/district_council_bydistrict_tidy_election_general_2017_framingham.csv")
+rio::export(district_council_by_district_tidy, file = "data/elections/2017_general_district_council_bydistrict_tidy_framingham.csv")
 
 school_committee_by_district_tidy <- school_committee_tidy %>%
   mutate(
@@ -176,4 +176,4 @@ school_committee_by_district_tidy <- school_committee_tidy %>%
   ) %>%
   arrange(Race, desc(Votes))
 
-rio::export(school_committee_by_district_tidy, file = "data/elections/school_committee_bydistrict_tidy_election_general_2017_framingham.csv")
+rio::export(school_committee_by_district_tidy, file = "data/elections/2017_general_school_committee_bydistrict_tidy_framingham.csv")
