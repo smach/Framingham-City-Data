@@ -32,10 +32,17 @@ add_cols_to_tidy_dataframe <- function(thedf, therace, theelection, theyear = "2
 }
 
 # This code creates a district lookup for a precinct.
-district_info <- read.csv("data/district_precinct_info.csv", colClasses = c("character", "character"), col.names = c("precinct", "district"))
-district_lookup_table <- district_info$district
-names(district_lookup_table) <- district_info$precinct
-get_district <- function(precinct, thevec = district_lookup_table){
+
+
+
+get_district <- function(precinct, lookuptable_year = "2017"){
+  if(lookuptable_year == "2017"){
+     district_info_file <- "data/district_precinct_info_2017.csv" 
+  }
+  district_info <- read.csv(district_info_file, colClasses = c("character", "character"), col.names = c("precinct", "district"))
+  district_lookup_table <- district_info$district
+  names(district_lookup_table) <- district_info$precinct
+  thevec = district_lookup_table
   thedist <- unname(thevec[precinct])
   return(thedist)
   

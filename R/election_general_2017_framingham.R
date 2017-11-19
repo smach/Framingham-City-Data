@@ -83,6 +83,18 @@ election_general_2017_framingham_tidy <- bind_rows(mayor_tidy, atlarge_tidy, dis
 
 rio::export(election_general_2017_framingham_tidy, file = "data/elections/election_general_2017_framingham_tidy.csv")
 
+election_bydistrict_general_2017_framingham_tidy <- election_general_2017_framingham_tidy %>%
+  mutate(
+    District = get_district(Precinct)
+  ) %>%
+  group_by(Race, Candidate, District, Year, Election) %>%
+  summarize(
+    Votes = sum(Votes, na.rm = TRUE)
+  ) %>%
+  select(Candidate, District, Votes, Race, Year, Election)
+
+rio::export(election_bydistrict_general_2017_framingham_tidy, file = "data/elections/election_bydistrict_general_2017_framingham_tidy.csv")
+
 mayor_summary <- mayor_tidy %>%
   select(Precinct, Candidate, Votes) %>%
   dcast(Precinct ~ Candidate, value.var = "Votes") %>%
