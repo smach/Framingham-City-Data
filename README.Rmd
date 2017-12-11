@@ -9,11 +9,17 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This project aims to collect important data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. Data may be in one of two conceptual formats -- "tidy", sometimes called "long", with one observation in each row. This is useful for analysis in R and other platforms (including as a basis for Excel pivot tables). It starts in 2017 with Framingham's  transition from town to city form of government.
+This project aims to collect important data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. Data may be in one of two conceptual formats -- "tidy", sometimes called "long", with one observation in each row. This is useful for analysis in R and other platforms (including as a basis for Excel pivot tables). Or, it may be in more human-readable format, with multiple data points per row.
 
-The project is currently in its early stages. I plan to post usable data on data.world in addition to the full project with code here.
+The data generally start in 2017 with Framingham's transition from town to city form of government.
 
-The first two groups of data added: GIS files for precincts in new city districts, and results of Framingham's first-ever city general election in November 2017.
+This data compendium is currently in its early stages. I hopte ventually to post usable data on data.world and/or datahub.io in addition to the full project with code here.
+
+The first groups of data added: 
+* GIS files for precincts in new city districts
+* Results of Framingham's first-ever city general election in November 2017
+* Results of Framingham's first-ever city preliminary election in September 2017
+
 
 A few notes on structure and format:
 
@@ -59,6 +65,12 @@ A few notes on structure and format:
 *data/elections/2017_preliminary_atlarge_framingham.csv* <br />
 *data/elections/2017_preliminary_atlarge_framingham_tidy.csv* <br />
 *data/elections/2017_preliminary_district_council_bydistrict_tidy_framingham.csv*
+
+#### 2017 charter commission
+
+*data/elections/2017_charter_turnout_framingham.csv*<br />
+*data/elections/2017_charter_results_framingham.csv*<br />
+*data/elections/2017_charter_results_tidy_framingham.csv* -- complete vote by precinct including turnout in "tidy"/long format ready for analysis in R, Excel pivot tables, or other platforms.
 
 ## Raw data files
 
