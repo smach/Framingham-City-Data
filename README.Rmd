@@ -41,6 +41,8 @@ A few notes on structure and format:
 
 ### elections
 
+All election results data come from the Framingham Clerk's office.
+
 #### 2017 general on Nov. 7
 
 *data/elections/2017_general_turnout_framingham.csv* -- turnout by precinct <br />
@@ -91,7 +93,9 @@ A few notes on structure and format:
 
 ## GIS files
 
-*data/gis/FramPrecincts/* - shapefiles of Framingham precincts. Includes District info. Read in with
+*data/gis/FramPrecincts/* - shapefile of Framingham precincts. Includes District info. Shapefile wsd received from Geoffrey W. Kovar, Framingham GIS Manager, via email on July 14, 2017.
+
+Read shapefile into R with the tmaptools package:
 
 ```{r eval=FALSE}
 library(sf)
@@ -99,7 +103,7 @@ framgeo <- tmaptools::read_shape("data/gis/FramPrecincts/FramPrecincts.shp", as.
 
 ```
 
-*data/gis/framingham_basemap.Rda* - A leaflet HTML widget of Framingham districts and precincts.
+*data/gis/framingham_basemap.Rda* - A leaflet HTML widget of Framingham districts and precincts that I created from Framingham precinct shapefile.
 
 ## R files
 
