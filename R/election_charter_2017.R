@@ -3,7 +3,11 @@ library(dplyr)
 chartervote <- readxl::read_xlsx("data-raw/elections/election_charter_2017_framingham_raw.xlsx", skip = 1)
 names(chartervote)[1] <- "Metric"
 chartervote_long <- melt(chartervote, variable.name = "Precinct") %>%
-  filter(Precinct != "Total")
+  filter(Precinct != "Total") %>%
+  mutate(
+    Election = "Charter",
+    Year = "2017"
+  )
 
 charter_results <- chartervote_long %>%
   filter(Metric %in% c("Yes", "No", "Blanks")) %>%
@@ -20,7 +24,11 @@ charter_results <- chartervote_long %>%
 charter_turnout <- melt(chartervote, variable.name = "Precinct") %>%
   filter(Metric %in% c("Total Voter Turnout", "Total Registered Voters", "Percentage")) %>%
   dcast(Precinct ~ Metric) %>%
-  select(Precinct, `Total Voter Turnout`, `Total Registered Voters`, `Percentage`)
+  select(Precinct, `Total Voter Turnout`, `Total Registered Voters`, Turnout = Percentage) %>%
+  mutate(
+    Election = "Charter",
+    Year = "2017"
+  )
 
 rio::export(charter_turnout, "data/elections/2017_charter_turnout_framingham.csv")
 rio::export(charter_results, "data/elections/2017_charter_results_framingham.csv")

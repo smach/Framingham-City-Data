@@ -109,6 +109,16 @@ framgeo <- tmaptools::read_shape("data/gis/FramPrecincts/FramPrecincts.shp", as.
 
 *R/config.R* -- Setup needed to run these scripts, including installing packages not on your system. **Run config.R before trying to run any other R scripts in this project.**
 
+### For analysis
+
+*R/get_turnouts.R* -- get a tidy data frame of all available election turnout data by precinct, stored in an R object called `all_turnout_data`.
+
+
+
+### For reproducibility
+
+These are the scripts I used to turn raw data into analysis-friendly data.
+
 *R/election_general_2017_framingham.R* -- R file to convert November 2017 official results spreadsheet to an analysis-friendly format.
 
 *R/election_preliminary_2017_framingham.R* -- R file to convert September 2017 official results spreadsheet to an analysis-friendly format.
