@@ -78,6 +78,16 @@ A few notes on structure and format:
 
 *data-raw/elections/election_general_2017_framingham_raw.xlsx* -- Official Framingham November 2017 election results converted from PDF to Excel by [CometDocs](https://www.cometdocs.com/).
 
+*data-raw/elections/election_preliminary_2017_framingham_raw.pdf* -- Official Framingham September 2017 preliminary election results converted from PDF to Excel by [CometDocs](https://www.cometdocs.com/).
+
+*data-raw/elections/election_preliminary_2017_framingham_raw.xlsx* -- Official Framingham September 2017 preliminary election results converted from PDF to Excel by [CometDocs](https://www.cometdocs.com/).
+
+*data-raw/elections/election_charter_2017_framingham_raw.xlsx* -- results of the April 2017 vote on the city charter.
+
+*data-raw/elections/election-town-2017_framingham-raw.pdf* -- Official Framingham April 2017 town election results.
+
+
+
 
 ## GIS files
 
@@ -96,6 +106,10 @@ framgeo <- tmaptools::read_shape("data/gis/FramPrecincts/FramPrecincts.shp", as.
 *R/config.R* -- Setup needed to run these scripts, including installing packages not on your system. **Run config.R before trying to run any other R scripts in this project.**
 
 *R/election_general_2017_framingham.R* -- R file to convert November 2017 official results spreadsheet to an analysis-friendly format.
+
+*R/election_preliminary_2017_framingham.R* -- R file to convert September 2017 official results spreadsheet to an analysis-friendly format.
+
+*R/election_charter_2017.R* -- R file to convert April 2017 city charter results to analysis-friendly format.
 
 *R/election_helpers.R* -- file with some useful functions for working with Framingham election data.
 
