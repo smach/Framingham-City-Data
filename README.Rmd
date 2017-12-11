@@ -41,7 +41,7 @@ A few notes on structure and format:
 
 ### elections
 
-#### 2017 general
+#### 2017 general on Nov. 7
 
 *data/elections/2017_general_turnout_framingham.csv* -- turnout by precinct <br />
 *data/elections/2017_general_turnout_bydistrict_framingham.csv* -- turnout by district <br />
@@ -54,7 +54,7 @@ A few notes on structure and format:
 *data/elections/2017_general_district_council_bydistrict_tidy_framingham.csv* <br />
 *data/elections/2017_general_school_committee_bydistrict_tidy_framingham.csv*
 
-#### 2017 preliminary
+#### 2017 preliminary on Sept. 26
 
 *data/elections/2017_preliminary_turnout_framingham.csv* -- turnout by precinct <br />
 *data/elections/2017_preliminary_turnout_bydistrict_framingham.csv* -- turnout by district <br />
@@ -66,11 +66,11 @@ A few notes on structure and format:
 *data/elections/2017_preliminary_atlarge_framingham_tidy.csv* <br />
 *data/elections/2017_preliminary_district_council_bydistrict_tidy_framingham.csv*
 
-#### 2017 charter commission
+#### 2017 vote on city charter April 4
 
 *data/elections/2017_charter_turnout_framingham.csv*<br />
 *data/elections/2017_charter_results_framingham.csv*<br />
-*data/elections/2017_charter_results_tidy_framingham.csv* -- complete vote by precinct including turnout in "tidy"/long format ready for analysis in R, Excel pivot tables, or other platforms.
+*data/elections/2017_charter_results_tidy_framingham.csv* -- complete vote and turnout by precinct including turnout in "tidy"/long format ready for analysis in R, Excel pivot tables, or other platforms.
 
 ## Raw data files
 
