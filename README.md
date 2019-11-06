@@ -1,7 +1,5 @@
 Framingham City Data (Unofficial)
 ================
-Sharon Machlis
-November 9, 2017
 
 This project aims to collect important data about Framingham,
 Massachusetts and wrangle it so it is in a form useful for analysis.
