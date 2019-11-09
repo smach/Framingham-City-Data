@@ -6,13 +6,24 @@ Massachusetts and wrangle it so it is in a form useful for analysis.
 
 Data may be in one of two formats – “tidy”, sometimes called “long”,
 with one observation in each row; or more human-readable format, with
-multiple data points per row. Tidy data is useful for analysis in R and
-other platforms (including as a basis for Excel pivot tables) and will
-include tidy in the file name.
+multiple data points per row.
+
+If you are doing analysis in R and other platforms (including as a basis
+for Excel pivot tables), tidy format is more useful. If you want to
+combine data sets, tidy is definitely more useful since all tidy data
+sets have the same column names:
+
+*Tidy data files will include tidy in the file name.*
+
+If you are just looking to see results, the non-tidy format will be more
+useful.
 
 The data generally start in 2017 with Framingham’s transition from town
-to city form of government. Election data will not include preliminary
-elections unless they are city-wide.
+to city form of government, although I have a few raw data files from
+earlier elections.
+
+Election data will not include preliminary elections unless they are
+city-wide. Tidy data may only include mayoral and City Council races.
 
 Data added so far:
 
@@ -26,8 +37,6 @@ Data added so far:
 
 A few notes on structure and format:
 
-  - The data directory includes data in usable format for analysis.
-
   - The data/gis subdirectory includes GIS files and maps, such as
     precinct and district shapefiles.
 
@@ -36,15 +45,16 @@ A few notes on structure and format:
 
   - When initial data was not in a usable format for analysis, such as
     PDFs from the City Clerk’s office, the original data file is in the
-    data-raw directory.
+    data-raw directory along with how those PDFs were converted to
+    Excel.
+
+  - PDFs were converted to Excel using the [CometDocs cloud
+    service](https://www.cometdocs.com/).
 
   - Some R files used to reshape the data have been included in the R
     directory.
 
-  - PDFs were converted to Excel using the [CometDocs cloud
-    service](https://www.cometdocs.com/).)
-
-## Available files
+## Highlights of available files
 
 *data/district\_precinct\_info.csv* – which Framingham precincts make up
 each district.

@@ -7,16 +7,25 @@ output: rmarkdown::github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This project aims to collect important data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. 
+This project aims to collect important data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. for now, much of it is election data.
 
-Data may be in one of two formats -- "tidy", sometimes called "long", with one observation in each row; or more human-readable format, with multiple data points per row. Tidy data is useful for analysis in R and other platforms (including as a basis for Excel pivot tables) and will include tidy in the file name.
+Election data may be in one of two formats -- "tidy", sometimes called "long", with one observation in each row; or more human-readable format, with multiple data points per row. 
 
-The data generally start in 2017 with Framingham's transition from town to city form of government. Election data will not include preliminary elections unless they are city-wide.
+If you are doing analysis in R and other platforms (including as a basis for Excel pivot tables), tidy format is more useful. If you want to combine data sets, tidy is definitely more useful since most tidy data sets have the same column names: **Candidate, District or Precinct, Votes, Race, Year, Election**.
 
+_Tidy election data files are in the data/elections/tidy subdirectory._
+
+If you are just looking to see results, the non-tidy format will be more useful. Those files are in the data/elections directory.
+
+The data generally start in 2017 with Framingham's transition from town to city form of government, although I have a few raw data files from earlier elections. I usually do not include preliminary elections unless they are city-wide. Tidy data for preliminary and general elections usually only include mayoral and City Council races. 
+
+Source: Election data generally come from PDFs of results provided by the Framingham City Clerk's office. Note that I have then pulled that data from PDF into Excel and done a fair amount of data wrangling. 
 
 Data added so far: 
 
-* GIS files for precincts in new city districts
+* Some election results from the 2019 general election
+
+* GIS shapefiles for Framigham precincts
 
 * Results of Framingham's first-ever city general election in November 2017
 
@@ -25,73 +34,19 @@ Data added so far:
 
 A few notes on structure and format:
 
-* The data directory includes data in usable format for analysis.
-
 * The data/gis subdirectory includes GIS files and maps, such as precinct and district shapefiles. 
 
-* The data/elections subdirectory includes, not surprisingly, information about election results but also precinct polling places.
+* The data/elections subdirectory includes information about precinct polling places.
 
-* When initial data was not in a usable format for analysis, such as PDFs from the City Clerk's office, the original data file is in the data-raw directory. 
+* When initial data was not in a usable format for analysis, such as PDFs from the City Clerk's office, the original data file is in the data-raw directory. _If you are looking for results from races not in my election CSV files, you can try looking at the raw data in the data-raw directory._
+
+* PDFs were converted to Excel using the [CometDocs cloud service](https://www.cometdocs.com/).
 
 * Some R files used to reshape the data have been included in the R directory. 
 
-* PDFs were converted to Excel using the [CometDocs cloud service](https://www.cometdocs.com/).)
-
-## Available files
+## Other available files
 
 *data/district_precinct_info.csv* -- which Framingham precincts make up each district.
-
-### Elections
-
-All election results data come from the Framingham Clerk's office.
-
-#### 2017 general on Nov. 7
-
-*data/elections/2017_general_turnout_framingham.csv* -- turnout by precinct <br />
-*data/elections/2017_general_turnout_bydistrict_framingham.csv* -- turnout by district <br />
-*data/elections/2017_general_tidy_framingham.csv* <br /> -- complete results file (excluding turnout) by _precinct_ in "tidy"/long format ready for analysis in R, Excel pivot tables, or other platforms. <br />
-*data/elections/2017_general_bydistrict_tidy_framingham_tidy.csv*  -- complete results file (excluding turnout) by _district_ in "tidy"/long format ready for analysis in R, Excel pivot tables, or other platforms.<br />
-*data/elections/2017_general_mayor_framingham.csv* <br />
-*data/elections/2017_general_mayor_bydistrict_framingham.csv*<br />
-*data/elections/2017_general_atlarge_framingham.csv* <br />
-*data/elections/2017_general_atlarge_bydistrict_framingham.csv* <br />
-*data/elections/2017_general_district_council_bydistrict_tidy_framingham.csv* <br />
-*data/elections/2017_general_school_committee_bydistrict_tidy_framingham.csv*
-
-#### 2017 preliminary on Sept. 26
-
-*data/elections/2017_preliminary_turnout_framingham.csv* -- turnout by precinct <br />
-*data/elections/2017_preliminary_turnout_bydistrict_framingham.csv* -- turnout by district <br />
-*data/elections/2017_preliminary_tidy_framingham.csv* <br /> -- complete results file (excluding turnout) by precinct in "tidy"/long format ready for analysis in R, Excel pivot tables, or other platforms.
-*data/elections/2017_preliminary_bydistrict_tidy_framingham.csv*  -- complete results file (excluding turnout) by district in "tidy"/long format ready for analysis in R, Excel pivot tables, or other platforms.<br />
-*data/elections/2017_preliminary_mayor_framingham.csv* <br />
-*data/elections/2017_preliminary_mayor_framingham_tidy.csv* <br />
-*data/elections/2017_preliminary_atlarge_framingham.csv* <br />
-*data/elections/2017_preliminary_atlarge_framingham_tidy.csv* <br />
-*data/elections/2017_preliminary_district_council_bydistrict_tidy_framingham.csv*
-
-#### 2017 vote on city charter April 4
-
-*data/elections/2017_charter_turnout_framingham.csv*<br />
-*data/elections/2017_charter_results_framingham.csv*<br />
-*data/elections/2017_charter_results_tidy_framingham.csv* -- complete vote and turnout by precinct including turnout in "tidy"/long format ready for analysis in R, Excel pivot tables, or other platforms.
-
-#### Raw election data files
-
-*data-raw/elections/election_general_2017_framingham_raw.pdf* -- PDF of official Framingham November 2017 election results. [File posted on the Framingham website](http://www.framinghamma.gov/DocumentCenter/View/28924). 
-
-*data-raw/elections/election_general_2017_framingham_raw.xlsx* -- Official Framingham November 2017 election results converted from PDF to Excel by [CometDocs](https://www.cometdocs.com/).
-
-*data-raw/elections/election_preliminary_2017_framingham_raw.pdf* -- Official Framingham September 2017 preliminary election results converted from PDF to Excel by [CometDocs](https://www.cometdocs.com/).
-
-*data-raw/elections/election_preliminary_2017_framingham_raw.xlsx* -- Official Framingham September 2017 preliminary election results converted from PDF to Excel by [CometDocs](https://www.cometdocs.com/).
-
-*data-raw/elections/election_charter_2017_framingham_raw.xlsx* -- results of the April 2017 vote on the city charter.
-
-*data-raw/elections/election-town-2017_framingham-raw.pdf* -- Official Framingham April 2017 town election results.
-
-
-### GIS files
 
 *data/gis/FramPrecincts/* - shapefile of Framingham precincts. Includes District info. Shapefile wsd received from Geoffrey W. Kovar, Framingham GIS Manager, via email on July 14, 2017.
 
@@ -107,7 +62,7 @@ framgeo <- tmaptools::read_shape("data/gis/FramPrecincts/FramPrecincts.shp", as.
 
 ### R files
 
-*R/config.R* -- Setup needed to run these scripts, including installing packages not on your system. **Run config.R before trying to run any other R scripts in this project.**
+*R/config.R* -- Setup needed to run these scripts, including installing packages not on your system. Running config.R will ensure you have all necessary packages.
 
 ### For analysis
 
@@ -117,7 +72,7 @@ framgeo <- tmaptools::read_shape("data/gis/FramPrecincts/FramPrecincts.shp", as.
 
 ## Info on reproducibility
 
-These are the scripts I used to turn raw data into analysis-friendly data.
+These are the scripts I used to turn raw data into analysis-friendly data, including:
 
 *R/election_general_2017_framingham.R* -- R file to convert November 2017 official results spreadsheet to an analysis-friendly format.
 

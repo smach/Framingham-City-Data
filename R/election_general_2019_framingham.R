@@ -44,7 +44,6 @@ at_large_by_precinct_with_winner <- at_large_tidy %>%
   ) %>%
   janitor::adorn_totals()
 
-# rio::export(at_large_by_precinct_with_winner, file = "../../../../www/district2/data/2019_atlarge.xlsx", overwrite = TRUE)
 
 fram_summary <- readxl::read_xlsx("data-raw/elections/election_general_2019_framingham_summaries.xlsx", skip = 1)
 names(fram_summary) <- my_col_names
@@ -65,3 +64,12 @@ fram_summary_general <- fram_summary_tidy %>%
  
 # rio::export(fram_summary_general, file = "../../../../www/district2/data/2019_election_turnout_summary.xlsx", overwrite = TRUE )
 
+fram_turnout <- fram_summary_tidy %>%
+  pivot_wider(names_from = Category, values_from = Value) %>%
+  mutate(
+    Turnout = `Total Voter Turnout` / `Total Registered Voters`,
+    Election = "General",
+    Year = 2019
+  )
+
+rio::export(fram_turnout, file = "data/elections/2019_general_turnout_framingham.csv")
