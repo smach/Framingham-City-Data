@@ -48,3 +48,6 @@ get_district <- function(precinct, lookuptable_year = "2017"){
   
 }
 
+
+# Turn numeric column names for Precincts into characters
+precinct_col_names <- c("Category", as.character(1:18))

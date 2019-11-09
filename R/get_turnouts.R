@@ -1,3 +1,5 @@
+# Combine all turnout data in all available election files with turnout by precinct
+
 project_dir <- here::here()
 
 turnout_data_files <- dir("data/elections", ".*_turnout_")
