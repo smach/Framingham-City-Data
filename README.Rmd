@@ -7,7 +7,8 @@ output: rmarkdown::github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This project aims to collect important data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. for now, much of it is election data.
+This project aims to collect important data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. I started it before Framingham created its [Open Data Framingham](https://data.framinghamma.gov/) portal. Since Open Data Framingham does not include election results, for now I'm focused largely on election results.
+
 
 Election data may be in one of two formats -- "tidy", sometimes called "long", with one observation in each row; or more human-readable format, with multiple data points per row. 
 
