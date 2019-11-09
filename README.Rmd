@@ -20,7 +20,9 @@ If you are just looking to see results, the non-tidy format will be more useful.
 
 The data generally start in 2017 with Framingham's transition from town to city form of government, although I have a few raw data files from earlier elections. I usually do not include preliminary elections unless they are city-wide. Tidy data for preliminary and general elections usually only include mayoral and City Council races. 
 
-Source: Election data generally come from PDFs of results provided by the Framingham City Clerk's office. Note that I have then pulled that data from PDF into Excel and done a fair amount of data wrangling. 
+Source: Election data generally come from PDFs of results provided by the Framingham City Clerk's office. Note that I have then pulled that data from PDF into Excel and done a fair amount of data wrangling.
+
+To come: Files in each directory explaining each data file.
 
 Data added so far: 
 

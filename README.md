@@ -33,6 +33,8 @@ Source: Election data generally come from PDFs of results provided by
 the Framingham City Clerk’s office. Note that I have then pulled that
 data from PDF into Excel and done a fair amount of data wrangling.
 
+To come: Files in each directory explaining each data file.
+
 Data added so far:
 
   - Some election results from the 2019 general election
