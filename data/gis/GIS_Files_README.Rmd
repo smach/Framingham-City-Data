@@ -1,13 +1,13 @@
 ---
 title: "GIS Files README"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Information about files in the data/gis directory
+### Files in the data/gis directory
 
 _Framingham_Districts_and_Precincts_2018.zip_ -- Shapefiles downloaded from Open Data Framingham
 
