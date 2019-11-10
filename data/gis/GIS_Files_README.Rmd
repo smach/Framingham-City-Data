@@ -1,0 +1,14 @@
+---
+title: "GIS Files README"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Information about files in the data/gis directory
+
+_Framingham_Districts_and_Precincts_2018.zip_ -- Shapefiles downloaded from Open Data Framingham
+
+_Framingham_Parcels_2018.zip_ -- Shapefiles downloaded from [Open Data Framingham](https://data.framinghamma.gov/Community-Development/Framingham-Parcels/5vrm-nj3j). Last updated August 9, 2018.

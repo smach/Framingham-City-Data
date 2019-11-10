@@ -1,0 +1,13 @@
+---
+title: "Property Files README""
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Information about files in the data/property subdirectory
+
+_Real_Property_2017.csv_ - Framingham property tax valuation information for fiscal year 2017 downloaded from [Open Data Framingham](https://data.framinghamma.gov/Financial/Real-Property-2017/uymn-hbur/data)
+
