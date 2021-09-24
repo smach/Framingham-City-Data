@@ -19,11 +19,15 @@ If you are just looking to see results, the non-tidy format will be more useful.
 
 The data generally start in 2017 with Framingham's transition from town to city form of government, although I have a few raw data files from earlier elections. I do not include preliminary elections unless they are city-wide. 
 
-Source: Local election data generally come from PDFs of results provided by the Framingham City Clerk's office. Note that I have then extracted  data from PDFinto Excel files using the [CometDocs cloud service](https://www.cometdocs.com/) and done a fair amount of data wrangling on those results.
+Source: Local election data generally come from PDFs of results provided by the Framingham City Clerk's office. Note that I have then extracted  data from PDFinto Excel files using the [CometDocs cloud service](https://www.cometdocs.com/) or [PDF Tables](https://pdftables.com/) and done a fair amount of data wrangling on those results.
 
 To come: Files in each directory explaining each data file.
 
 ### Available data so far 
+
+* Election results from the September 2021 Framingham preliminary city election
+
+* Election  results from the 2020 U.S. Senate primary as well as primary turnout
 
 * Election results from the November 2019 Framingham city election
 
@@ -75,6 +79,8 @@ These are the scripts I used to turn raw data into analysis-friendly data, inclu
 *R/election_general_2019.R* -- R file to convert November 2017 official results data to an analysis-friendly format.
 
 *R/election_helpers.R* -- file with some useful functions for working with Framingham election data.
+
+*R/election_preliminary_2021_framingham.R* -- R file to process September 2021 election data.
 
 
 

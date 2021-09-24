@@ -35,10 +35,8 @@ add_cols_to_tidy_dataframe <- function(thedf, therace, theelection, theyear = "2
 
 
 
-get_district <- function(precinct, lookuptable_year = "2017"){
-  if(lookuptable_year == "2017"){
-     district_info_file <- "data/district_precinct_info_2017.csv" 
-  }
+get_district <- function(precinct, district_info_file = "data/district_precinct_info.csv"){
+
   district_info <- read.csv(district_info_file, colClasses = c("character", "character"), col.names = c("precinct", "district"))
   district_lookup_table <- district_info$district
   names(district_lookup_table) <- district_info$precinct
