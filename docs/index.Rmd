@@ -15,7 +15,7 @@ pacman::p_load(DT, dplyr, glue)
 
 This project aims to collect data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. It focuses largely on election results for now -- more specifically local mayoral and City Council races as well as turnout information -- but there are other files here such as precinct shapefiles and property records.
 
-See a [searchable table of available data files below](#search-available-files).
+See a [searchable table of available data files below](#search-available-files). If you know regular expressions, those work in the search and filter boxes.
 
 ### Election data
 
@@ -65,7 +65,8 @@ available_files <- rio::import("file_index.csv") %>%
 
 DT::datatable(available_files, filter = 'top', escape = FALSE, options = list(
 pageLength = 15,
-lengthMenu = c(10, 15, 25, 50, 100)
+lengthMenu = c(10, 15, 25, 50, 100),
+search = list(regex = TRUE)
 ))
 
 ```
