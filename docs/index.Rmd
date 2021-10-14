@@ -63,7 +63,7 @@ available_files <- rio::import("file_index.csv") %>%
 # https://github.com/smach/Framingham-City-Data/blob/main/data/elections/2021_preliminary_turnout_framingham.csv
 
 
-DT::datatable(available_files, filter = 'top', escape = FALSE, options = list(
+DT::datatable(available_files, filter = 'top', rownames = FALSE, escape = FALSE, options = list(
 pageLength = 15,
 lengthMenu = c(10, 15, 25, 50, 100),
 search = list(regex = TRUE)
