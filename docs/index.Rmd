@@ -85,17 +85,17 @@ framgeo <- sf::read_sf("data/gis/FramPrecincts/FramPrecincts.shp")
 
 These are some of the scripts I used to turn raw data into analysis-friendly data:
 
-*R/election_general_2017_framingham.R* -- R file to convert November 2017 official results spreadsheet to an analysis-friendly format.
+*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_general_2017_framingham.R'>R/election_general_2017_framingham.R</a>* -- R file to convert November 2017 official results spreadsheet to an analysis-friendly format.
 
-*R/election_preliminary_2017_framingham.R* -- R file to convert September 2017 official results spreadsheet to an analysis-friendly format.
+*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_preliminary_2017_framingham.R'>R/election_preliminary_2017_framingham.R</a>* -- R file to convert September 2017 official results spreadsheet to an analysis-friendly format.
 
-*R/election_charter_2017.R* -- R file to convert April 2017 city charter results to analysis-friendly format.
+*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_charter_2017.R'>R/election_charter_2017.R</a>* -- R file to convert April 2017 city charter results to analysis-friendly format.
 
-*R/election_general_2019.R* -- R file to convert November 2017 official results data to an analysis-friendly format.
+*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_general_2019.R'>R/election_general_2019.R</a>* -- R file to convert November 2017 official results data to an analysis-friendly format.
 
-*R/election_helpers.R* -- file with some useful functions for working with Framingham election data.
+*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_helpers.R'>R/election_helpers.R</a>* -- file with some useful functions for working with Framingham election data.
 
-*R/election_preliminary_2021_framingham.R* -- R file to process September 2021 election data.
+*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_preliminary_2021_framingham.R'>R/election_preliminary_2021_framingham.R</a>* -- R file to process September 2021 election data.
 
 
 
