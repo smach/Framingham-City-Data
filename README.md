@@ -2,13 +2,15 @@ Framingham City Data (Unofficial)
 ================
 
 This project aims to collect data about Framingham, Massachusetts and
-wrangle it so it is in a form useful for analysis. I started it before
-Framingham created its [Open Data
-Framingham](https://data.framinghamma.gov/) portal. Since Open Data
-Framingham does not include election results, for now I’m focused
-largely on election results – more specifically local mayoral and City
-Council races as well as turnout information. I also have the vote on
-the city charter.
+wrangle it so it is in a form useful for analysis. It focuses largely on
+election results – more specifically local mayoral and City Council
+races as well as turnout information – but there are other files here
+such as precinct shapefiles and property records.
+
+Check out the [project
+website](https://smach.github.io/Framingham-City-Data/), which includes
+a [searchable table of available
+files](https://smach.github.io/Framingham-City-Data/#search-available-files).
 
 ### Election data
 

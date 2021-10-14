@@ -13,9 +13,9 @@ knitr::opts_chunk$set(echo = FALSE)
 pacman::p_load(DT, dplyr, glue)
 ```
 
-This project aims to collect data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. It focuses largely on election results -- more specifically local mayoral and City Council races as well as turnout information -- but there are other files here such as precinct shapefiles and property records.
+This project aims to collect data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. It focuses largely on election results for now -- more specifically local mayoral and City Council races as well as turnout information -- but there are other files here such as precinct shapefiles and property records.
 
-You can see info on all available files in the [table below](#search-available-files).
+See a [searchable table of available data files below](#search-available-files).
 
 ### Election data
 
@@ -27,10 +27,10 @@ If you are just looking to see results, the non-tidy format will likely be more 
 
 The data generally start in 2017 with Framingham's transition from town to city form of government, although I have a few raw data files from earlier elections. I do not include preliminary elections unless they are city-wide. 
 
-Source: Local election data generally come from PDFs of results provided by the Framingham City Clerk's office. Note that I have then extracted  data from PDFinto Excel files using the [CometDocs cloud service](https://www.cometdocs.com/) or [PDF Tables](https://pdftables.com/) and done a fair amount of data wrangling on those results.
+Source: Local election data generally come from PDFs of results provided by the Framingham City Clerk's office. I then extract data from PDF into Excel files using the [CometDocs cloud service](https://www.cometdocs.com/) or [PDF Tables](https://pdftables.com/) and do a fair amount of data wrangling on those results.
 
 
-* GIS shapefiles for Framigham precincts. data/gis/Framingham_Districts_and_Precincts_2018.zip contains official shapefiles pre-2020 Census, which I downloaded from [Framingham Open Data](https://data.framinghamma.gov/Community-Development/Framingham-Districts-and-Precincts/9pzx-4i9g). There are also precinct files emailed to me by Geoffrey W. Kovar, Framingham GIS Manager, via email on July 14, 2017.
+* GIS shapefiles for Framigham precincts. data/gis/Framingham_Districts_and_Precincts_2018.zip contains official shapefiles pre-2020 Census, which I downloaded from [Framingham Open Data](https://data.framinghamma.gov/Community-Development/Framingham-Districts-and-Precincts/9pzx-4i9g). There are also precinct files emailed to me by Geoffrey W. Kovar, Framingham GIS Manager, via email on July 14, 2017 and a new file of proposed post-2020-Census precincts.
 
 * GIS shapefiles for all Framingham parcels, downloaded from [Open Data Framingham](https://data.framinghamma.gov/Community-Development/Framingham-Parcels/5vrm-nj3j)
 
@@ -46,7 +46,7 @@ Source: Local election data generally come from PDFs of results provided by the 
 
 * Property valuations are in the data/property subdirectory.
 
-* Some of the R files I used to reshape the data are in the R directory. In addition, the _config.R_ file loads necessary packages for running the other files. And, *get_turnouts.R* genreates a tidy data frame of all available election turnout data by precinct, stored in an R object called `all_turnout_data`. *framingham_basemap.R* creates a map of Framingham precincts, colored by district, using the R leaflet package.
+* Some of the R files I used to reshape the data are in the R directory. In addition, the _config.R_ file loads necessary packages for running the other files. And, *get_turnouts.R* generates a tidy data frame of all available election turnout data by precinct, stored in an R object called `all_turnout_data`. *framingham_basemap.R* creates a map of Framingham precincts, colored by district, using the R leaflet package.
 
 * The CSV of which Framingham precincts make up each district is in the data directory.
 
