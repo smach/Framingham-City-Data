@@ -47,7 +47,9 @@ leaflet(pctgeo_sf) %>%
               labelOptions = labelOptions(
                 style = list("font-weight" = "normal", padding = "3px 8px"),
                 textsize = "15px",
-                direction = "auto"))  
+                direction = "auto")) %>%
+  addResetMapButton() %>%
+  addSearchOSM(options = searchOptions(autoCollapse = TRUE, minLength = 2))
 
 
 
