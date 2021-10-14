@@ -1,0 +1,56 @@
+﻿File,Description,Source
+data/district_precinct_info_2017.csv,Which district each precinct belongs to,Framingham GIS
+data/elections/2016_general_turnout_framingham.csv,2016 general election turnout,Town clerk
+data/elections/2017_charter_results_framingham.csv,Results of Framingham 2017 charter vote,Town clerk
+data/elections/2017_charter_turnout_framingham.csv,Turnout for Framingham 2017 charter vote,Town clerk
+data/elections/2017_general_atlarge_bydistrict_framingham.csv,2017 general election results by district,City clerk
+data/elections/2017_general_atlarge_framingham.csv,2017 general election results by precinct,City clerk
+data/elections/2017_general_mayor_bydistrict_framingham.csv,2017 general election results for mayor,City clerk
+data/elections/2017_general_mayor_framingham.csv,2018 general election results for mayor,City clerk
+data/elections/2017_general_turnout_bydistrict_framingham.csv,2018 general election turnout by district,City clerk
+data/elections/2017_general_turnout_framingham.csv,2018 general election turnout by precinct,City clerk
+data/elections/2017_preliminary_atlarge_framingham.csv,2017 preliminary election results for at-large City Council,City clerk
+data/elections/2017_preliminary_mayor_framingham.csv,2017 preliminary election results for mayor,City clerk
+data/elections/2017_preliminary_turnout_bydistrict_framingham.csv,2017 preliminary election turnout by district,City clerk
+data/elections/2017_preliminary_turnout_framingham.csv,2017 preliminary election turnout by precinct,City clerk
+data/elections/2019_general_turnout_framingham.csv,2019 general election turnout by precinct,City clerk
+data/elections/2020_us_senate_democratic_primary.csv,2020 Democratic primary results for US Senate,City clerk
+data/elections/tidy/2017_charter_results_tidy_framingham.csv,"2017 charter vote results, tidy format",City clerk
+data/elections/tidy/2017_general_bydistrict_tidy_framingham.csv,"2017 general election vote by district, tidy format",City clerk
+data/elections/tidy/2017_general_district_council_bydistrict_tidy_framingham.csv,"2017 general election results for district city councilors, tidy format",City clerk
+data/elections/tidy/2017_general_school_committee_bydistrict_tidy_framingham.csv,"2017 general election results for school committee by district, tidy format",City clerk
+data/elections/tidy/2017_general_tidy_framingham.csv,"2017 general election results, tidy format",City clerk
+data/elections/tidy/2017_preliminary_atlarge_framingham_tidy.csv,"2017 preliminary results for at-large city council, tidy format",City clerk
+data/elections/tidy/2017_preliminary_bydistrict_tidy_framingham.csv,"2017 preliminary election results by district, tidy format",City clerk
+data/elections/tidy/2017_preliminary_district_council_bydistrict_tidy_framingham.csv,"2017 preliminary election district council results by district, tidy format",City clerk
+data/elections/tidy/2017_preliminary_mayor_tidy_framingham.csv,"2017 preliminary results for mayor, tidy format",City clerk
+data/elections/tidy/2017_preliminary_tidy_framingham.csv,"2017 preliminary election results, tidy format",City clerk
+data/elections/tidy/2020_us_senate_democratic_primary.csv,"2020 Democratic primary results for US Senate, tidy format",City clerk
+data/gis/Framingham_Districts_and_Precincts_2018.zip,Shapefiles for Framingham precincts and districts,City data portal
+data/gis/Framingham_Parcels_2018.zip,All Framingham property parcels in 2018,City data portal
+data/gis/FramPrecincts/FramPrecincts.*,7 files comprising Framingham precinct shapefiles 2010-2020,Framingham GIS
+data/property/Real_Property_2017.csv,Framingham property tax valuation information for fiscal year 2017 downloaded from Open Data Framingham,
+data-raw/elections/election_charter_2017_framingham_raw.xlsx,2017 charter vote results PDF,City Clerk
+data-raw/elections/election_general_2017_framingham_raw.pdf,2017 general election results PDF,City Clerk
+data-raw/elections/election_general_2017_framingham_raw.xlsx,2017 general election results spreadsheet converted from PDF,City Clerk and PDF Tables
+data-raw/elections/election_general_2019_framingham_raw.xlsx,2019 general election results spreadsheet converted from PDF,City Clerk and PDF Tables
+data-raw/elections/election_general_2019_framingham_raw_official.pdf,2019 general election results PDF,City Clerk
+data-raw/elections/election_general_2019_framingham_summaries.xlsx,2019 general election results summaries from PDF,City Clerk
+data-raw/elections/election_preliminary_2017_framingham_raw.pdf,2017 preliminary election results PDF,City Clerk
+data-raw/elections/election_preliminary_2017_framingham_raw.xlsx,2017 preliminary election results spreadsheet converted from PDF,City Clerk and PDF Tables
+data-raw/elections/election_town_2017_framingham_raw.pdf,April 2017 town elections PDF,Town clerk
+data-raw/elections/Official Results Local Election Apr 3 2012.pdf,April 2012 town elections PDF,Town clerk
+"data-raw/elections/Official Results State Primary September 1, 2020.xlsx",2020 Democratic primary results spreadsheet converted from PDF,City Clerk and PDF Tables
+"data-raw/elections/Official Results State Primary September 1, 2020.pdf",2020 Democratic primary results PDF,City Clerk
+"data-raw/elections/Official Results September 14, 2021.pdf",2021 preliminary election results PDF,City Clerk
+"data-raw/elections/Official Results September 14, 2021.xlsx",2021 preliminary election results spreadsheet converted from PDF,City Clerk and PDF Tables
+data/elections/2021_preliminary_turnout_bydistrict_framingham.csv,2021 preliminary election turnout by district,City Clerk
+data/elections/tidy/2021_preliminary_turnout_tidy.csv,"2021 preliminary election turnout, tidy format",City Clerk
+data/elections/2021_preliminary_turnout.csv,2021 preliminary election turnout by district,City Clerk
+data-raw/Covid Risk Assessment Fitz.pdf,Covid-19 risk assessment for public school building ventilation and filtration,School Committee
+data-raw/Framingham_Census_Block_listings_2021-08-26.pdf,Census block demographics and precinct assignments,City website
+"data-raw/Official Results September 14, 2021.pdf",2021 preliminary election results PDF,City website
+"data-raw/Official Results September 14, 2021.xlsx",2021 preliminary election results spreadsheet converted from PDF,City website and PDF Tables
+data-raw/elections/elections_preliminar_2021_mayor_framingham.csv,2021 preliminary mayoral election results by precinct,City website
+data/elections/2021_preliminary_turnout_framingham,2021 preliminary election turnout by precinct,City website
+data/gis/FRAMINGHAM_proposed_2020_precincts.zip,zip file with proposed new precincts post 2020 Census,Framingham GIS
