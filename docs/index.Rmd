@@ -56,8 +56,20 @@ Source: Local election data generally come from PDFs of results provided by the 
 
 available_files <- rio::import("file_index.csv") %>%
   mutate(
-    File = glue("<a href='https://github.com/smach/Framingham-City-Data/blob/main/{File}'>{File}</a>")
-  )
+    Title = stringr::str_replace_all(File, "/.*\\/(.*)$/", "\\1"),
+    File = glue("<a title = '{Title}' href='https://github.com/smach/Framingham-City-Data/blob/main/{File}'>{File}</a>")
+  ) %>%
+  select(-Title)
+
+category_options <- unique(available_files$Categories) %>%
+  paste(collapse = ", ") %>%
+  stringr::str_split(", ") %>%
+  unlist() %>%
+  sort() %>%
+  unique() %>%
+  as.ordered()
+
+# available_files$Categories <- factor(available_files$Categories, levels = category_options, ordered = TRUE)
 
 
 # https://github.com/smach/Framingham-City-Data/blob/main/data/elections/2021_preliminary_turnout_framingham.csv
