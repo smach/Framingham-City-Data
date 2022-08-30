@@ -16,9 +16,9 @@ tidy_results <- function(thedf){
 
 # This function adds columns for race (such as "Mayor" or "AtLarge"), election (such as "General" or "Preliminary") and year to a tidy election frame.
 add_cols_to_tidy_dataframe <- function(thedf, therace, theelection, theyear = "2017"){
-  possible_elections <- c("Preliminary", "General", "Charter")
+  possible_elections <- c("Preliminary", "General", "Charter", "Special")
   if(!theelection %in% possible_elections){
-    warning("therace must be either Preliminary, General, or Charter")
+    warning("therace must be either Preliminary, General, Special, or Charter")
     stop()
   } else {
     newdf <- thedf %>%
