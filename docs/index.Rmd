@@ -44,6 +44,8 @@ Source: Local election data generally come from PDFs of results provided by the 
 
 * GIS files and maps, such as precinct and district shapefiles, are in the data/gis subdirectory.
 
+* R code to generate maps from the GIS files are in the R subdirectory.
+
 * Property valuations are in the data/property subdirectory.
 
 * Some of the R files I used to reshape the data are in the R directory. In addition, the _config.R_ file loads necessary packages for running the other files. And, *get_turnouts.R* generates a tidy data frame of all available election turnout data by precinct, stored in an R object called `all_turnout_data`. **<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/framingham_basemap.R'>R/framingham_basemap.R</a>** creates a map of Framingham precincts, colored by district and searchable by address, using the R leaflet package.

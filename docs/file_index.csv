@@ -26,6 +26,11 @@ data/elections/tidy/2017_preliminary_district_council_bydistrict_tidy_framingham
 data/elections/tidy/2017_preliminary_mayor_tidy_framingham.csv,"2017 preliminary results for mayor, tidy format",Election results,csv,City clerk
 data/elections/tidy/2017_preliminary_tidy_framingham.csv,"2017 preliminary election results, tidy format",Election results,csv,City clerk
 data/elections/tidy/2020_us_senate_democratic_primary.csv,"2020 Democratic primary results for US Senate, tidy format",Election results,csv,City clerk
+data/elections/tidy/2021_general_mayor_tidy_framinham.csv,2021 general election results for mayor,Election results,csv,City clerk
+data/elections/tidy/2021_general_council_tidy_framingham.csv,2021 general election results for City Council,Election results,csv,City clerk
+data/elections/tidy/2021_general_turnout_framingham.csv,2021 general election turnout,Election results,csv,City clerk
+data/elections/tidy/2021_special_council_tidy_framingham.csv,2021 special election results for District 3 City Council ,Election results,csv,City clerk
+data/elections/tidy/2021/special_turnout.csv,2021 special election turnout district 3,Election results,csv,City clerk
 data/gis/Framingham_Districts_and_Precincts_2018.zip,Shapefiles for Framingham precincts and districts,"Elections, GIS",shapefile,City data portal
 data/gis/Framingham_Parcels_2018.zip,All Framingham property parcels in 2018,Real estate,shapefile,City data portal
 data/gis/FramPrecincts/FramPrecincts.*,7 files comprising Framingham precinct shapefiles 2010-2020,"Elections, GIS",shapefile,Framingham GIS
@@ -54,3 +59,5 @@ data-raw/Framingham_Census_Block_listings_2021-08-26.pdf,Census block demographi
 data-raw/elections/elections_preliminar_2021_mayor_framingham.csv,2021 preliminary mayoral election results by precinct,Election results,csv,City website
 data/elections/2021_preliminary_turnout_framingham.csv,2021 preliminary election turnout by precinct,Election results,csv,City website
 data/gis/FRAMINGHAM_proposed_2020_precincts.zip,zip file with proposed new precincts post 2020 Census,"Elections, GIS",shapefile,Framingham GIS
+R/framingham_basemap_2021_redistricting_local_districts,R code to generate map of new precincts and districts,GIS,R,
+R/framingham_basemap_2021_redistricting_ma_house_districts,R code to generate map of new MA House districts that include Framingham,GIS,R,
