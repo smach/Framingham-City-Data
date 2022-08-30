@@ -26,11 +26,16 @@ only_framingham <- st_intersection(fram_house_districts, pctgeo_sf)
 # https://stackoverflow.com/questions/71289669/intersection-keeping-non-intersecting-polygons-in-sf-r
 # works for ggplot but not leaflet
 not_framingham <- st_difference(fram_house_districts, st_union(st_geometry(only_framingham)))
-  
+
+
 ggplot() +
   geom_sf(data = not_framingham, aes(fill = DISTRICT)) +
   geom_sf(data = only_framingham, aes(fill = DISTRICT))
 
+# This works with both using the rmapshaper package!
+# https://gis.stackexchange.com/questions/308119/function-in-r-to-get-difference-between-two-sets-of-polygons-comparable-in-speed
+library(rmapshaper)
+not_framingham <- ms_erase(fram_house_districts, only_framingham)
 
 mylabels_framingham <- glue::glue("<strong>Precinct {only_framingham$PRECINCT}</strong><br />{only_framingham$NAME}") %>%
   lapply(htmltools::HTML)
@@ -43,14 +48,14 @@ mypopups_notframingham <- mylabels_notframingham
 mycolors <- c('#1b9e77','#d95f02','#7570b3','#e7298a')
 
 mypalette_framingham <- colorFactor(mycolors, sort(only_framingham$NAME))
-mypalette_notframingham <- colorFactor(mycolors, sort(fram_house_districts$NAME))
+mypalette_notframingham <- colorFactor(mycolors, sort(not_framingham$NAME))
 
 
 
 leaflet() %>%
   setView(-71.4366, 42.3011, 12) %>%
   addProviderTiles(providers$Esri.WorldStreetMap) %>%
-  addPolygons(data = fram_house_districts, color = "#444444", 
+  addPolygons(data = not_framingham, group = "Elsewhere", color = "#444444", 
               weight = 1, 
               smoothFactor = 0.5, 
               opacity = 1, 
@@ -65,7 +70,7 @@ leaflet() %>%
                 style = list("font-weight" = "normal", padding = "3px 8px"),
                 textsize = "15px",
                 direction = "auto")) %>%
-  addPolygons(data = only_framingham, group = "Show Framingham Precincts", color = "#444444", 
+  addPolygons(data = only_framingham, group = "Framingham", color = "#444444", 
               weight = 1, 
               smoothFactor = 0.5, 
               opacity = 1, 
@@ -82,7 +87,7 @@ leaflet() %>%
                 direction = "auto")) %>%
   addResetMapButton() %>%
   addSearchOSM(options = searchOptions(autoCollapse = TRUE, minLength = 2)) %>%
-  addLayersControl(overlayGroups = c("Show Framingham Precincts"), options = layersControlOptions((collapssed = FALSE)))
+  addLayersControl(overlayGroups = c("Framingham", "Elsewhere"), options = layersControlOptions((collapssed = FALSE)))
 
 
 
