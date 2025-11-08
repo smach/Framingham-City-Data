@@ -242,9 +242,14 @@ process_election_file <- function(excel_path,
     )
 
   message("\n--- Processing complete! ---")
-  message("Races extracted: ", length(unique(results_final$Race)))
-  message("Total candidates: ", nrow(results_final))
-  message("Precincts: ", length(unique(results_final$Precinct)))
+  message("Results extracted:")
+  message("  Races: ", length(unique(results_final$Race)))
+  message("  Candidates: ", nrow(results_final))
+  message("  Precincts: ", length(unique(results_final$Precinct)))
+  message("Turnout extracted:")
+  message("  Precincts: ", nrow(turnout_final))
+  message("  Total votes: ", format(sum(turnout_final$Votes_Cast, na.rm = TRUE), big.mark = ","))
+  message("  Avg turnout: ", round(mean(turnout_final$Pct_Turnout, na.rm = TRUE) * 100, 1), "%")
 
   return(list(
     results = results_final,
@@ -358,7 +363,8 @@ process_all_elections_batch <- function(inventory_path = "data-raw/elections/ele
         arrow::write_parquet(processed$results, results_file)
         arrow::write_parquet(processed$turnout, turnout_file)
 
-        message("Saved: ", basename(results_file))
+        message("  ✓ Saved results: ", basename(results_file))
+        message("  ✓ Saved turnout: ", basename(turnout_file))
       }
 
       # Store in lists
@@ -379,8 +385,15 @@ process_all_elections_batch <- function(inventory_path = "data-raw/elections/ele
 
   message("\n========================================")
   message("BATCH COMPLETE!")
-  message("Total results rows: ", nrow(combined_results))
-  message("Total turnout rows: ", nrow(combined_turnout))
+  message("========================================")
+  message("Results data:")
+  message("  Total rows: ", format(nrow(combined_results), big.mark = ","))
+  message("  Elections: ", n_distinct(combined_results$ElectionDate))
+  message("  Races: ", n_distinct(combined_results$Race))
+  message("Turnout data:")
+  message("  Total rows: ", format(nrow(combined_turnout), big.mark = ","))
+  message("  Elections: ", n_distinct(combined_turnout$ElectionDate))
+  message("  Date range: ", min(combined_turnout$ElectionDate), " to ", max(combined_turnout$ElectionDate))
   message("========================================")
 
   return(list(

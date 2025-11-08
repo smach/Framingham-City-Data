@@ -45,7 +45,8 @@ cat("This will:\n")
 cat("  1. Read metadata from inventory CSV\n")
 cat("  2. Process each Excel file with LLM\n")
 cat("  3. Extract race metadata and candidate names\n")
-cat("  4. Save results to Parquet files\n\n")
+cat("  4. Extract turnout data from each file\n")
+cat("  5. Save BOTH results AND turnout to Parquet files\n\n")
 
 cat("Estimated cost: ~$0.50 (using gpt-4o-mini)\n")
 cat("Estimated time: ~10-15 minutes for all files\n\n")
@@ -114,8 +115,16 @@ cat("========================================\n")
 cat("STEP 4: Summary\n")
 cat("========================================\n\n")
 
-cat("Total results rows: ", format(nrow(all_data$results), big.mark = ","), "\n")
-cat("Total turnout rows: ", format(nrow(all_data$turnout), big.mark = ","), "\n\n")
+cat("RESULTS data:\n")
+cat("  Total rows: ", format(nrow(all_data$results), big.mark = ","), "\n")
+cat("  Unique elections: ", n_distinct(all_data$results$ElectionDate), "\n")
+cat("  Unique races: ", n_distinct(all_data$results$Race), "\n")
+cat("  Unique candidates: ", n_distinct(all_data$results$Candidate), "\n\n")
+
+cat("TURNOUT data:\n")
+cat("  Total rows: ", format(nrow(all_data$turnout), big.mark = ","), "\n")
+cat("  Unique elections: ", n_distinct(all_data$turnout$ElectionDate), "\n")
+cat("  Avg turnout: ", round(mean(all_data$turnout$Pct_Turnout, na.rm = TRUE) * 100, 1), "%\n\n")
 
 cat("Elections processed:\n")
 all_data$results %>%
