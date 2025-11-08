@@ -266,24 +266,36 @@ process_election_file <- function(excel_path,
 #' @param use_llm Use LLM for race extraction
 #' @param save_output Save results to parquet files
 #' @param output_dir Directory for output files
+#' @param process_all If TRUE, process all Excel files; if FALSE, only unprocessed ones
 #'
 #' @return List of all processed elections
 process_all_elections_batch <- function(inventory_path = "data-raw/elections/election_files_inventory_complete.csv",
                                          use_llm = TRUE,
                                          save_output = TRUE,
-                                         output_dir = "data/elections/processed") {
+                                         output_dir = "data/elections/processed",
+                                         process_all = TRUE) {
 
   # Read inventory
   inventory <- readr::read_csv(inventory_path, show_col_types = FALSE)
 
-  # Filter to files that exist and have been converted to Excel
+  # Filter to files that exist and have Excel format
+  # Date, type, and level are pulled from CSV columns!
   to_process <- inventory %>%
     filter(have_file == "YES") %>%
     filter(file_format == "xlsx") %>%
-    filter(!is.na(filename_standardized))
+    filter(!is.na(filename_original)) %>%
+    # Only process files with valid metadata
+    filter(!is.na(election_date), !is.na(election_type), !is.na(election_level))
+
+  # Optionally filter to only unprocessed files
+  if (!process_all) {
+    to_process <- to_process %>%
+      filter(has_been_processed == FALSE | is.na(has_been_processed))
+  }
 
   message("========================================")
   message("BATCH PROCESSING: ", nrow(to_process), " elections")
+  message("Reading metadata from inventory CSV")
   message("========================================\n")
 
   # Create output directory
@@ -305,12 +317,26 @@ process_all_elections_batch <- function(inventory_path = "data-raw/elections/ele
       # Construct file path
       excel_path <- here::here("data-raw/elections", row$filename_original)
 
+      # Check if file exists
+      if (!file.exists(excel_path)) {
+        warning("File not found: ", excel_path)
+        next
+      }
+
+      # Get metadata from CSV (not from filename!)
+      election_date <- as.character(row$election_date)
+      election_type <- as.character(row$election_type)
+      election_level <- as.character(row$election_level)
+
+      message("\n[", i, "/", nrow(to_process), "] ", basename(excel_path))
+      message("  Date: ", election_date, " | Type: ", election_type, " | Level: ", election_level)
+
       # Process election
       processed <- process_election_file(
         excel_path = excel_path,
-        election_date = row$election_date,
-        election_type = row$election_type,
-        election_level = row$election_level,
+        election_date = election_date,
+        election_type = election_type,
+        election_level = election_level,
         use_llm = use_llm,
         chat = chat  # Reuse chat object
       )
