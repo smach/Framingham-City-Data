@@ -1,0 +1,41 @@
+election_date,election_level,election_type,status,clerk_description,have_file,filename_original,filename_standardized,file_format,has_been_processed,notes
+2025-11-04,municipal,general,unofficial,November 4 2025 City Election - Unofficial,NO,,,,,MISSING - Need to download
+2025-09-16,municipal,preliminary,unknown,September 16 2025 City Preliminary,NO,,,,,MISSING - Need to download
+2024-11-05,state,general,unknown,November 5 2024 State Election,NO,,,,,MISSING - Need to download
+2024-09-03,state,primary,unknown,September 3 2024 State Primary,NO,,,,,MISSING - Need to download
+2024-03-05,federal,primary,unknown,March 5 2024 Presidential Primary,NO,,,,,MISSING - Need to download
+2023-11-07,municipal,general,unofficial,November 7 2023 City Election,YES,election_general_2023_framingham_raw_unofficial.pdf,2023-11-07_municipal_general_unofficial_framingham.pdf,pdf,FALSE,
+2023-11-07,municipal,general,unofficial,November 7 2023 City Election,YES,election_general_2023_framingham_raw_unofficial.xlsx,2023-11-07_municipal_general_unofficial_framingham.xlsx,xlsx,TRUE,
+2023-09-19,municipal,preliminary,unknown,September 19 2023 City Preliminary,NO,,,,,MISSING - Need to download
+2022-11-08,state,general,unofficial,November 8 2022 State Election,YES,"NOVEMBER 8, 2022 STATE ELECTION UNOFFICIAL RESULTS.pdf",2022-11-08_state_general_unofficial_framingham.pdf,pdf,FALSE,Need to extract to Excel
+2022-09-06,state,primary,unofficial,September 6 2022 State Primary Election,YES,State_Primary_Election_Unofficial_Results_Sept_6_2022_2.pdf,2022-09-06_state_primary_unofficial_framingham.pdf,pdf,FALSE,
+2022-09-06,state,primary,unofficial,September 6 2022 State Primary Election,YES,State_Primary_Election_Unofficial_Results_Sept_6_2022_2.xlsx,2022-09-06_state_primary_unofficial_framingham.xlsx,xlsx,TRUE,
+2022-01-11,municipal,special,unknown,January 11 2022 Special City Election,NO,,,,,MISSING - Need to download
+2021-11-02,municipal,general,official,November 2 2021 City Election,YES,elections_general_2021_framingham_raw_official.pdf,2021-11-02_municipal_general_official_framingham.pdf,pdf,FALSE,
+2021-11-02,municipal,general,official,November 2 2021 City Election,YES,election_general_2021_framingham_official_raw.xlsx,2021-11-02_municipal_general_official_framingham.xlsx,xlsx,TRUE,
+2021-09-14,municipal,preliminary,official,September 14 2021 City Preliminary,YES,"Official Results September 14, 2021.pdf",2021-09-14_municipal_preliminary_official_framingham.pdf,pdf,FALSE,
+2021-09-14,municipal,preliminary,official,September 14 2021 City Preliminary,YES,"Official Results September 14, 2021.xlsx",2021-09-14_municipal_preliminary_official_framingham.xlsx,xlsx,TRUE,
+2021-01-12,municipal,special,official,Special District 3 Council Election,YES,election_special_20211-01.pdf,2021-01-12_municipal_special_official_framingham.pdf,pdf,FALSE,District 3 council seat
+2021-01-12,municipal,special,official,Special District 3 Council Election,YES,election_special_2021_council.xlsx,2021-01-12_municipal_special_official_framingham.xlsx,xlsx,TRUE,District 3 council seat
+2020-11-03,state,general,unknown,November 3 2020 State Election,NO,,,,,MISSING - Need to download
+2020-09-01,state,primary,official,September 1 2020 State Primary,YES,"Official Results State Primary September 1, 2020.pdf",2020-09-01_state_primary_official_framingham.pdf,pdf,FALSE,
+2020-09-01,state,primary,official,September 1 2020 State Primary,YES,"Official Results State Primary September 1, 2020.xlsx",2020-09-01_state_primary_official_framingham.xlsx,xlsx,TRUE,
+2020-03-03,federal,primary,unknown,March 3 2020 Presidential Primary,NO,,,,,MISSING - Need to download
+2019-11-05,municipal,general,official,November 5 2019 City Election,YES,election_general_2019_framingham_raw_official.pdf,2019-11-05_municipal_general_official_framingham.pdf,pdf,FALSE,
+2019-11-05,municipal,general,official,November 5 2019 City Election,YES,election_general_2019_framingham_raw.xlsx,2019-11-05_municipal_general_official_framingham.xlsx,xlsx,TRUE,
+2019-09-17,municipal,preliminary,unknown,September 17 2019 City Preliminary,NO,,,,,MISSING - Need to download
+2018-12-11,municipal,special,unknown,December 11 2018 Special Election,NO,,,,,MISSING - Need to download
+2018-11-06,state,general,unknown,November 6 2018 State Election,NO,,,,,MISSING - Need to download
+2018-09-04,state,primary,unknown,September 4 2018 State Primary,NO,,,,,MISSING - Need to download
+2017-11-07,municipal,general,official,November 7 2017 City Election,YES,election_general_2017_framingham_raw.pdf,2017-11-07_municipal_general_official_framingham.pdf,pdf,FALSE,
+2017-11-07,municipal,general,official,November 7 2017 City Election,YES,election_general_2017_framingham_raw.xlsx,2017-11-07_municipal_general_official_framingham.xlsx,xlsx,TRUE,
+2017-11-07,municipal,charter,official,November 7 2017 Charter Vote,YES,election_charter_2017_framingham_raw.xlsx,2017-11-07_municipal_charter_official_framingham.xlsx,xlsx,TRUE,Charter vote on same day as general
+2017-09-26,municipal,preliminary,unknown,September 26 2017 City Preliminary,PARTIAL,election_preliminary_2017_framingham_raw.pdf,2017-09-26_municipal_preliminary_official_framingham.pdf,pdf,FALSE,CHECK DATE - file may be from different date
+2017-09-26,municipal,preliminary,unknown,September 26 2017 City Preliminary,PARTIAL,election_preliminary_2017_framingham_raw.xlsx,2017-09-26_municipal_preliminary_official_framingham.xlsx,xlsx,TRUE,CHECK DATE - file may be from different date
+2017-04-04,municipal,general,official,April 4 2017 Town Election,YES,election_town_2017_framingham_raw.pdf,2017-04-04_municipal_general_official_framingham.pdf,pdf,FALSE,Town election (pre-city)
+2016-11-08,state,general,unknown,November 8 2016 State Election,NO,,,,,MISSING - Need to download
+2016-09-08,state,primary,unknown,September 8 2016 State Primary,NO,,,,,MISSING - Need to download
+2016-03-29,municipal,general,unknown,March 29 2016 Town Election,PARTIAL,pre-city/OfficialResultsLocal2016.pdf,2016-03-29_municipal_general_official_framingham.pdf,pdf,FALSE,CHECK DATE - file says April 5 but clerk says March 29
+2016-03-29,municipal,general,unknown,March 29 2016 Town Election,PARTIAL,pre-city/OfficialResultsLocal2016.xlsx,2016-03-29_municipal_general_official_framingham.xlsx,xlsx,TRUE,CHECK DATE - file says April 5 but clerk says March 29
+2016-03-01,federal,primary,official,March 1 2016 Presidential Primary,YES,pre-city/FramPresPrimary2016.pdf,2016-03-01_federal_primary_official_framingham.pdf,pdf,FALSE,Presidential primary
+2016-03-01,federal,primary,official,March 1 2016 Presidential Primary,YES,pre-city/FramPresPrimary2016.xlsx,2016-03-01_federal_primary_official_framingham.xlsx,xlsx,TRUE,Presidential primary
