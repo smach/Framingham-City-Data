@@ -1,0 +1,25 @@
+filename_original,filename_standardized,election_date,election_level,election_type,status,file_format,download_url,download_date,has_been_processed,notes
+"Official Results September 14, 2021.pdf",2021-09-14_municipal_preliminary_official_framingham.pdf,2021-09-14,municipal,preliminary,official,pdf,,,FALSE,
+"Official Results September 14, 2021.xlsx",2021-09-14_municipal_preliminary_official_framingham.xlsx,2021-09-14,municipal,preliminary,official,xlsx,,,TRUE,Already converted
+elections_general_2021_framingham_raw_official.pdf,2021-11-02_municipal_general_official_framingham.pdf,2021-11-02,municipal,general,official,pdf,,,FALSE,
+election_general_2021_framingham_official_raw.xlsx,2021-11-02_municipal_general_official_framingham.xlsx,2021-11-02,municipal,general,official,xlsx,,,TRUE,Already converted
+election_general_2023_framingham_raw_unofficial.pdf,2023-11-07_municipal_general_unofficial_framingham.pdf,2023-11-07,municipal,general,unofficial,pdf,,,FALSE,
+election_general_2023_framingham_raw_unofficial.xlsx,2023-11-07_municipal_general_unofficial_framingham.xlsx,2023-11-07,municipal,general,unofficial,xlsx,,,TRUE,Already converted
+"Official Results State Primary September 1, 2020.pdf",2020-09-01_state_primary_official_framingham.pdf,2020-09-01,state,primary,official,pdf,,,FALSE,
+"Official Results State Primary September 1, 2020.xlsx",2020-09-01_state_primary_official_framingham.xlsx,2020-09-01,state,primary,official,xlsx,,,TRUE,Already converted
+State_Primary_Election_Unofficial_Results_Sept_6_2022.pdf,2022-09-06_state_primary_unofficial_framingham.pdf,2022-09-06,state,primary,unofficial,pdf,,,FALSE,
+State_Primary_Election_Unofficial_Results_Sept_6_2022_2.xlsx,2022-09-06_state_primary_unofficial_framingham.xlsx,2022-09-06,state,primary,unofficial,xlsx,,,TRUE,Already converted
+"NOVEMBER 8, 2022 STATE ELECTION UNOFFICIAL RESULTS.pdf",2022-11-08_state_general_unofficial_framingham.pdf,2022-11-08,state,general,unofficial,pdf,,,FALSE,Need to extract
+election_preliminary_2017_framingham_raw.pdf,2017-09-14_municipal_preliminary_official_framingham.pdf,2017-09-14,municipal,preliminary,official,pdf,,,FALSE,
+election_preliminary_2017_framingham_raw.xlsx,2017-09-14_municipal_preliminary_official_framingham.xlsx,2017-09-14,municipal,preliminary,official,xlsx,,,TRUE,Already converted
+election_general_2017_framingham_raw.pdf,2017-11-07_municipal_general_official_framingham.pdf,2017-11-07,municipal,general,official,pdf,,,FALSE,
+election_general_2017_framingham_raw.xlsx,2017-11-07_municipal_general_official_framingham.xlsx,2017-11-07,municipal,general,official,xlsx,,,TRUE,Already converted
+election_charter_2017_framingham_raw.xlsx,2017-11-07_municipal_charter_official_framingham.xlsx,2017-11-07,municipal,charter,official,xlsx,,,TRUE,Charter vote
+election_general_2019_framingham_raw_official.pdf,2019-11-05_municipal_general_official_framingham.pdf,2019-11-05,municipal,general,official,pdf,,,FALSE,
+election_general_2019_framingham_raw.xlsx,2019-11-05_municipal_general_official_framingham.xlsx,2019-11-05,municipal,general,official,xlsx,,,TRUE,Already converted
+election_special_20211-01.pdf,2021-01-12_municipal_special_official_framingham.pdf,2021-01-12,municipal,special,official,pdf,,,FALSE,District 3 council seat
+election_special_2021_council.xlsx,2021-01-12_municipal_special_official_framingham.xlsx,2021-01-12,municipal,special,official,xlsx,,,TRUE,District 3 council seat
+pre-city/FramPresPrimary2016.pdf,2016-03-01_state_primary_official_framingham.pdf,2016-03-01,state,primary,official,pdf,,,FALSE,Presidential primary
+pre-city/FramPresPrimary2016.xlsx,2016-03-01_state_primary_official_framingham.xlsx,2016-03-01,state,primary,official,xlsx,,,TRUE,Presidential primary
+pre-city/OfficialResultsLocal2016.pdf,2016-04-05_municipal_general_official_framingham.pdf,2016-04-05,municipal,general,official,pdf,,,FALSE,Town election (pre-city)
+pre-city/OfficialResultsLocal2016.xlsx,2016-04-05_municipal_general_official_framingham.xlsx,2016-04-05,municipal,general,official,xlsx,,,TRUE,Town election (pre-city)
