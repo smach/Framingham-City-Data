@@ -51,9 +51,11 @@ guess_election_kind <- function(text) {
   t <- tolower(text)
   type <- dplyr::case_when(
     grepl("presidential", t) ~ "presidential-primary",
+    grepl("special", t) & grepl("primary", t) ~ "special-primary",
     grepl("primary", t) ~ "primary",
     grepl("preliminary", t) ~ "preliminary",
     grepl("special", t) ~ "special",
+    grepl("town", t) ~ "town",            # pre-2018 annual town elections
     TRUE ~ "general"
   )
   level <- ifelse(grepl("state|primary|presidential", t), "state", "municipal")

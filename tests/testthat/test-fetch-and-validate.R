@@ -23,8 +23,10 @@ test_that("dates and election kinds are guessed from link text", {
   expect_equal(guess_date(c("November 4, 2025 City Election - Unofficial", "Results 9/6/2022", "Other")),
                as.Date(c("2025-11-04", "2022-09-06", NA)))
   k <- guess_election_kind(c("September 3 2024 State Primary", "November 4 2025 City Election",
-                             "September 16 2025 City Preliminary"))
-  expect_equal(paste(k$level, k$type), c("state primary", "municipal general", "municipal preliminary"))
+                             "September 16 2025 City Preliminary", "April 9, 2013 Town Election",
+                             "June 25, 2013 Special State Election", "October 15, 2013 Special State Primary"))
+  expect_equal(paste(k$level, k$type), c("state primary", "municipal general", "municipal preliminary",
+                                         "municipal town", "state special", "state special-primary"))
 })
 
 test_that("register_election adds and updates registry rows", {

@@ -19,14 +19,14 @@
 # MassGIS doesn't include (bedrooms, condition, full sale history), you'd need
 # a public records request to the Assessor's office.
 #
-# NOTE: the download address follows MassGIS's published pattern but hasn't
-# been tested from this project yet. If it fails, download the Framingham
-# zip by hand from MassGIS's "Property Tax Parcels" page and pass its path to
-# build_property_files().
+# The download address was checked against MassGIS's file listing on
+# 2026-10-10: the town name is in capitals (L3_SHP_M100_FRAMINGHAM.zip). If
+# it ever fails, download the Framingham zip by hand from MassGIS's "Property
+# Tax Parcels" page and pass its path to build_property_files().
 
 massgis_parcels_url <- function(town_id = 100, town = "Framingham") {
   sprintf("https://s3.us-east-1.amazonaws.com/download.massgis.digital.mass.gov/shapefiles/l3parcels/L3_SHP_M%03d_%s.zip",
-          town_id, town)
+          town_id, toupper(town))
 }
 
 #' Download Framingham's MassGIS parcel + assessor zip

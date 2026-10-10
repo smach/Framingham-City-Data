@@ -6,8 +6,8 @@ index.xlsx
 
 # Large raw downloads that scripts can fetch again
 data-raw/property/*.zip
-# Written by the GitHub Action when it opens a pull request
-pr_body.md
+# Written by the weekly GitHub Action when it opens an issue
+issue_body.md
 
 # Quarto's working folders
 /.quarto/
