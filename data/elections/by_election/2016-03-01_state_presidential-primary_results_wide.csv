@@ -1,0 +1,119 @@
+party,race,candidate,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,Total
+Democratic,Presidential Preference,Blanks,2,1,1,2,3,3,0,0,0,0,1,0,1,0,9,0,0,0,23
+Democratic,Presidential Preference,Bernie Sanders,427,482,332,388,374,438,327,365,268,176,388,203,317,172,217,81,89,180,5224
+Democratic,Presidential Preference,Martin O'Malley,0,1,3,1,1,6,4,0,1,0,2,0,1,2,4,0,0,0,26
+Democratic,Presidential Preference,Hillary Clinton,554,610,486,599,546,472,484,472,315,213,560,266,317,203,317,147,189,222,6972
+Democratic,Presidential Preference,"Roque ""Rocky"" De La Fuente",2,2,0,3,2,0,1,0,2,1,3,0,0,0,1,0,0,1,18
+Democratic,Presidential Preference,No Preference,2,4,8,3,1,10,3,4,3,1,6,2,5,3,7,0,2,4,68
+Democratic,Presidential Preference,Write-ins,2,3,0,1,5,4,1,2,1,1,1,0,1,0,3,0,0,2,27
+Democratic,State Committee Man,Blanks,227,215,152,203,169,178,163,143,117,95,162,92,147,77,111,76,84,99,2510
+Democratic,State Committee Man,Chris Walsh,757,882,675,785,758,753,653,692,470,295,794,375,493,298,444,149,194,307,9774
+Democratic,State Committee Man,Write-ins,5,6,3,9,5,2,4,8,3,2,5,4,2,5,3,3,2,3,74
+Democratic,State Committee Woman,Blanks,225,195,147,195,161,185,159,134,116,81,151,97,129,81,102,87,106,98,2449
+Democratic,State Committee Woman,Karen Spilka,760,899,678,797,766,742,656,704,471,308,802,372,510,295,452,139,170,308,9829
+Democratic,State Committee Woman,Write-ins,4,9,5,5,5,6,5,5,3,3,8,2,3,4,4,2,4,3,80
+Democratic,Town Committee (Group),Blanks,19935,20614,15947,19987,18068,16647,16182,16102,10781,7629,17638,7773,12478,7662,9466,5072,6522,7926,236429
+Democratic,Town Committee (Group),Group,385,462,340,375,376,416,316,343,263,156,418,232,260,149,265,76,84,166,5082
+Democratic,Town Committee (Group),Beverly K. Hugo,474,642,399,488,496,513,399,414,304,181,498,265,309,170,298,84,100,192,6226
+Democratic,Town Committee (Group),Chris Walsh,566,663,487,586,550,602,516,488,341,228,592,312,352,202,348,86,126,239,7284
+Democratic,Town Committee (Group),Barbara W. LeDuc,397,486,365,407,399,446,341,375,278,175,448,248,308,165,298,84,96,185,5501
+Democratic,Town Committee (Group),Melvin S. Warshaw,410,485,359,422,398,447,371,373,275,171,466,249,272,150,274,83,92,174,5471
+Democratic,Town Committee (Group),Norma B. Shulman,454,559,423,472,475,480,386,412,295,183,492,261,295,170,288,84,94,185,6008
+Democratic,Town Committee (Group),Parwez Wahid,411,482,364,424,400,438,341,358,274,168,443,245,272,159,280,80,91,175,5405
+Democratic,Town Committee (Group),Elsa Rose Aviza,421,510,394,409,420,460,344,374,281,163,444,249,283,160,299,80,101,185,5577
+Democratic,Town Committee (Group),Lori B. Bornstein,436,529,371,475,439,456,366,389,286,181,511,255,282,160,281,81,90,181,5769
+Democratic,Town Committee (Group),Craig Christopher Broyles,390,477,350,388,385,427,326,355,269,162,427,240,273,152,278,78,86,171,5234
+Democratic,Town Committee (Group),Jeanne I. Bullock,411,518,372,415,432,453,351,376,277,174,447,243,283,156,279,84,90,176,5537
+Democratic,Town Committee (Group),Carmen Ana Chico,410,487,360,400,397,434,342,365,277,185,442,247,280,165,287,83,110,185,5456
+Democratic,Town Committee (Group),John Peter Duffy,400,486,362,398,396,446,332,369,275,184,437,242,282,160,284,82,88,181,5404
+Democratic,Town Committee (Group),C. Patrick Dunne,434,535,417,422,439,490,364,407,308,179,470,252,296,161,293,83,92,181,5823
+Democratic,Town Committee (Group),Maureen E. Dunne,440,541,429,440,455,504,373,419,316,182,477,253,299,167,297,84,91,182,5949
+Democratic,Town Committee (Group),Jeanne E. Eversley,394,487,351,391,393,432,334,366,270,164,440,242,273,156,300,80,90,188,5351
+Democratic,Town Committee (Group),Linda A. Fields,415,500,362,426,396,444,355,383,280,184,486,242,284,161,289,85,94,183,5569
+Democratic,Town Committee (Group),Adam Lawrence Freudberg,418,484,354,411,391,436,331,362,269,164,436,241,271,154,273,78,88,169,5330
+Democratic,Town Committee (Group),Michael R. Hugo,431,560,370,437,449,477,364,385,285,171,460,253,285,159,283,83,96,186,5734
+Democratic,Town Committee (Group),Stephen Joyce,406,515,381,417,406,461,340,378,281,172,440,247,283,159,283,81,87,182,5519
+Democratic,Town Committee (Group),Farooq M. Karim-Mirza,403,490,367,394,397,433,330,363,273,164,435,247,273,155,272,78,93,169,5336
+Democratic,Town Committee (Group),Lloyd Kaye,406,484,355,401,388,430,338,356,272,163,439,247,278,153,277,82,89,178,5336
+Democratic,Town Committee (Group),Shahid Ahmed Khan,400,489,358,400,394,434,334,363,273,168,445,244,276,158,280,79,93,171,5359
+Democratic,Town Committee (Group),Jack Patrick Lewis,399,486,354,396,392,439,328,367,273,167,434,238,274,153,280,81,88,179,5328
+Democratic,Town Committee (Group),Christopher S. Lorant,401,479,349,390,388,430,324,358,266,159,429,235,272,151,271,78,88,173,5241
+Democratic,Town Committee (Group),Thomas F. Mahoney,413,506,369,418,407,463,351,414,288,171,449,247,284,161,285,84,88,188,5586
+Democratic,Town Committee (Group),Kathleen T. McCarthy,426,504,377,425,401,468,366,383,277,191,462,248,291,158,288,87,94,184,5630
+Democratic,Town Committee (Group),Stephanie A. Mercandetti,404,504,364,412,399,452,344,383,278,169,451,252,288,160,315,92,94,195,5556
+Democratic,Town Committee (Group),Sarah Micciche,408,508,373,404,411,456,342,361,271,169,438,241,275,153,285,81,89,179,5444
+Democratic,Town Committee (Group),Joan Rastani,411,506,393,407,405,451,344,368,284,167,471,252,278,157,289,83,93,187,5546
+Democratic,Town Committee (Group),Cindy L. Rubin,427,513,363,436,406,448,362,377,282,196,461,243,274,155,283,84,92,175,5577
+Democratic,Town Committee (Group),Elliot J. Schmiedl,403,484,349,394,391,434,322,358,271,160,430,238,270,155,274,78,86,171,5268
+Democratic,Town Committee (Group),Margareth Basilio Shepard,399,485,360,392,490,436,335,366,280,169,435,247,288,179,292,90,95,194,5532
+Democratic,Town Committee (Group),James H. Stockless,412,525,375,415,421,469,344,382,283,165,453,246,282,157,281,79,90,177,5556
+Democratic,Town Committee (Group),Cheryl Tully Stoll,446,524,375,488,418,482,365,387,287,176,477,255,289,156,291,79,89,182,5766
+Democratic,Town Committee (Group),P. Nandi Varris,404,487,352,403,393,436,337,364,270,166,432,246,283,156,289,90,115,187,5410
+Republican,Presidential Preference,Blanks,1,0,2,0,0,0,0,1,0,2,0,0,1,0,1,1,0,0,9
+Republican,Presidential Preference,Jim Gilmore,0,0,0,0,0,1,0,3,0,0,0,0,0,0,0,0,0,1,5
+Republican,Presidential Preference,Donald J. Trump,214,206,134,172,198,202,151,143,111,59,192,69,100,51,63,36,9,67,2177
+Republican,Presidential Preference,Ted Cruz,26,38,30,48,29,36,38,41,23,9,37,26,20,13,12,2,2,14,444
+Republican,Presidential Preference,George Pataki,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,3
+Republican,Presidential Preference,Ben Carson,14,13,7,11,11,9,10,2,5,4,8,4,2,9,4,4,2,1,120
+Republican,Presidential Preference,Mike Huckabee,0,1,0,0,2,0,1,0,0,0,1,0,0,0,1,0,0,0,6
+Republican,Presidential Preference,Rand Paul,2,0,4,1,3,1,0,0,1,0,2,1,2,0,1,0,0,0,18
+Republican,Presidential Preference,Carly Fiorina,0,0,0,0,1,0,0,1,0,0,1,0,1,1,0,0,0,0,5
+Republican,Presidential Preference,Rick Santorum,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+Republican,Presidential Preference,Chris Christie,3,2,2,2,4,2,2,0,0,1,3,2,1,1,1,0,0,1,27
+Republican,Presidential Preference,Marco Rubio,96,89,54,108,79,88,77,60,31,29,118,20,33,22,27,6,6,13,956
+Republican,Presidential Preference,Jeb Bush,3,7,0,1,5,10,5,2,2,1,9,0,3,0,5,0,1,1,55
+Republican,Presidential Preference,John R. Kasich,120,109,54,127,118,104,85,65,36,19,114,35,33,12,20,6,1,11,1069
+Republican,Presidential Preference,No Preference,1,4,3,2,4,4,1,0,2,3,3,1,0,0,1,0,0,0,29
+Republican,Presidential Preference,Write-ins,1,3,1,3,3,0,0,3,0,0,0,0,2,1,1,0,0,0,18
+Republican,State Committee Man,Blanks,82,76,55,50,58,70,51,43,25,17,60,17,23,18,26,4,5,12,692
+Republican,State Committee Man,Edward Bergin McGrath,304,304,184,318,305,315,239,207,133,74,328,96,121,61,85,31,13,65,3183
+Republican,State Committee Man,Martin A. Lamb,94,92,50,107,93,72,80,69,52,36,99,45,55,30,26,21,3,32,1056
+Republican,State Committee Man,Write-ins,2,0,2,0,1,0,0,3,1,0,1,0,0,1,0,0,0,0,11
+Republican,State Committee Woman,Blanks,84,74,50,55,54,72,57,51,29,17,55,20,25,18,29,4,2,13,709
+Republican,State Committee Woman,Janet Leombruno,313,301,194,337,327,312,248,209,132,76,343,102,137,64,81,34,15,68,3293
+Republican,State Committee Woman,Patricia M. Vanaria,83,96,46,83,73,73,64,60,50,33,90,36,37,26,27,18,4,28,927
+Republican,State Committee Woman,Write-ins,2,1,1,0,3,0,1,2,0,1,0,0,0,2,0,0,0,0,13
+Republican,Town Committee,Blanks,14487,13860,8775,14156,13649,13613,10897,9762,6163,3766,14030,4652,5910,3135,4214,1734,616,3298,146717
+Republican,Town Committee,Group,160,185,93,166,155,165,144,98,83,47,219,61,75,52,39,14,9,36,1801
+Republican,Town Committee,Edward Bergin McGrath,257,272,160,288,249,250,227,172,124,60,307,94,107,69,61,21,11,63,2792
+Republican,Town Committee,Constance Barnes,177,203,109,185,170,174,152,123,91,53,234,68,79,56,44,18,12,40,1988
+Republican,Town Committee,William A. Osborn,181,213,106,189,184,220,155,113,95,54,235,67,83,57,45,16,9,41,2063
+Republican,Town Committee,Janet Leombruno,256,269,158,254,261,247,214,162,121,66,296,94,104,64,65,27,9,51,2718
+Republican,Town Committee,Jacques A. Prindiville,176,209,102,183,176,177,160,112,92,64,238,70,86,57,44,17,10,37,2010
+Republican,Town Committee,Douglas B. Freeman,179,212,108,191,180,180,156,114,105,58,255,65,84,58,45,17,12,38,2057
+Republican,Town Committee,Mary Z. Connaughton,209,226,119,225,208,207,181,144,114,60,284,78,94,61,50,21,9,43,2333
+Republican,Town Committee,Carol Sanchez Novak,183,202,110,194,181,179,157,113,95,53,239,67,85,56,43,19,9,41,2026
+Republican,Town Committee,"Eugene M. Novak, Jr.",180,203,110,181,177,174,150,111,90,51,235,67,80,57,44,16,9,38,1973
+Republican,Town Committee,Allen L. Grome,188,208,102,187,176,182,152,113,87,50,235,67,81,55,43,16,9,38,1989
+Republican,Town Committee,Bernice W. Strom,176,200,102,188,166,178,147,105,99,53,233,66,80,56,44,18,11,38,1960
+Republican,Town Committee,Joseph C. Norton,217,238,119,195,213,208,161,120,98,56,252,71,88,62,49,20,9,47,2223
+Republican,Town Committee,Write-ins,4,5,5,9,5,6,5,6,11,1,7,4,4,7,4,0,0,2,85
+Green-Rainbow,Presidential Preference,Blanks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green-Rainbow,Presidential Preference,Sedinam K.C.M. Curry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green-Rainbow,Presidential Preference,Jill Stein,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,5
+Green-Rainbow,Presidential Preference,William P. Kreml,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+Green-Rainbow,Presidential Preference,Kent Mesplay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green-Rainbow,Presidential Preference,Darryl Cherney,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,2
+Green-Rainbow,Presidential Preference,No Preference,0,0,0,0,0,1,0,2,0,0,1,0,0,0,0,0,0,0,4
+Green-Rainbow,Presidential Preference,Write-ins,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,4
+Green-Rainbow,State Committee Man,Blanks,1,0,0,1,0,1,0,5,0,0,1,1,0,0,1,1,0,0,12
+Green-Rainbow,State Committee Man,Write -Ins,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,4
+Green-Rainbow,State Committee Woman,Blanks,1,0,0,1,0,1,0,3,0,0,1,1,0,0,1,1,0,0,10
+Green-Rainbow,State Committee Woman,Write-ins,0,0,0,0,0,0,0,2,1,0,1,0,0,0,0,1,0,1,6
+Green-Rainbow,Town Committee,Blanks,10,0,0,10,0,10,0,50,9,0,20,10,0,0,10,20,0,9,158
+Green-Rainbow,Town Committee,Write-ins,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,2
+United Independent,Presidential Preference,Blanks,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,2,0,0,4
+United Independent,Presidential Preference,Presidential Preference,0,0,0,0,0,1,0,2,0,0,2,0,0,0,1,0,0,2,8
+United Independent,Presidential Preference,Write-ins,2,7,2,1,3,0,3,1,0,4,1,1,0,0,2,2,0,2,31
+United Independent,State Committee Man,Blanks,2,7,2,1,2,1,3,2,0,4,1,1,0,0,4,2,0,3,35
+United Independent,State Committee Man,Write -Ins,0,0,0,0,1,0,0,2,0,0,2,0,0,0,0,2,0,1,8
+United Independent,State Committee Woman,Blanks,2,6,2,1,2,1,3,3,0,3,1,1,0,0,2,4,0,3,34
+United Independent,State Committee Woman,Write-ins,0,1,0,0,1,0,0,1,0,1,2,0,0,0,2,0,0,1,9
+United Independent,Town Committee,Blanks,20,70,20,10,29,10,30,39,0,40,29,10,0,0,40,40,0,37,424
+United Independent,Town Committee,Write-ins,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,3,6
+,Turnout,Ballots cast,1472,1575,1121,1473,1389,1391,1190,1170,802,519,1451,630,841,490,696,286,301,519,17316
+,Turnout,Registered voters,2855,2826,2375,2677,2628,2608,2370,2433,1893,1671,2790,1418,1952,1452,1619,985,1198,1493,37243
+Democratic,Turnout,Ballots cast,989,1103,830,997,932,933,820,843,590,392,961,471,642,380,558,228,280,409,12358
+Green-Rainbow,Turnout,Ballots cast,1,0,0,1,0,1,0,5,1,0,2,1,0,0,1,2,0,1,16
+Republican,Turnout,Ballots cast,482,472,291,475,457,457,370,322,211,127,488,158,199,110,137,56,21,109,4942
+United Independent,Turnout,Ballots cast,2,7,2,1,3,1,3,4,0,4,3,1,0,0,4,4,0,4,43

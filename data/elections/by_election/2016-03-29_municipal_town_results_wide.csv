@@ -1,0 +1,583 @@
+party,race,candidate,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,Total
+,Moderator,Blanks,143,142,103,196,139,151,127,96,61,35,148,63,75,28,45,18,6,30,1606
+,Moderator,Teri S. Banerjee,327,382,245,303,338,326,291,281,142,65,391,143,185,85,125,34,26,95,3784
+,Moderator,Write-ins,5,9,5,7,4,3,1,3,3,1,3,1,4,3,2,2,0,1,57
+,Selectmen,Blanks,183,169,161,223,188,155,170,137,71,54,184,83,122,52,80,22,20,63,2137
+,Selectmen,Charlie Sisitsky,363,415,247,378,355,352,313,283,151,67,419,149,186,75,102,33,21,83,3992
+,Selectmen,Deborah A. Butler,115,145,99,110,125,147,111,111,64,26,146,52,75,35,63,24,11,45,1504
+,Selectmen,Cesar A. Monzon,287,331,198,299,291,301,244,225,125,55,331,130,144,69,98,28,12,60,3228
+,Selectmen,Write-ins,2,6,1,2,3,5,0,4,1,0,4,0,1,1,1,1,0,1,33
+,School Committee,Blanks,230,243,163,255,223,213,229,167,87,57,231,88,137,73,81,32,17,80,2606
+,School Committee,Heather A. Connolly,300,324,195,309,269,307,243,244,128,58,360,138,151,61,112,29,23,66,3317
+,School Committee,Eric K. Silverman,181,234,119,224,223,184,189,177,84,41,223,79,103,45,54,23,10,37,2230
+,School Committee,Richard A. Finlay,239,263,228,224,245,252,177,169,110,46,268,109,137,53,97,23,14,69,2723
+,School Committee,Write-ins,0,2,1,0,2,4,0,3,3,0,2,0,0,0,0,1,0,0,18
+,Planning Board,Blanks,406,369,269,442,384,360,322,266,162,82,362,163,204,81,109,39,21,89,4130
+,Planning Board,Lewis Colten,289,365,226,297,302,315,269,253,131,62,368,126,161,73,119,30,19,79,3484
+,Planning Board,Victor A. Ortiz,251,330,206,266,273,283,244,237,118,58,345,124,163,76,116,38,24,81,3233
+,Planning Board,Write-ins,4,2,5,7,3,2,3,4,1,0,9,1,0,2,0,1,0,3,47
+,Library Trustee (3 year term),Blanks,751,797,572,956,745,776,657,550,347,167,847,346,414,186,304,81,48,199,8743
+,Library Trustee (3 year term),Robert M. Dodd,274,317,194,248,282,254,238,229,106,54,311,106,140,60,85,30,18,72,3018
+,Library Trustee (3 year term),Elizabeth F. Fideler,311,337,202,256,291,271,243,243,104,56,323,119,153,69,91,30,19,74,3192
+,Library Trustee (3 year term),Ruth S. Winett,297,329,214,300,301,261,269,231,119,61,329,116,152,62,89,26,17,70,3243
+,Library Trustee (3 year term),Steven C. Malchman,126,183,115,134,166,165,139,136,71,32,179,71,83,35,47,17,14,37,1750
+,Library Trustee (3 year term),William E. Wray,140,168,115,127,137,191,130,130,72,34,174,70,114,52,72,32,12,50,1820
+,Library Trustee (3 year term),Write-ins,1,1,0,3,2,2,0,1,5,0,5,0,0,0,0,0,0,3,23
+,Keefe School Committee,Blanks,646,623,448,752,626,615,514,439,255,131,632,250,338,142,217,71,38,163,6900
+,Keefe School Committee,Larry Cooper,248,325,196,249,267,266,219,223,119,57,321,119,147,66,98,30,19,72,3041
+,Keefe School Committee,Linda B. Fobes,244,306,199,242,252,269,231,228,114,55,323,131,141,70,96,27,21,73,3022
+,Keefe School Committee,John M. Kahn,286,343,216,274,298,287,292,250,129,60,349,121,166,69,105,34,18,70,3367
+,Keefe School Committee,Write-ins,1,2,0,1,0,3,1,0,1,0,1,0,0,1,0,0,0,0,11
+,Trustee Edgell Grove Cemetery (5 years),Blanks,155,166,115,222,165,152,140,109,70,39,183,66,80,37,49,18,8,36,1810
+,Trustee Edgell Grove Cemetery (5 years),Peter E. Whiting,320,365,237,281,313,327,278,269,132,62,358,141,182,79,122,36,24,90,3616
+,Trustee Edgell Grove Cemetery (5 years),Write-ins,0,2,1,3,3,1,1,2,4,0,1,0,2,0,1,0,0,0,21
+,Trustee Edgell Grove Cemetery (4 years),Blanks,164,164,112,198,167,146,136,103,69,32,168,62,79,35,44,18,10,27,1734
+,Trustee Edgell Grove Cemetery (4 years),Dennis W. Cardiff,311,368,241,305,313,334,281,277,134,69,373,144,184,81,127,35,22,99,3698
+,Trustee Edgell Grove Cemetery (4 years),Write-ins,0,1,0,3,1,0,2,0,3,0,1,1,1,0,1,1,0,0,15
+,Housing Authority,Blanks,160,149,102,184,147,139,127,95,66,29,147,57,72,29,38,18,9,28,1596
+,Housing Authority,Robert L. Merusi,312,382,248,317,332,339,291,283,137,72,391,149,192,87,132,36,23,97,3820
+,Housing Authority,Write-ins,3,2,3,5,2,2,1,2,3,0,4,1,0,0,2,0,0,1,31
+,Charter Question,Blanks,21,45,28,39,35,40,44,45,28,10,34,14,17,13,31,5,2,12,463
+,Charter Question,Yes,387,401,265,403,356,372,302,277,135,73,434,153,200,87,113,36,23,82,4099
+,Charter Question,No,67,87,60,64,90,68,73,58,43,18,74,40,47,16,28,13,7,32,885
+,Charter Commissioner,Blanks,1130,1308,833,1307,1194,1162,1098,978,541,258,1031,428,659,305,426,142,83,310,13193
+,Charter Commissioner,Teri S. Banerjee,174,170,116,147,132,122,127,133,72,35,161,67,73,34,44,15,15,34,1671
+,Charter Commissioner,Bradley C. Bauler,69,68,57,82,69,43,60,68,35,19,86,71,41,17,22,11,8,14,840
+,Charter Commissioner,Adam S. Blumer,216,234,160,263,236,215,182,163,88,42,243,84,93,39,38,14,9,43,2362
+,Charter Commissioner,Jeanne I. Bullock,57,95,56,57,79,73,44,63,34,19,77,38,44,23,23,11,11,19,823
+,Charter Commissioner,Deborah A. Butler,78,79,62,56,68,91,81,52,27,13,85,30,47,18,35,16,15,22,875
+,Charter Commissioner,Dennis W. Cardiff,161,149,117,126,155,166,120,110,58,30,196,74,82,31,74,18,7,53,1727
+,Charter Commissioner,Linda W. Dunbrack,156,120,102,193,131,131,118,90,53,34,161,57,84,28,44,13,12,26,1553
+,Charter Commissioner,Douglas B. Freeman,79,93,60,91,84,71,62,57,44,16,135,29,36,28,29,6,7,26,953
+,Charter Commissioner,Gloria H. Geller,108,152,83,123,97,89,91,85,40,27,89,51,58,17,26,10,13,18,1177
+,Charter Commissioner,Dennis L. Giombetti,181,175,140,137,172,193,146,138,69,22,244,84,101,41,92,17,7,61,2020
+,Charter Commissioner,Cheryl L. Gordon,81,84,45,68,74,77,76,74,35,18,74,56,50,36,39,14,10,35,946
+,Charter Commissioner,John M. Kahn,106,142,104,155,137,114,158,107,57,37,172,63,63,19,30,13,2,22,1501
+,Charter Commissioner,"George P. King, Jr.",154,166,121,151,143,155,108,111,66,20,162,53,89,33,44,12,7,30,1625
+,Charter Commissioner,Janet Leombruno,179,209,126,169,186,182,109,133,58,22,184,53,76,30,53,17,8,36,1830
+,Charter Commissioner,Christine A. Long,142,167,93,97,98,128,104,89,51,23,120,42,44,31,47,13,10,30,1329
+,Charter Commissioner,Laura Medrano,58,71,35,77,65,70,57,64,32,23,85,35,77,29,20,14,9,26,847
+,Charter Commissioner,Robert L. Merusi,104,125,105,140,140,154,112,93,58,40,203,61,88,28,64,18,4,40,1577
+,Charter Commissioner,Valerie M. Mulvey,219,218,171,186,203,221,184,188,80,35,282,107,99,60,75,20,11,53,2412
+,Charter Commissioner,Joseph C. Norton,97,116,52,93,103,90,61,52,41,22,86,41,40,22,32,10,5,36,999
+,Charter Commissioner,Michael M. Rossi,76,70,68,88,78,82,83,72,40,24,168,37,62,26,48,13,5,26,1066
+,Charter Commissioner,Jason A. Smith,145,158,113,198,143,157,105,92,60,19,192,57,74,27,58,11,4,33,1646
+,Charter Commissioner,John A. Stefanini,186,225,155,184,181,211,145,156,79,41,267,97,112,45,99,21,9,69,2282
+,Charter Commissioner,Tom Tierney,62,90,36,53,65,83,60,51,29,11,80,29,30,15,17,6,6,22,745
+,Charter Commissioner,"Richard J. Weader, II",66,89,38,84,68,59,59,53,23,14,55,34,44,14,17,5,4,9,735
+,Charter Commissioner,A. Ted Welte,59,69,27,49,71,67,62,35,32,10,87,29,41,18,19,6,2,20,703
+,Charter Commissioner,Joel Winett,119,143,94,170,148,100,156,102,48,31,147,48,65,28,32,18,5,21,1475
+,Charter Commissioner,Write-ins,13,12,8,10,9,14,3,11,4,4,6,8,4,2,1,2,0,0,111
+,Precinct 1,Blanks,857,,,,,,,,,,,,,,,,,,857
+,Precinct 1,"Theodore C. Anthony, Jr.",292,,,,,,,,,,,,,,,,,,292
+,Precinct 1,Mark S. Lamkin,296,,,,,,,,,,,,,,,,,,296
+,Precinct 1,R. Kathy Vassar,350,,,,,,,,,,,,,,,,,,350
+,Precinct 1,Write-ins,0,,,,,,,,,,,,,,,,,,0
+,Precinct 1,Brenda M. Dostie,45,,,,,,,,,,,,,,,,,,45
+,Precinct 1,Robin L. Kaye,31,,,,,,,,,,,,,,,,,,31
+,Precinct 1,Kylon M.F. Colinet,10,,,,,,,,,,,,,,,,,,10
+,Precinct 1,Brinsley A. Fuller,2,,,,,,,,,,,,,,,,,,2
+,Precinct 1,Susan E. Haney,2,,,,,,,,,,,,,,,,,,2
+,Precinct 1,Karen E. Hausman,2,,,,,,,,,,,,,,,,,,2
+,Precinct 1,Paul LM Kelley,2,,,,,,,,,,,,,,,,,,2
+,Precinct 1,Elinor D. Calver,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,Susin Carlson,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,William E. Crocker,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,Max Davison,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,Stacey A. Fresco,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,"Richard P. Kenney, Jr.",1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,Sarah M. Larson,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,Samir G. Parikh,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,Beth Ann Petrakis,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,Sheila Ann Pinn,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1,Edward A. Salerno,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),Blanks,840,,,,,,,,,,,,,,,,,,840
+,Precinct 1 (2 year term),Write-ins,10,,,,,,,,,,,,,,,,,,10
+,Precinct 1 (2 year term),Robin L. Kaye,32,,,,,,,,,,,,,,,,,,32
+,Precinct 1 (2 year term),Kylon M.F. Colinet,29,,,,,,,,,,,,,,,,,,29
+,Precinct 1 (2 year term),Brenda M. Dostie,22,,,,,,,,,,,,,,,,,,22
+,Precinct 1 (2 year term),Brinsley A. Fuller,2,,,,,,,,,,,,,,,,,,2
+,Precinct 1 (2 year term),Caleb H. Hellerman,2,,,,,,,,,,,,,,,,,,2
+,Precinct 1 (2 year term),Elinor D. Calver,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),Susin Carlson,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),William E. Crocker,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),Max Davison,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),Michael A. Dipalma,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),"Clyde D. Dottin, Jr.",1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),Annmarie Howes,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),"Richard P. Kenney, Jr.",1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),Mark Lamkin,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),Sarah M. Larson,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),Samir G. Parikh,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),E. H. Royce-Tolland,1,,,,,,,,,,,,,,,,,,1
+,Precinct 1 (2 year term),"Richard J. Tizard, Jr.",1,,,,,,,,,,,,,,,,,,1
+,Precinct 2,Blanks,,764,,,,,,,,,,,,,,,,,764
+,Precinct 2,Gloria H. Geller,,349,,,,,,,,,,,,,,,,,349
+,Precinct 2,"David J. Longden, Jr.",,331,,,,,,,,,,,,,,,,,331
+,Precinct 2,Joseph C. Norton,,347,,,,,,,,,,,,,,,,,347
+,Precinct 2,Stephen Shull,,337,,,,,,,,,,,,,,,,,337
+,Precinct 2,Write-ins,,1,,,,,,,,,,,,,,,,,1
+,Precinct 2,Monique M. Dini,,1,,,,,,,,,,,,,,,,,1
+,Precinct 2,Peter G. Galalis,,1,,,,,,,,,,,,,,,,,1
+,Precinct 2,Samir G. Parikh,,1,,,,,,,,,,,,,,,,,1
+,Precinct 3,Blanks,,,653,,,,,,,,,,,,,,,,653
+,Precinct 3,Karen Foran Dempsey,,,234,,,,,,,,,,,,,,,,234
+,Precinct 3,Marilyn A. Zimmerman,,,244,,,,,,,,,,,,,,,,244
+,Precinct 3,Carol B. Chan,,,220,,,,,,,,,,,,,,,,220
+,Precinct 3,Write-ins,,,9,,,,,,,,,,,,,,,,9
+,Precinct 3,Harold J. Moran,,,17,,,,,,,,,,,,,,,,17
+,Precinct 3,Heather J. Klish,,,13,,,,,,,,,,,,,,,,13
+,Precinct 3,Carol Sanchez Novak,,,4,,,,,,,,,,,,,,,,4
+,Precinct 3,Lisa Avanzato-Ushkurnis,,,3,,,,,,,,,,,,,,,,3
+,Precinct 3,James Kaningisor,,,2,,,,,,,,,,,,,,,,2
+,Precinct 3,George Tkach,,,2,,,,,,,,,,,,,,,,2
+,Precinct 3,"Edward H. Connor, Jr.",,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,John Q. Donahue,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,Michael Lowrey Elkins,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,Jeffrey Frank Hatalsky,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,Quintina Hunter,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,Cheryl Larrivere-Elkins,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,Ryan James Murphy,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,Pam Richardson,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,Margaret Shepard,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,John H.Stasik,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3,Christopher Steele,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Blanks,,,652,,,,,,,,,,,,,,,,652
+,Precinct 3 (2 year term),Write-ins,,,54,,,,,,,,,,,,,,,,54
+,Precinct 3 (2 year term),Heather Klish,,,14,,,,,,,,,,,,,,,,14
+,Precinct 3 (2 year term),Harold Moran,,,8,,,,,,,,,,,,,,,,8
+,Precinct 3 (2 year term),George Tkach,,,6,,,,,,,,,,,,,,,,6
+,Precinct 3 (2 year term),Lisa Avanzato-Ushkurnis,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Steve Belli,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Jeff Frank Hatalsky,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Natasha C. Hatalsky,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Quintina Hunter,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Gerald C. Merson,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),James D. Murphy,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Susan M. Murphy,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Mauricio Perea,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Rebecca Perricone,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Milford Ernest Reynard,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Pam Richardson,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Mario A. Robles,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (2 year term),Mark E. Yorsaner,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Blanks,,,669,,,,,,,,,,,,,,,,669
+,Precinct 3 (1 year term),Write-ins,,,5,,,,,,,,,,,,,,,,5
+,Precinct 3 (1 year term),Heather Klish,,,8,,,,,,,,,,,,,,,,8
+,Precinct 3 (1 year term),Harold Moran,,,7,,,,,,,,,,,,,,,,7
+,Precinct 3 (1 year term),Greg Rotatori,,,2,,,,,,,,,,,,,,,,2
+,Precinct 3 (1 year term),Jeannine A Adipietro,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Paul Adipietro,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Lisa Avanzato-Ushkurnis,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Phil Barton,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Carol E. Casselman,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Scott Fine,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Michele Beth Kallin,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Paul Landers,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Regina Kay McNally,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Jeff Myer,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Rebecca Perricone,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Carol Sanchez Novak,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Christopher Steele,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),John Tkach,,,1,,,,,,,,,,,,,,,,1
+,Precinct 3 (1 year term),Harold J. Wolfe,,,1,,,,,,,,,,,,,,,,1
+,Precinct 4,Blanks,,,,1098,,,,,,,,,,,,,,,1098
+,Precinct 4,Diane Z. Pabst,,,,279,,,,,,,,,,,,,,,279
+,Precinct 4,Stuart J. Peskin,,,,275,,,,,,,,,,,,,,,275
+,Precinct 4,Amy M. Weader,,,,295,,,,,,,,,,,,,,,295
+,Precinct 4,Write-ins,,,,0,,,,,,,,,,,,,,,0
+,Precinct 4,Larry E. Stoodt,,,,33,,,,,,,,,,,,,,,33
+,Precinct 4,Jonathan D. Siegal,,,,31,,,,,,,,,,,,,,,31
+,Precinct 4,Deirbile Craighead,,,,2,,,,,,,,,,,,,,,2
+,Precinct 4,Martin H. Green,,,,2,,,,,,,,,,,,,,,2
+,Precinct 4,Thomas J. Cappello,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4,Cynthia Cobb,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4,Kerry A. Dunne,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4,Margaret Servis Estes,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4,Sierra Estes,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4,James Fisk,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4,Frank R. Hays,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4,Laura Helliwell,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4,Dan Rao,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4 (1 year term),Blanks,,,,437,,,,,,,,,,,,,,,437
+,Precinct 4 (1 year term),Write-ins,,,,34,,,,,,,,,,,,,,,34
+,Precinct 4 (1 year term),Larry Stoodt,,,,22,,,,,,,,,,,,,,,22
+,Precinct 4 (1 year term),Robert Nistick,,,,2,,,,,,,,,,,,,,,2
+,Precinct 4 (1 year term),Robin Radner,,,,2,,,,,,,,,,,,,,,2
+,Precinct 4 (1 year term),Thomas J. Cappello,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4 (1 year term),Richard E. Davis,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4 (1 year term),Mary Kate Feeney,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4 (1 year term),William J. Hart,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4 (1 year term),Jason David Heggs,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4 (1 year term),Shayna Ilyse Nestor,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4 (1 year term),Loren F. Puffer,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4 (1 year term),Paul S. Sostilo,,,,1,,,,,,,,,,,,,,,1
+,Precinct 4 (1 year term),Linda L. Wax,,,,1,,,,,,,,,,,,,,,1
+,Precinct 5,Blanks,,,,,960,,,,,,,,,,,,,,960
+,Precinct 5,Robert B. Bois,,,,,276,,,,,,,,,,,,,,276
+,Precinct 5,Janet Leombruno,,,,,313,,,,,,,,,,,,,,313
+,Precinct 5,Michael J. Welch,,,,,324,,,,,,,,,,,,,,324
+,Precinct 5,Write-ins,,,,,0,,,,,,,,,,,,,,0
+,Precinct 5,Samir G. Parikh,,,,,40,,,,,,,,,,,,,,40
+,Precinct 5,Andrew Barrett Mooney,,,,,2,,,,,,,,,,,,,,2
+,Precinct 5,Elizabeth J. Antonucci,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5,Robert P. Bergman,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5,Michael J Bower,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5,Robin L. Kaye,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5,John Mastroianni,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5,Mary Montuori,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5,John Mosi,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5,Alan Richard Silverman,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5,Adam L. Sisitsky,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Blanks,,,,,452,,,,,,,,,,,,,,452
+,Precinct 5 (2 year term),Write-ins,,,,,11,,,,,,,,,,,,,,11
+,Precinct 5 (2 year term),Samir Parikh,,,,,6,,,,,,,,,,,,,,6
+,Precinct 5 (2 year term),Robert P. Bergman,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Michael J Bower,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Kenneth J. Hickey,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Stepehen James,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),John M. Kahn,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Robin L. Kaye,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Timothy C. Lowell,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Mary Montuori,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Robert J. Podd,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Alan Richard Silverman,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Adam L. Sisitsky,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (2 year term),Carol J. Spack,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Blanks,,,,,456,,,,,,,,,,,,,,456
+,Precinct 5 (1 year term),Write-ins,,,,,3,,,,,,,,,,,,,,3
+,Precinct 5 (1 year term),Samir Parikh,,,,,5,,,,,,,,,,,,,,5
+,Precinct 5 (1 year term),Barbara J. Fontes,,,,,3,,,,,,,,,,,,,,3
+,Precinct 5 (1 year term),Daniel J. Libertore,,,,,2,,,,,,,,,,,,,,2
+,Precinct 5 (1 year term),Robert P. Bergman,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Michael J.Bower,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Scott Cleveland,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Meryl Iris Hickey,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Robin L. Kaye,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Timothy C.Lowell,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),John A. Mastroianni,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Mary Montuori,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Joanne B. Podd,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Alan Richard Silverman,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Adam Sisitsky,,,,,1,,,,,,,,,,,,,,1
+,Precinct 5 (1 year term),Scott M. Sokol,,,,,1,,,,,,,,,,,,,,1
+,Precinct 6,Blanks,,,,,,1278,,,,,,,,,,,,,1278
+,Precinct 6,James M. Pillsbury,,,,,,290,,,,,,,,,,,,,290
+,Precinct 6,Franklin D. Rothwell,,,,,,315,,,,,,,,,,,,,315
+,Precinct 6,Write-ins,,,,,,0,,,,,,,,,,,,,0
+,Precinct 6,Denise M Moorehead,,,,,,8,,,,,,,,,,,,,8
+,Precinct 6,Yvonne M. Spicer,,,,,,6,,,,,,,,,,,,,6
+,Precinct 6,Constantine E. Frost,,,,,,5,,,,,,,,,,,,,5
+,Precinct 6,Sara M. Frost,,,,,,2,,,,,,,,,,,,,2
+,Precinct 6,Jason E.Grigg,,,,,,2,,,,,,,,,,,,,2
+,Precinct 6,Nancy A. Sweeney,,,,,,2,,,,,,,,,,,,,2
+,Precinct 6,Marilyn M. Barrows,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,Brian J Bower,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,Aleks-Jan Dubovik,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,Kurt Fusaris,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,Jared JB Grigg,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,Kenneth A. Horne,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,David J. McGrath,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,David Morales,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,Seth Noble,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,William R. Sell,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,Mark Wade Smithers,,,,,,1,,,,,,,,,,,,,1
+,Precinct 6,William D. Zompetti,,,,,,1,,,,,,,,,,,,,1
+,Precinct 7,Blanks,,,,,,,1151,,,,,,,,,,,,1151
+,Precinct 7,Deborah A. Butler,,,,,,,188,,,,,,,,,,,,188
+,Precinct 7,Cynthia D. Villanueva,,,,,,,282,,,,,,,,,,,,282
+,Precinct 7,Write-ins,,,,,,,2,,,,,,,,,,,,2
+,Precinct 7,Susan P. Bernstein,,,,,,,18,,,,,,,,,,,,18
+,Precinct 7,Lawrence J. Griffin,,,,,,,13,,,,,,,,,,,,13
+,Precinct 7,Annabel Z. Dodd,,,,,,,2,,,,,,,,,,,,2
+,Precinct 7,Timothy Michael Jantzen,,,,,,,2,,,,,,,,,,,,2
+,Precinct 7,Erica M Mash,,,,,,,2,,,,,,,,,,,,2
+,Precinct 7,Morton J. Shuman,,,,,,,2,,,,,,,,,,,,2
+,Precinct 7,Faye P. Winer,,,,,,,2,,,,,,,,,,,,2
+,Precinct 7,Jon H. Abrahamson,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,John D. Binder,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,David Bush,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,Matthew J. Coke,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,Daniel M. Coletti,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,Meryl F. Dannenberg,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,Robert Evans Davis,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,Vince Flynn,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,Jason David Heggs,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,David Rosenthal,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,Derrick Yancey,,,,,,,1,,,,,,,,,,,,1
+,Precinct 7,Sharon Ostrov Zalkin,,,,,,,1,,,,,,,,,,,,1
+,Precinct 8,Blanks,,,,,,,,993,,,,,,,,,,,993
+,Precinct 8,Charles E. Schneider,,,,,,,,255,,,,,,,,,,,255
+,Precinct 8,Imre Serfozo,,,,,,,,227,,,,,,,,,,,227
+,Precinct 8,Write-ins,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8,Sandra L. DesJardins,,,,,,,,18,,,,,,,,,,,18
+,Precinct 8,Eric W. Cigan,,,,,,,,13,,,,,,,,,,,13
+,Precinct 8,Richard M. LaMonica Jr.,,,,,,,,4,,,,,,,,,,,4
+,Precinct 8,John F Blaine,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8,Gwen R. Brady,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8,Barry Thomas Daniels,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8,Daniel S. Deveau,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8,Jack Patrick Lewis,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8,Diane L.Markowitz,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8,"Anthony M. Moretti, Jr",,,,,,,,1,,,,,,,,,,,1
+,Precinct 8,Amy Lynn Nable,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8,Craig Michael Wilkey,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),Blanks,,,,,,,,732,,,,,,,,,,,732
+,Precinct 8 (2 year term),Write-ins,,,,,,,,5,,,,,,,,,,,5
+,Precinct 8 (2 year term),Sandra L. DesJardins,,,,,,,,11,,,,,,,,,,,11
+,Precinct 8 (2 year term),"Richard M. Lamonica, Jr",,,,,,,,2,,,,,,,,,,,2
+,Precinct 8 (2 year term),Rory Cahill,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),Eric W. Cigan,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),Elizabeth J. DaSilva,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),Daniel R. Flynn,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),Larry W. Hardy,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),"James M. List, Jr",,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),Seth D. Nable,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),David Papazian,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),Douglas S.Rich,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (2 year term),Aaron C. Rogers,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Blanks,,,,,,,,1098,,,,,,,,,,,1098
+,Precinct 8 (1 year term),Write-ins,,,,,,,,7,,,,,,,,,,,7
+,Precinct 8 (1 year term),Eric W. Cigan,,,,,,,,15,,,,,,,,,,,15
+,Precinct 8 (1 year term),Sandra L. DesJardin,,,,,,,,4,,,,,,,,,,,4
+,Precinct 8 (1 year term),"Richard M. Lamonica, Jr",,,,,,,,2,,,,,,,,,,,2
+,Precinct 8 (1 year term),Bill Beraidi,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Suzanne E. Bouvier,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Gwen R. Brady,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Robert F. da Silva,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Joseph D. Doherty,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Trevor Michael Gorman,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Peter Gronellos,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Jeff Kitchen,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Daniel R.Lampl,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Jack Patrick Lewis,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Melvin Markowitz,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),"Anthony M. Moretti, Jr",,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Amy Lynn Nable,,,,,,,,1,,,,,,,,,,,1
+,Precinct 8 (1 year term),Craig Michael Wilkey,,,,,,,,1,,,,,,,,,,,1
+,Precinct 9,Blanks,,,,,,,,,420,,,,,,,,,,420
+,Precinct 9,Steven H. Friedman,,,,,,,,,128,,,,,,,,,,128
+,Precinct 9,Christopher John Kelley,,,,,,,,,122,,,,,,,,,,122
+,Precinct 9,Bernice W. Strom,,,,,,,,,127,,,,,,,,,,127
+,Precinct 9,Write-ins,,,,,,,,,0,,,,,,,,,,0
+,Precinct 9,Arthur J. Mills,,,,,,,,,6,,,,,,,,,,6
+,Precinct 9,Matthew D. Miles,,,,,,,,,4,,,,,,,,,,4
+,Precinct 9,Sean W. Donovan,,,,,,,,,3,,,,,,,,,,3
+,Precinct 9,Peter Houston,,,,,,,,,2,,,,,,,,,,2
+,Precinct 9,Pablo Maia,,,,,,,,,2,,,,,,,,,,2
+,Precinct 9,Richard M Brockway,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9,Joseph D.Caporale,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9,F. Demarco,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9,Maureen E. Dunne,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9,Martin J. Henley,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9,Tom Jaelo,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9,Barry King,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9,Dhruba P.Sen,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9,Margareth Basilio Shepard,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9,Ralph R. Zazula,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),Blanks,,,,,,,,,172,,,,,,,,,,172
+,Precinct 9 (1 year term),Write-ins,,,,,,,,,4,,,,,,,,,,4
+,Precinct 9 (1 year term),Arthur J. Mills,,,,,,,,,6,,,,,,,,,,6
+,Precinct 9 (1 year term),Matthew D. Miles,,,,,,,,,4,,,,,,,,,,4
+,Precinct 9 (1 year term),Joseph D. Caporale,,,,,,,,,2,,,,,,,,,,2
+,Precinct 9 (1 year term),Sean W. Donovan,,,,,,,,,2,,,,,,,,,,2
+,Precinct 9 (1 year term),Peter Houston,,,,,,,,,2,,,,,,,,,,2
+,Precinct 9 (1 year term),Barry King,,,,,,,,,2,,,,,,,,,,2
+,Precinct 9 (1 year term),Pablo Maia,,,,,,,,,2,,,,,,,,,,2
+,Precinct 9 (1 year term),Michael E. Basile,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),Richard M. Brockway,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),F. Demarco,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),Maureen E. Dunne,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),David F. Miles,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),Anna Paula Parra Pereira,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),Samir Parikh,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),Francisca Perez,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),Margareth Basilio Shepard,,,,,,,,,1,,,,,,,,,,1
+,Precinct 9 (1 year term),Ralph R. Zazula,,,,,,,,,1,,,,,,,,,,1
+,Precinct 10,Blanks,,,,,,,,,,266,,,,,,,,,266
+,Precinct 10,Marie Drayton,,,,,,,,,,68,,,,,,,,,68
+,Precinct 10,Douglas W. Lawrence,,,,,,,,,,63,,,,,,,,,63
+,Precinct 10,Write-ins,,,,,,,,,,0,,,,,,,,,0
+,Precinct 10,Ana F. McDonnell,,,,,,,,,,2,,,,,,,,,2
+,Precinct 10,Diana Bailey,,,,,,,,,,1,,,,,,,,,1
+,Precinct 10,Debbie Chase,,,,,,,,,,1,,,,,,,,,1
+,Precinct 10,Araceli Esquival,,,,,,,,,,1,,,,,,,,,1
+,Precinct 10,Cindy L. Rubin,,,,,,,,,,1,,,,,,,,,1
+,Precinct 10,Tom Shaner,,,,,,,,,,1,,,,,,,,,1
+,Precinct 10 (1 year term),Blanks,,,,,,,,,,294,,,,,,,,,294
+,Precinct 10 (1 year term),Write-ins,,,,,,,,,,2,,,,,,,,,2
+,Precinct 10 (1 year term),Ana F. McDonnell,,,,,,,,,,2,,,,,,,,,2
+,Precinct 10 (1 year term),Debbie Chase,,,,,,,,,,1,,,,,,,,,1
+,Precinct 10 (1 year term),Araceli Esquival,,,,,,,,,,1,,,,,,,,,1
+,Precinct 10 (1 year term),Lawrence J Griffin,,,,,,,,,,1,,,,,,,,,1
+,Precinct 10 (1 year term),Holly J. Hratko,,,,,,,,,,1,,,,,,,,,1
+,Precinct 10 (1 year term),Jonathan D. Shaner,,,,,,,,,,1,,,,,,,,,1
+,Precint 11,Blanks,,,,,,,,,,,1078,,,,,,,,1078
+,Precint 11,Cynthia J. Laurora,,,,,,,,,,,361,,,,,,,,361
+,Precint 11,Judy Leerer,,,,,,,,,,,349,,,,,,,,349
+,Precint 11,Kristen M. Lloyd,,,,,,,,,,,351,,,,,,,,351
+,Precint 11,Write-ins,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Diane M. Montgomery,,,,,,,,,,,2,,,,,,,,2
+,Precint 11,Mary E. O'Connor-Doucette,,,,,,,,,,,2,,,,,,,,2
+,Precint 11,Douglas L. Tersoni,,,,,,,,,,,2,,,,,,,,2
+,Precint 11,William D. Wolfson,,,,,,,,,,,2,,,,,,,,2
+,Precint 11,Rosemary K. Ames,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Tiago Anes,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Rebecca Berkowitz,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Robert Bouchini,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Mary E. Cahill,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Michael S. Claffey,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Carolyn F. Clark,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Louise M. Clark,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Brenda Hunt Crawshaw,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Robert R. Draper,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Geoffrey N. Epstein,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Douglas B. Freeman,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Dennis Greenwood,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Stephen Andrew Griffin,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Andrea L. Haber,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Mary W. Kent,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Beatte King,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Brigitte Leu,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Dawn Roche,,,,,,,,,,,1,,,,,,,,1
+,Precint 11,Joan M. Thompson,,,,,,,,,,,1,,,,,,,,1
+,Precinct 12,Blanks,,,,,,,,,,,,598,,,,,,,598
+,Precinct 12,Lynn B. Olson,,,,,,,,,,,,147,,,,,,,147
+,Precinct 12,Write-ins,,,,,,,,,,,,4,,,,,,,4
+,Precinct 12,Allan D. Smith,,,,,,,,,,,,27,,,,,,,27
+,Precinct 12,"Kenneth Glover High, III",,,,,,,,,,,,22,,,,,,,22
+,Precinct 12,Sarah Ruth Cavicchi,,,,,,,,,,,,21,,,,,,,21
+,Precinct 12,Carlos Cunningham,,,,,,,,,,,,2,,,,,,,2
+,Precinct 12,Margareth Basilio Shepard,,,,,,,,,,,,2,,,,,,,2
+,Precinct 12,Lewis Colten,,,,,,,,,,,,1,,,,,,,1
+,Precinct 12,Emily Manders,,,,,,,,,,,,1,,,,,,,1
+,Precinct 12,Eric K. Silverman,,,,,,,,,,,,1,,,,,,,1
+,Precinct 12,Charlie Sisitsky,,,,,,,,,,,,1,,,,,,,1
+,Precinct 12,Chante Renea Woodard,,,,,,,,,,,,1,,,,,,,1
+,Precinct 13,Blanks,,,,,,,,,,,,,550,,,,,,550
+,Precinct 13,"Austin J. Nagle, Sr.",,,,,,,,,,,,,155,,,,,,155
+,Precinct 13,Thomas G. Tiger,,,,,,,,,,,,,154,,,,,,154
+,Precinct 13,Thomas K. Fitzpatrick,,,,,,,,,,,,,174,,,,,,174
+,Precinct 13,Write-ins,,,,,,,,,,,,,4,,,,,,4
+,Precinct 13,"Walter F. Siggins, III",,,,,,,,,,,,,8,,,,,,8
+,Precinct 13,Robert F. Tibor,,,,,,,,,,,,,3,,,,,,3
+,Precinct 13,Bradford Goodwin,,,,,,,,,,,,,2,,,,,,2
+,Precinct 13,Dolores E. Coots,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13,Michael T. Donnelly,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13,Jane E. Eyler,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13,Robert T. Haggerty,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13,William Patrick Lynch,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13,"Richard E. Tolan, Jr.",,,,,,,,,,,,,1,,,,,,1
+,Precinct 13 (2 year term),Blanks,,,,,,,,,,,,,245,,,,,,245
+,Precinct 13 (2 year term),Write-ins,,,,,,,,,,,,,13,,,,,,13
+,Precinct 13 (2 year term),"Walter F. Siggins, III",,,,,,,,,,,,,4,,,,,,4
+,Precinct 13 (2 year term),Linda Devine,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13 (2 year term),"Richard Tolan, Jr",,,,,,,,,,,,,1,,,,,,1
+,Precinct 13 (1 year term),Blanks,,,,,,,,,,,,,242,,,,,,242
+,Precinct 13 (1 year term),Write-ins,,,,,,,,,,,,,10,,,,,,10
+,Precinct 13 (1 year term),Leslie Siggins,,,,,,,,,,,,,3,,,,,,3
+,Precinct 13 (1 year term),Walter Siggins,,,,,,,,,,,,,3,,,,,,3
+,Precinct 13 (1 year term),Miaria Figueroa,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13 (1 year term),Bradford Goodwin,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13 (1 year term),Dorothy Lucci,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13 (1 year term),Joseph Meehan,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13 (1 year term),Robert Tibor,,,,,,,,,,,,,1,,,,,,1
+,Precinct 13 (1 year term),"Richard Tolan, Jr",,,,,,,,,,,,,1,,,,,,1
+,Precinct 14,Blanks,,,,,,,,,,,,,,394,,,,,394
+,Precinct 14,Write-ins,,,,,,,,,,,,,,5,,,,,5
+,Precinct 14,Margareth Basilio Shepard,,,,,,,,,,,,,,17,,,,,17
+,Precinct 14,Oscar Salomon Vise,,,,,,,,,,,,,,13,,,,,13
+,Precinct 14,Lindsay Brainerd,,,,,,,,,,,,,,12,,,,,12
+,Precinct 14,Nancy B. Marchand,,,,,,,,,,,,,,12,,,,,12
+,Precinct 14,Natasha Ezinma McDonwall,,,,,,,,,,,,,,2,,,,,2
+,Precinct 14,Robert H. Chase,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14,Beth P. Giobbe,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14,Anne M. Hackett,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14,Lizzette J. Ospina-Yemo,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14,Jennifer Reed,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14,Nirka N. Rosa,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14,Celina M. Villa,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14,Jacquelyn A. Villa,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14,Mark R. Villa,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (2 year term),Blanks,,,,,,,,,,,,,,191,,,,,191
+,Precinct 14 (2 year term),Write-ins,,,,,,,,,,,,,,5,,,,,5
+,Precinct 14 (2 year term),Lizette Ospina-Yeno,,,,,,,,,,,,,,13,,,,,13
+,Precinct 14 (2 year term),Stephen Hanley,,,,,,,,,,,,,,11,,,,,11
+,Precinct 14 (2 year term),Nancy B. Marchand,,,,,,,,,,,,,,2,,,,,2
+,Precinct 14 (2 year term),Natasha Ezinma McDowall,,,,,,,,,,,,,,2,,,,,2
+,Precinct 14 (2 year term),Oscar Salomon Vise,,,,,,,,,,,,,,2,,,,,2
+,Precinct 14 (2 year term),Robert H. Chase,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (2 year term),Anne M. Hackett,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (2 year term),David Johnson,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (2 year term),Nilda S. Rodriguez,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (2 year term),Celina M. Villa,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (2 year term),Mark R. Villa,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (1 year term),Blanks,,,,,,,,,,,,,,188,,,,,188
+,Precinct 14 (1 year term),Write-ins,,,,,,,,,,,,,,3,,,,,3
+,Precinct 14 (1 year term),Beth P. Giobbe,,,,,,,,,,,,,,16,,,,,16
+,Precinct 14 (1 year term),Michael S. Giobbe,,,,,,,,,,,,,,16,,,,,16
+,Precinct 14 (1 year term),Oscar Salomon Vise,,,,,,,,,,,,,,2,,,,,2
+,Precinct 14 (1 year term),Clint Alvard,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (1 year term),Robert H. Chase,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (1 year term),Natasha Ezinma McDowall,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (1 year term),Anne M. Hackett,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (1 year term),Margareth Basilio Shepard,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (1 year term),Celina M. Villa,,,,,,,,,,,,,,1,,,,,1
+,Precinct 14 (1 year term),Jacquelyn A. Villa,,,,,,,,,,,,,,1,,,,,1
+,Preinct 15,Blanks,,,,,,,,,,,,,,,349,,,,349
+,Preinct 15,Marelyn I. Collazo,,,,,,,,,,,,,,,118,,,,118
+,Preinct 15,Judith A. Grove,,,,,,,,,,,,,,,110,,,,110
+,Preinct 15,Albert Q. Roos,,,,,,,,,,,,,,,98,,,,98
+,Preinct 15,Write-ins,,,,,,,,,,,,,,,0,,,,0
+,Preinct 15,Randall S. Cohen,,,,,,,,,,,,,,,9,,,,9
+,Preinct 15,Jessia Peron,,,,,,,,,,,,,,,2,,,,2
+,Preinct 15,Margareth Basilio Shepard,,,,,,,,,,,,,,,1,,,,1
+,Preinct 15,Kathleen M. Stefanini,,,,,,,,,,,,,,,1,,,,1
+,Preinct 15 (1 year term),Blanks,,,,,,,,,,,,,,,152,,,,152
+,Preinct 15 (1 year term),Write-ins,,,,,,,,,,,,,,,4,,,,4
+,Preinct 15 (1 year term),Natasha Ezinma McDowell,,,,,,,,,,,,,,,6,,,,6
+,Preinct 15 (1 year term),Albert Q. Roos,,,,,,,,,,,,,,,2,,,,2
+,Preinct 15 (1 year term),"James T. Adrian, Jr.",,,,,,,,,,,,,,,1,,,,1
+,Preinct 15 (1 year term),Randall S. Cohen,,,,,,,,,,,,,,,1,,,,1
+,Preinct 15 (1 year term),Michael B. Croci,,,,,,,,,,,,,,,1,,,,1
+,Preinct 15 (1 year term),Andrea Dunne,,,,,,,,,,,,,,,1,,,,1
+,Preinct 15 (1 year term),John M. Kahn,,,,,,,,,,,,,,,1,,,,1
+,Preinct 15 (1 year term),William J. Moquin,,,,,,,,,,,,,,,1,,,,1
+,Preinct 15 (1 year term),"Guy L. Mori, Jr.",,,,,,,,,,,,,,,1,,,,1
+,Preinct 15 (1 year term),Jonna Kay Rubin,,,,,,,,,,,,,,,1,,,,1
+,Precinct 16,Blanks,,,,,,,,,,,,,,,,212,,,212
+,Precinct 16,Write-ins,,,,,,,,,,,,,,,,1,,,1
+,Precinct 16,Chante Renea Woodard,,,,,,,,,,,,,,,,2,,,2
+,Precinct 16,Kerry Kathleen Morrill,,,,,,,,,,,,,,,,1,,,1
+,Precinct 16 (1 year term),Blanks,,,,,,,,,,,,,,,,104,,,104
+,Precinct 16 (1 year term),Write-ins,,,,,,,,,,,,,,,,0,,,0
+,Precinct 16 (1 year term),Joseph Norton,,,,,,,,,,,,,,,,1,,,1
+,Precinct 16 (1 year term),Kang Peng (Reng),,,,,,,,,,,,,,,,1,,,1
+,Precinct 16 (1 year term),Janet Sinclair,,,,,,,,,,,,,,,,1,,,1
+,Precinct 16 (1 year term),Chante Renea Woodard,,,,,,,,,,,,,,,,1,,,1
+,Precinct 17,Blanks,,,,,,,,,,,,,,,,,101,,101
+,Precinct 17,Richard G. Baritz,,,,,,,,,,,,,,,,,27,,27
+,Precinct 17,Write-ins,,,,,,,,,,,,,,,,,0,,0
+,Precinct 17 (2 year term),Blanks,,,,,,,,,,,,,,,,,126,,126
+,Precinct 17 (2 year term),Write-ins,,,,,,,,,,,,,,,,,2,,2
+,Precinct 17 (1 year term),Blanks,,,,,,,,,,,,,,,,,30,,30
+,Precinct 17 (1 year term),Write-ins,,,,,,,,,,,,,,,,,2,,2
+,Precinct 18,Blanks,,,,,,,,,,,,,,,,,,394,394
+,Precinct 18,Ciro R. Sansossio,,,,,,,,,,,,,,,,,,92,92
+,Precinct 18,Write-ins,,,,,,,,,,,,,,,,,,2,2
+,Precinct 18,Lorine D. Farrington,,,,,,,,,,,,,,,,,,6,6
+,Precinct 18,Wendolyn E. Price-Smith,,,,,,,,,,,,,,,,,,5,5
+,Precinct 18,Margaret B. Forde,,,,,,,,,,,,,,,,,,1,1
+,Precinct 18,Gloria Pascual,,,,,,,,,,,,,,,,,,1,1
+,Precinct 18,Paul M. Sanford,,,,,,,,,,,,,,,,,,1,1
+,Precinct 18,Margareth Basilio Shepard,,,,,,,,,,,,,,,,,,1,1
+,Precinct 18,Carolyn B. Toohey,,,,,,,,,,,,,,,,,,1,1
+,Precinct 18,Chante Renea Woodward,,,,,,,,,,,,,,,,,,1,1
+,Precinct 18 (2 year term),Blanks,,,,,,,,,,,,,,,,,,277,277
+,Precinct 18 (2 year term),A. Carden McCoppin,,,,,,,,,,,,,,,,,,91,91
+,Precinct 18 (2 year term),Write-ins,,,,,,,,,,,,,,,,,,3,3
+,Precinct 18 (2 year term),Lorine D. Farrington,,,,,,,,,,,,,,,,,,3,3
+,Precinct 18 (2 year term),Wendolyn E. Price-Smith,,,,,,,,,,,,,,,,,,3,3
+,Precinct 18 (2 year term),Jonathan David Lang,,,,,,,,,,,,,,,,,,1,1
+,Turnout,Ballots cast,475,533,353,506,481,480,419,380,206,101,542,207,264,116,172,54,32,126,5447
+,Turnout,Registered voters,2866,2870,2395,2691,2638,2622,2379,2466,1906,1697,2812,1434,1974,1480,1653,1006,1227,1513,37629

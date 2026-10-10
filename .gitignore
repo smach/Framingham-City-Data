@@ -3,3 +3,15 @@
 .RData
 .Ruserdata
 index.xlsx
+
+# Large raw downloads that scripts can fetch again
+data-raw/property/*.zip
+# MassGIS property files (about 20 MB a year); make them with scripts/update_property.R
+data/property/assessments_fy*.csv
+data/property/parcels_fy*.gpkg
+# Written by the weekly GitHub Action when it opens an issue
+issue_body.md
+
+# Quarto's working folders
+/.quarto/
+/_freeze/

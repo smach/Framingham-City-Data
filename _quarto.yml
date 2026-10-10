@@ -1,0 +1,30 @@
+# Quarto settings for the project website.
+# Render the site from the project folder with:   quarto render
+# The finished site goes into docs/, which GitHub Pages serves.
+# Only index.qmd is rendered, so README.md and other files are left alone.
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+
+website:
+  title: "Framingham City Data"
+  repo-url: https://github.com/smach/Framingham-City-Data
+  repo-actions: [source, issue]
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/smach/Framingham-City-Data
+
+format:
+  html:
+    theme: flatly
+    toc: true
+    toc-location: left
+    page-layout: full
+
+execute:
+  echo: false
+  warning: false
+  message: false

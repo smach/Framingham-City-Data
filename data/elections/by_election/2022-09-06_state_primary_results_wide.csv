@@ -1,0 +1,99 @@
+party,race,candidate,1,2,3,4,5,6,7,8,9A,9B,10,11,12,13,14,15,16,17,18,19,20,21A,21B,21C,22,23,24,25,26,27,Total
+Democratic,Governor,Sonia Rosa Chang-Diaz,19,25,30,23,52,52,52,23,34,3,28,41,53,29,23,26,42,38,46,28,40,26,19,0,39,29,35,45,43,35,978
+Democratic,Governor,Maura Healey,67,40,54,104,220,318,383,197,263,8,187,250,238,100,139,146,292,353,361,367,388,302,176,8,453,329,364,358,313,326,7104
+Democratic,Governor,Blanks,1,6,2,5,4,10,16,4,3,0,6,14,7,1,1,5,7,7,7,3,11,2,3,0,10,7,4,3,3,3,155
+Democratic,Governor,Write-ins,2,0,1,0,0,2,1,1,1,0,0,0,0,1,2,0,1,1,0,0,1,0,0,0,0,0,0,1,1,0,16
+Democratic,Lieutenant Governor,Kimberley Driscoll,29,24,34,60,130,177,199,98,124,6,100,142,112,51,83,89,141,183,172,169,182,150,75,4,193,160,187,162,166,158,3560
+Democratic,Lieutenant Governor,Tami Gouveia,27,18,23,22,48,60,91,32,70,5,39,56,88,34,30,27,62,86,83,75,74,66,49,1,99,82,76,91,72,83,1669
+Democratic,Lieutenant Governor,Eric P. Lesser,28,21,21,37,81,108,116,76,97,0,68,77,74,29,39,47,108,116,127,120,144,93,67,3,175,99,115,134,96,100,2416
+Democratic,Lieutenant Governor,Blanks,5,8,7,13,17,36,45,19,10,0,14,30,23,17,11,14,31,14,32,33,40,20,7,0,34,24,25,19,25,23,596
+Democratic,Lieutenant Governor,Write-ins,0,0,2,0,0,1,1,0,0,0,0,0,1,0,2,0,0,0,0,1,0,1,0,0,1,0,0,1,1,0,12
+Democratic,Attorney General,Andrea Joy Campbell,51,32,36,54,134,155,207,95,141,6,90,136,141,60,73,68,138,200,200,200,207,187,78,5,222,144,187,182,162,188,3779
+Democratic,Attorney General,Shannon Erika Liss-Riordan,20,18,26,40,81,135,118,77,92,5,72,85,102,35,43,58,118,117,112,111,140,77,79,1,175,131,138,125,118,104,2553
+Democratic,Attorney General,Quentin Palfrey,17,13,20,32,45,67,86,40,59,0,48,64,45,24,41,37,66,62,80,67,73,52,33,2,86,73,63,83,56,60,1494
+Democratic,Attorney General,Blanks,1,8,3,6,16,24,40,13,9,0,11,20,10,12,6,14,20,17,22,20,20,14,8,0,18,17,15,17,24,12,417
+Democratic,Attorney General,Write-ins,0,0,2,0,0,1,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,10
+Democratic,Secretary of State,William Francis Galvin,60,39,53,81,199,274,333,160,203,4,156,220,197,80,111,115,259,292,312,296,350,256,159,5,389,288,309,331,284,260,6075
+Democratic,Secretary of State,Tanisha M. Sullivan,27,25,30,45,71,95,100,52,89,7,59,76,94,42,45,53,72,100,87,93,84,71,35,3,102,70,85,72,70,97,1951
+Democratic,Secretary of State,Blanks,2,7,3,6,6,12,18,13,9,0,6,9,7,9,8,9,11,6,15,9,6,3,4,0,10,7,9,4,6,7,221
+Democratic,Secretary of State,Write-ins,0,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,6
+Democratic,Treasurer,Deborah B. Goldberg,79,52,68,114,246,320,369,197,268,8,177,253,250,109,138,152,296,361,344,345,380,276,171,8,406,318,351,349,306,307,7018
+Democratic,Treasurer,Blanks,9,18,17,18,29,60,81,26,33,3,43,50,47,19,25,25,46,37,70,52,60,54,27,0,94,47,52,57,54,57,1210
+Democratic,Treasurer,Write-ins,1,1,2,0,1,2,2,2,0,0,1,2,1,3,2,0,0,1,0,1,0,0,0,0,2,0,0,1,0,0,25
+Democratic,Auditor,Christopher S. Dempsey,40,30,26,46,119,158,191,102,131,4,94,113,132,37,60,78,151,183,167,167,203,147,86,3,243,135,161,175,149,166,3497
+Democratic,Auditor,Diana DiZoglio,43,33,52,72,129,172,188,95,143,7,102,153,139,74,89,80,158,184,211,186,191,142,83,5,203,189,203,201,169,163,3859
+Democratic,Auditor,Blanks,5,8,7,14,28,50,72,26,27,0,25,38,27,20,15,19,32,31,36,44,46,41,29,0,54,41,39,31,42,35,882
+Democratic,Auditor,Write-ins,1,0,2,0,0,2,1,2,0,0,0,1,0,0,1,0,1,1,0,1,0,0,0,0,2,0,0,0,0,0,15
+Democratic,Rep. in Congress,Katherine M. Clark,83,60,68,114,249,331,384,202,279,7,187,263,253,117,142,158,299,368,366,361,378,283,174,8,439,331,360,365,312,327,7268
+Democratic,Rep. in Congress,Blanks,6,11,17,17,26,49,66,22,22,4,32,38,43,13,21,18,41,26,46,36,62,44,23,0,60,34,43,42,47,36,945
+Democratic,Rep. in Congress,Write-ins,0,0,2,1,1,2,2,1,0,0,2,4,2,1,2,1,2,5,2,1,0,3,1,0,3,0,0,0,1,1,40
+Democratic,Councillor,Robert L. Jubinville,74,53,64,107,236,304,333,182,260,7,161,229,238,103,131,141,269,333,332,304,340,256,154,7,382,299,327,327,286,290,6529
+Democratic,Councillor,Blanks,15,17,20,25,38,76,117,43,39,4,59,73,59,25,32,35,71,65,82,94,100,73,44,1,119,66,74,80,73,74,1693
+Democratic,Councillor,Write-ins,0,1,3,0,2,2,2,0,2,0,1,3,1,3,2,1,2,1,0,0,0,1,0,0,1,0,2,0,1,0,31
+Democratic,State Senator,Karen E. Spilka,83,58,69,116,248,336,379,202,278,7,191,261,260,116,146,159,298,367,372,355,383,291,178,8,436,331,360,366,318,326,7298
+Democratic,State Senator,Blanks,6,13,16,16,27,43,71,22,22,4,29,43,38,13,17,18,41,30,42,41,57,38,20,0,63,33,40,41,40,38,922
+Democratic,State Senator,Write-ins,0,0,2,0,1,3,2,1,1,0,1,1,0,2,2,0,3,2,0,2,0,1,0,0,3,1,3,0,2,0,33
+Democratic,State Representative - 4th Middlesex,Danielle W. Gregoire,,,,,,,,,,,,,,,,,,,,,,,158,,383,302,,,,,843
+Democratic,State Representative - 4th Middlesex,Blanks,,,,,,,,,,,,,,,,,,,,,,,40,,118,63,,,,,221
+Democratic,State Representative - 4th Middlesex,Write-ins,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,,,1
+Democratic,State Representative - 6th Middlesex,Dhruba Prasad Sen,4,4,6,5,10,14,16,21,,1,6,13,3,7,5,4,14,,,,,,,,,,,,,,133
+Democratic,State Representative - 6th Middlesex,Margareth B. Shepard,36,34,28,51,93,141,203,75,,4,93,128,164,60,95,75,148,,,,,,,,,,,,,,1428
+Democratic,State Representative - 6th Middlesex,Priscila S. Sousa,44,31,47,75,163,211,215,120,,4,118,153,125,60,60,97,166,,,,,,,,,,,,,,1689
+Democratic,State Representative - 6th Middlesex,Blanks,5,2,5,1,10,16,18,9,,2,4,11,6,4,5,1,14,,,,,,,,,,,,,,113
+Democratic,State Representative - 6th Middlesex,Write-ins,0,0,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,1
+Democratic,State Representative - 7th Middlesex,Jack Patrick Lewis,,,,,,,,,268,,,,,,,,,363,354,334,364,,,7,,,349,341,302,304,2986
+Democratic,State Representative - 7th Middlesex,Blanks,,,,,,,,,32,,,,,,,,,35,57,63,75,,,1,,,54,66,58,59,500
+Democratic,State Representative - 7th Middlesex,Write-ins,,,,,,,,,1,,,,,,,,,1,3,1,1,,,0,,,0,0,0,1,8
+Democratic,State Representative - 19th Worcester,Kate Donaghue,,,,,,,,,,,,,,,,,,,,,,269,,,,,,,,,269
+Democratic,State Representative - 19th Worcester,Blanks,,,,,,,,,,,,,,,,,,,,,,61,,,,,,,,,61
+Democratic,State Representative - 19th Worcester,Write-ins,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,0
+Democratic,District Attorney,Marian T. Ryan,81,55,67,113,247,311,358,191,266,7,173,248,249,111,135,154,285,353,347,332,350,260,161,8,400,308,349,340,293,304,6856
+Democratic,District Attorney,Blanks,8,15,19,19,27,69,92,34,33,4,47,55,47,18,29,23,56,43,65,65,89,67,36,0,100,57,54,67,65,60,1363
+Democratic,District Attorney,Write-ins,0,1,1,0,2,2,2,0,2,0,1,2,2,2,1,0,1,3,2,1,1,3,1,0,2,0,0,0,2,0,34
+Democratic,Sheriff,Peter J. Koutoujian,73,55,66,116,242,307,343,181,261,7,164,242,245,108,133,150,282,348,351,317,352,263,159,7,391,303,341,333,284,290,6714
+Democratic,Sheriff,Blanks,15,16,19,16,31,72,106,44,38,4,56,61,51,22,31,26,58,49,62,79,87,65,37,1,110,62,60,74,72,73,1497
+Democratic,Sheriff,Write-ins,1,0,2,0,3,3,3,0,2,0,1,2,2,1,1,1,2,2,1,2,1,2,2,0,1,0,2,0,4,1,42
+Republican,Governor,Geoff Diehl,11,7,9,22,25,35,35,19,33,1,21,24,19,14,13,22,43,59,54,48,50,24,22,1,51,52,34,53,53,39,893
+Republican,Governor,Chris Doughty,7,6,2,8,25,49,43,27,32,2,30,29,21,10,21,16,37,53,54,63,63,38,27,0,39,65,69,42,44,34,956
+Republican,Governor,Blanks,0,2,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,1,0,4,2,0,0,2,0,16
+Republican,Governor,Write-ins,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,5
+Republican,Lieutenant Governor,Leah V. Allen,11,10,5,16,24,30,30,19,35,2,14,13,20,14,11,20,34,53,53,41,49,18,16,0,50,50,35,48,41,31,793
+Republican,Lieutenant Governor,Kate Campanale,7,4,2,13,23,52,43,25,28,1,29,32,18,8,20,14,42,47,44,59,55,36,26,1,37,54,59,38,49,37,903
+Republican,Lieutenant Governor,Blanks,0,1,3,1,4,3,5,2,2,0,8,7,3,3,3,4,4,12,9,12,10,9,8,0,7,14,10,9,9,5,167
+Republican,Lieutenant Governor,Write-ins,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,7
+Republican,Attorney General,"James R. McMahon, III",16,12,8,24,41,70,58,38,52,3,33,42,37,20,29,35,68,90,79,82,87,42,37,1,77,95,80,73,77,57,1463
+Republican,Attorney General,Blanks,1,2,2,6,10,12,18,7,14,0,17,11,4,5,5,3,11,22,29,30,27,21,12,0,17,23,24,21,22,15,391
+Republican,Attorney General,Write-ins,1,1,1,0,0,3,2,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,1,0,1,16
+Republican,Secretary of State,Rayla Campbell,14,12,9,25,41,69,59,41,46,2,31,42,36,20,28,33,69,84,75,82,77,36,36,1,73,88,70,71,70,56,1396
+Republican,Secretary of State,Blanks,3,2,1,5,10,13,18,5,20,1,18,11,5,5,5,4,10,28,30,30,36,26,14,0,21,29,33,23,26,16,448
+Republican,Secretary of State,Write-ins,1,1,1,0,0,3,1,0,0,0,2,0,0,0,2,1,1,0,3,0,1,1,0,0,0,2,1,1,3,1,26
+Republican,Treasurer,Blanks,14,10,7,27,40,76,74,43,53,3,47,47,40,21,32,32,69,93,102,106,106,60,46,0,89,108,95,90,91,66,1687
+Republican,Treasurer,Write-ins,4,5,4,3,11,9,4,3,13,0,4,6,1,4,3,6,11,19,6,6,8,3,4,1,5,11,9,5,8,7,183
+Republican,Auditor,Anthony Amore,13,11,8,25,41,70,61,37,42,3,33,39,37,19,30,30,65,85,71,80,79,39,37,1,73,90,72,71,71,56,1389
+Republican,Auditor,Blanks,5,3,2,4,10,15,17,9,23,0,18,14,4,6,4,8,14,27,37,32,34,23,13,0,21,28,31,23,28,17,470
+Republican,Auditor,Write-ins,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,1,1,1,0,0,11
+Republican,Rep. in Congress,Caroline Colarusso,13,12,5,24,43,69,59,36,42,2,34,40,38,20,30,34,66,81,73,80,79,37,40,1,74,90,69,75,73,49,1388
+Republican,Rep. in Congress,Blanks,5,3,6,6,8,16,18,9,23,1,17,13,3,5,4,4,11,30,33,32,35,25,10,0,20,27,34,19,26,21,464
+Republican,Rep. in Congress,Write-ins,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,3,1,2,0,0,1,0,0,0,2,1,1,0,3,18
+Republican,Councillor,Blanks,16,7,9,26,40,75,74,41,51,3,47,44,38,19,30,32,68,95,104,107,103,59,45,1,81,107,94,89,87,66,1658
+Republican,Councillor,Write-ins,2,8,2,4,11,10,4,5,15,0,4,9,3,6,5,6,12,17,4,5,11,4,5,0,13,12,10,6,12,7,212
+Republican,State Senator,Blanks,15,8,9,26,40,77,77,43,51,3,48,47,38,20,33,34,69,95,100,108,104,60,46,1,84,109,97,90,88,69,1689
+Republican,State Senator,Write-ins,3,7,2,4,11,8,1,3,15,0,3,6,3,5,2,4,11,17,8,4,10,3,4,0,10,10,7,5,11,4,181
+Republican,State Representative - 4th Middlesex,Blanks,,,,,,,,,,,,,,,,,,,,,,,47,,82,110,,,,,239
+Republican,State Representative - 4th Middlesex,Write-ins,,,,,,,,,,,,,,,,,,,,,,,3,,12,9,,,,,24
+Republican,State Representative - 6th Middlesex,Blanks,14,8,5,23,37,75,73,44,,1,44,44,38,21,33,35,70,,,,,,,,,,,,,,565
+Republican,State Representative - 6th Middlesex,Write-ins,4,7,3,6,10,10,2,2,,0,7,9,3,4,2,3,10,,,,,,,,,,,,,,82
+Republican,State Representative - 6th Middlesex,David Morrell,0,0,3,1,4,0,3,0,,2,0,0,0,0,0,0,0,,,,,,,,,,,,,,13
+Republican,State Representative - 7th Middlesex,Blanks,,,,,,,,,55,,,,,,,,,97,100,109,104,,,1,,,98,91,89,67,811
+Republican,State Representative - 7th Middlesex,Write-ins,,,,,,,,,11,,,,,,,,,15,8,3,10,,,0,,,6,4,10,6,73
+Republican,State Representative - 19th Worcester,Blanks,,,,,,,,,,,,,,,,,,,,,,35,,,,,,,,,35
+Republican,State Representative - 19th Worcester,Jonathan I. Hostage,,,,,,,,,,,,,,,,,,,,,,27,,,,,,,,,27
+Republican,State Representative - 19th Worcester,Write-ins,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,1
+Republican,District Attorney,Blanks,16,9,7,26,40,78,76,44,55,3,48,46,39,20,33,35,71,102,104,109,103,60,47,1,86,113,98,91,89,68,1717
+Republican,District Attorney,Write-ins,2,6,4,4,11,7,2,2,11,0,3,7,2,5,2,3,9,10,4,3,11,3,3,0,8,6,6,4,10,5,153
+Republican,Sheriff,Blanks,16,8,9,26,39,75,76,44,55,3,47,45,39,21,33,35,72,101,103,109,101,61,47,1,87,112,99,90,88,65,1707
+Republican,Sheriff,Write-ins,2,7,2,4,12,10,2,2,11,0,4,8,2,4,2,3,8,11,5,3,13,2,3,0,7,7,5,5,11,8,163
+,Turnout,Ballots cast,107,86,98,162,327,467,530,271,367,14,272,358,339,156,200,215,422,511,522,510,554,393,248,9,596,484,507,502,459,437,10123
+,Turnout,Registered voters,691,1148,970,1045,1187,1858,1800,1360,1396,81,875,1454,1221,918,1156,1296,1676,1792,1958,1870,1866,1327,722,43,2087,1847,1868,1917,1788,1696,40913
+Democratic,Turnout,Ballots cast,89,71,87,132,276,382,452,225,301,11,221,305,298,131,165,177,342,399,414,398,440,330,198,8,502,365,403,407,360,364,8253
+Republican,Turnout,Ballots cast,18,15,11,30,51,85,78,46,66,3,51,53,41,25,35,38,80,112,108,112,114,63,50,1,94,119,104,95,99,73,1870
