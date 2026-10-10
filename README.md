@@ -73,13 +73,13 @@ Rscript scripts/build_all.R      # takes a few seconds
 Rscript tests/testthat.R
 ```
 
-**Update property data** (about once a year): `Rscript scripts/update_property.R`
+**Property data** (MassGIS parcels and assessments) isn't stored in the repo, because each year's files come to about 20 MB. Run `Rscript scripts/update_property.R` to download the latest and write `data/property/assessments_fy<YEAR>.csv` (one row per property: values, use code, lot size, year built, owner, last sale) and `data/property/parcels_fy<YEAR>.gpkg` (boundaries; join on `LOC_ID`). MassGIS keeps only the latest year, so keep your own copies if you want a history.
 
-**Census data:** `fetch_acs_framingham(2023)` after setting a Census API key (see `R/census.R`).
+**Census data:** `data/census/` has 2019–2023 American Community Survey estimates for the city and its 47 block groups (estimate and margin-of-error columns). When the Census Bureau releases a newer 5-year period, set a Census API key (see `R/census.R`) and run `source("R/load.R"); fetch_acs_framingham(<last year of the period>)`.
 
 **Map:** `source("R/load.R"); make_precinct_map("2023-11-07", show_house_districts = TRUE)`
 
-**Website:** edit `index.qmd`, then run `quarto render` in a terminal from the project folder (or use RStudio's Render button). To describe a new kind of file in the site's file list, add a row to `data-raw/catalog_descriptions.csv`.
+**Website:** edit `index.qmd`, then run `quarto render` in a terminal from the project folder (or use RStudio's Render button). The searchable file list builds itself from every file committed under `data/` and `data-raw/`. Files that exist only on your computer are left out. A new kind of file shows up without a description until you add a matching row to `data-raw/catalog_descriptions.csv`.
 
 ## Automation
 

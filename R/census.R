@@ -24,7 +24,8 @@ acs_starter_variables <- c(
   foreign_born          = "B05002_013",
   hispanic_or_latino    = "B03003_003",
   speak_only_english    = "C16001_002",
-  bachelors_or_higher_25plus = "B15003_022"
+  # Bachelor's degree only, age 25+; graduate degrees are B15003_023 to _025
+  bachelors_degree_25plus = "B15003_022"
 )
 
 #' 2020 Census block groups inside Framingham

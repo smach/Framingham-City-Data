@@ -3,7 +3,9 @@
 #
 # The old site used a hand-maintained docs/file_index.csv that had to be
 # edited every time a file was added. Now the list is built automatically:
-# every file under data/ and data-raw/ is listed, and its description comes
+# every file under data/ and data-raw/ that's committed to git is listed
+# (files only on your computer are left out, since the site can't serve
+# them), and its description comes
 # from the first matching pattern in data-raw/catalog_descriptions.csv. Raw
 # election files also get the election's name from the registry. A new
 # election's files show up on the site with no extra work.
@@ -12,12 +14,20 @@
 #' @return A data frame: File, Description, Category, Source.
 build_file_catalog <- function(patterns_path = proj_path("data-raw", "catalog_descriptions.csv")) {
   root <- proj_path()
-  files <- list.files(file.path(root, c("data", "data-raw")), recursive = TRUE,
-                      full.names = TRUE, all.files = FALSE)
-  rel <- sub(paste0("^", normalizePath(root), "/"), "", normalizePath(files))
+  # Files git tracks; outside a git checkout, every file in the folders
+  rel <- suppressWarnings(tryCatch(
+    system2("git", c("-C", shQuote(root), "-c", "core.quotepath=off", "ls-files", "--", "data", "data-raw"),
+            stdout = TRUE, stderr = FALSE),
+    error = function(e) character(0)
+  ))
+  if (length(rel) == 0 || !is.null(attr(rel, "status"))) {
+    files <- list.files(file.path(root, c("data", "data-raw")), recursive = TRUE,
+                        full.names = TRUE, all.files = FALSE)
+    rel <- sub(paste0("^", normalizePath(root, winslash = "/"), "/"), "", normalizePath(files, winslash = "/"))
+  }
   # Shapefiles come in 5-8 parts (.shp, .dbf, .prj...); list each set once
   rel <- rel[!grepl("\\.(dbf|prj|sbn|sbx|shx|cpg|CPG|shp\\.xml)$", rel)]
-  rel <- rel[!grepl("README", rel)]
+  rel <- rel[!grepl("README", rel) & !startsWith(basename(rel), ".")]   # no READMEs or .gitignore files
 
   patterns <- readr::read_csv(patterns_path, show_col_types = FALSE,
                               col_types = readr::cols(.default = readr::col_character()))
