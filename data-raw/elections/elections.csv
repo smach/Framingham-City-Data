@@ -1,0 +1,31 @@
+election_id,election_date,level,type,name,status,parser,results_files,turnout_files,sheet,default_race,source_url,notes
+2008-11-04_state_general,2008-11-04,state,general,November 4 2008 State Election,official,clerk_xlsx,Official Results State Election Nov 4 2008.XLS,,Sheet1,,,Pre-2012 precinct boundaries; city districts not assigned.
+2011-04-05_municipal_town,2011-04-05,municipal,town,April 5 2011 Annual Town Election,official,clerk_xlsx,Official Results Local Election Apr 5 2011.XLS,,Town Office,,,Pre-city town election; pre-2012 precinct boundaries. Town Meeting races are on other sheets and not processed.
+2012-04-03_municipal_town,2012-04-03,municipal,town,April 3 2012 Annual Town Election,official,needs_extraction,,,,,,PDF only; run scripts/add_election.R to extract.
+2015-04-07_municipal_town,2015-04-07,municipal,town,April 7 2015 Annual Town Election,official,clerk_xlsx,OfficialResults_201504.xlsx,,,,,Pre-city town election. Includes Town Meeting member races by precinct.
+2016-03-01_state_presidential-primary,2016-03-01,state,presidential-primary,March 1 2016 Presidential Primary,official,clerk_xlsx,FramPresPrimary2016.xlsx,,,,,
+2016-03-29_municipal_town,2016-03-29,municipal,town,March 29 2016 Annual Town Election,official,clerk_xlsx,OfficialResultsLocal2016.xlsx,,,,,Pre-city town election. Includes Town Meeting member races by precinct.
+2017-04-04_municipal_town,2017-04-04,municipal,town,April 4 2017 Annual Town Election (city charter vote),official,clerk_xlsx,election_charter_2017_framingham_raw.xlsx,,Sheet1,City Charter Question,,Only the charter question has been converted to a spreadsheet; the full results are in the PDF.
+2017-09-26_municipal_preliminary,2017-09-26,municipal,preliminary,September 26 2017 City Preliminary Election,official,clerk_xlsx,election_preliminary_2017_framingham_raw.xlsx,,Sheet1,,,
+2017-11-07_municipal_general,2017-11-07,municipal,general,November 7 2017 City Election,official,clerk_xlsx,election_general_2017_framingham_raw.xlsx,,Sheet1,,,
+2019-11-05_municipal_general,2019-11-05,municipal,general,November 5 2019 City Election,official,clerk_xlsx,election_general_2019_framingham_raw.xlsx,election_general_2019_framingham_summaries.xlsx,Sheet1,,,Turnout is in a separate summaries spreadsheet.
+2020-09-01_state_primary,2020-09-01,state,primary,September 1 2020 State Primary,official,clerk_xlsx,"Official Results State Primary September 1, 2020.xlsx",,Sheet1,,,
+2021-09-14_municipal_preliminary,2021-09-14,municipal,preliminary,September 14 2021 City Preliminary Election,official,clerk_xlsx,"Official Results September 14, 2021.xlsx",,,,,
+2021-11-02_municipal_general,2021-11-02,municipal,general,November 2 2021 City Election,official,clerk_xlsx,election_general_2021_framingham_official_raw.xlsx,,,,,
+2022-01-11_municipal_special,2022-01-11,municipal,special,January 11 2022 Special City Election (District 3 City Council),official,clerk_xlsx,election_special_2021_council.xlsx,,,,,Older files and scripts called this the 2021 special election; the clerk's results are dated January 11 2022. Uses the pre-2022 precinct map.
+2022-09-06_state_primary,2022-09-06,state,primary,September 6 2022 State Primary,unofficial,clerk_xlsx,State_Primary_Election_Unofficial_Results_Sept_6_2022_2.xlsx,,,,,First election with the post-2020-Census precinct map (27 precincts plus sub-precincts).
+2022-11-08_state_general,2022-11-08,state,general,November 8 2022 State Election,unofficial,needs_extraction,,,,,,PDF only; run scripts/add_election.R to extract.
+2023-11-07_municipal_general,2023-11-07,municipal,general,November 7 2023 City Election,unofficial,clerk_xlsx,election_general_2023_framingham_raw_unofficial.xlsx,,,,,
+2016-09-08_state_primary,2016-09-08,state,primary,September 8 2016 State Primary,,not_collected,,,,,,Date from earlier inventory; verify on the clerk's page.
+2016-11-08_state_general,2016-11-08,state,general,November 8 2016 State Election,,not_collected,,,,,,
+2018-09-04_state_primary,2018-09-04,state,primary,September 4 2018 State Primary,,not_collected,,,,,,
+2018-11-06_state_general,2018-11-06,state,general,November 6 2018 State Election,,not_collected,,,,,,
+2019-09-17_municipal_preliminary,2019-09-17,municipal,preliminary,September 17 2019 City Preliminary Election,,not_collected,,,,,,Date from earlier inventory; verify there was a citywide preliminary.
+2020-03-03_state_presidential-primary,2020-03-03,state,presidential-primary,March 3 2020 Presidential Primary,,not_collected,,,,,,
+2020-11-03_state_general,2020-11-03,state,general,November 3 2020 State Election,,not_collected,,,,,,
+2023-09-19_municipal_preliminary,2023-09-19,municipal,preliminary,September 19 2023 City Preliminary Election,,not_collected,,,,,,Date from earlier inventory; verify there was a preliminary.
+2024-03-05_state_presidential-primary,2024-03-05,state,presidential-primary,March 5 2024 Presidential Primary,,not_collected,,,,,,
+2024-09-03_state_primary,2024-09-03,state,primary,September 3 2024 State Primary,,not_collected,,,,,,
+2024-11-05_state_general,2024-11-05,state,general,November 5 2024 State Election,,not_collected,,,,,,
+2025-09-16_municipal_preliminary,2025-09-16,municipal,preliminary,September 16 2025 City Preliminary Election,,not_collected,,,,,,Date from earlier inventory; verify.
+2025-11-04_municipal_general,2025-11-04,municipal,general,November 4 2025 City Election,,not_collected,,,,,,

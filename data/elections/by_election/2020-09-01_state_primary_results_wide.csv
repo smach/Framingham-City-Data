@@ -1,0 +1,68 @@
+party,race,candidate,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,Total
+Democratic,Senator in Congress,Blanks,3,1,1,3,1,3,2,5,3,0,2,2,8,3,2,5,1,2,47
+Democratic,Senator in Congress,Edward Markey,745,898,598,786,656,593,703,598,328,319,773,267,405,221,265,103,80,204,8542
+Democratic,Senator in Congress,Joseph P. Kennedy III,464,473,389,436,429,499,360,379,300,210,432,222,237,203,235,123,105,172,5668
+Democratic,Senator in Congress,Write-ins,1,2,0,0,0,0,3,1,0,0,1,0,0,1,0,0,1,1,11
+Democratic,Rep. in Congress,Blanks,181,158,133,186,161,132,144,103,84,82,164,68,73,47,54,34,23,33,1860
+Democratic,Rep. in Congress,Katherine M. Clark,1027,1212,851,1033,920,962,923,876,541,444,1037,420,573,379,444,196,163,342,12343
+Democratic,Rep. in Congress,Write-ins,5,4,4,6,5,1,1,4,6,3,7,3,4,2,4,1,1,4,65
+Democratic,Councilor,Blanks,302,256,213,285,235,200,234,186,120,119,250,93,122,80,95,41,31,48,2910
+Democratic,Councilor,Robert L. Jubinville,909,1115,768,937,848,892,831,793,506,409,951,395,525,346,402,186,154,328,11295
+Democratic,Councilor,Write-ins,2,3,7,3,3,3,3,4,5,1,7,3,3,2,5,4,2,3,63
+Democratic,Senator in General Court,Blanks,170,153,120,165,142,133,148,98,76,71,149,62,68,47,55,34,26,32,1749
+Democratic,Senator in General Court,Karen E. Spilka,1038,1219,864,1053,939,959,920,880,548,458,1051,426,577,380,444,197,159,345,12457
+Democratic,Senator in General Court,Write-ins,5,2,4,7,5,3,0,5,7,0,8,3,5,1,3,0,2,2,62
+Democratic,Rep. in General Court,Blanks,250,201,200,224,193,150,176,126,101,97,204,75,83,56,76,40,34,54,2340
+Democratic,Rep. in General Court,Maria Duaime Robinson,957,1171,,995,888,942,891,,527,432,996,414,,,424,,,,8637
+Democratic,Rep. in General Court,Jack Patrick Lewis,,,,,,,,852,,,,,563,371,,189,150,323,2448
+Democratic,Rep. in General Court,Carmine Lawrence Gentile,,,777,,,,,,,,,,,,,,,,777
+Democratic,Rep. in General Court,Write-ins,6,2,11,6,5,3,1,5,3,0,8,2,4,1,2,2,3,2,66
+Democratic,Register of Probate,Blanks,298,253,206,291,242,200,231,181,125,116,255,90,124,77,91,39,32,47,2898
+Democratic,Register of Probate,Tara E. DeCristofaro,908,1119,776,931,841,894,837,798,502,411,947,398,523,350,408,189,153,329,11314
+Democratic,Register of Probate,Write-ins,7,2,6,3,3,1,0,4,4,2,6,3,3,1,3,3,2,3,56
+Republican,Senator in Congress,Blanks,2,5,1,1,1,1,0,1,1,1,3,1,1,0,1,1,2,1,24
+Republican,Senator in Congress,Kevin J. O'Connor,77,111,67,75,93,98,78,79,58,32,99,18,43,19,32,11,5,34,1029
+Republican,Senator in Congress,Shiva Ayyadurai,62,79,40,62,61,56,64,42,33,25,82,33,20,21,17,9,3,24,733
+Republican,Senator in Congress,Write-ins,1,1,3,0,2,0,0,1,0,0,0,0,2,1,0,1,0,1,13
+Republican,Rep. in Congress,Blanks,21,38,20,19,38,25,29,17,16,2,30,7,8,3,4,5,4,14,300
+Republican,Rep. in Congress,Caroline Colarusso,119,155,89,118,118,127,111,98,75,56,153,45,57,36,46,16,6,45,1470
+Republican,Rep. in Congress,Write-ins,2,3,2,1,1,3,2,8,1,0,1,0,1,2,0,1,0,1,29
+Republican,Councilor,Blanks,125,176,98,123,137,137,121,109,82,45,160,43,61,36,43,15,8,52,1571
+Republican,Councilor,Write-ins,17,20,13,15,20,18,21,14,10,13,24,9,5,5,7,7,2,8,228
+Republican,Senator in General Court,Blanks,121,179,93,124,141,138,121,109,82,46,162,42,56,33,42,17,9,45,1560
+Republican,Senator in General Court,Write-ins,21,17,18,14,16,17,21,14,10,12,22,10,10,8,8,5,1,15,239
+Republican,Rep. in General Court,Blanks,123,179,17,126,141,138,123,110,84,47,164,41,56,35,43,18,9,46,1500
+Republican,Rep. in General Court,Ingrid I. Centurion,,,92,,,,,,,,,,,,,,,,92
+Republican,Rep. in General Court,Write-ins,19,17,2,12,16,17,19,13,8,11,20,11,10,6,7,4,1,14,207
+Republican,Register of Probate,Blanks,125,181,101,127,143,139,123,110,84,46,162,42,59,35,46,17,9,51,1600
+Republican,Register of Probate,Write-ins,17,15,10,11,14,16,19,13,8,12,22,10,7,6,4,5,1,9,199
+Green-Rainbow,Senator in Congress,Blanks,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,3
+Green-Rainbow,Senator in Congress,Write-ins,1,0,2,0,0,2,0,1,2,0,1,2,1,0,1,1,1,0,15
+Green-Rainbow,Rep. in Congress,Blanks,0,0,2,0,1,1,0,0,0,0,1,2,0,0,2,1,1,0,11
+Green-Rainbow,Rep. in Congress,Write-ins,1,0,0,0,0,1,0,1,2,0,1,0,1,0,0,0,0,0,7
+Green-Rainbow,Councilor,Blanks,0,0,2,0,1,1,0,1,1,0,1,2,1,0,2,1,1,0,14
+Green-Rainbow,Councilor,Write-ins,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,4
+Green-Rainbow,Senator in General Court,Blanks,0,0,2,0,1,1,0,1,1,0,1,2,0,0,2,1,1,0,13
+Green-Rainbow,Senator in General Court,Write-ins,1,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,0,5
+Green-Rainbow,Rep. in General Court,Blanks,0,0,1,0,1,1,0,1,1,0,1,2,1,0,1,1,1,0,12
+Green-Rainbow,Rep. in General Court,Write-ins,1,0,1,0,0,1,0,0,1,0,1,0,0,0,1,0,0,0,6
+Green-Rainbow,Register of Probate,Blanks,0,0,2,0,1,1,0,1,1,0,2,2,1,0,2,1,1,0,15
+Green-Rainbow,Register of Probate,Write-ins,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,3
+Libertarian,Senator in Congress,Blanks,0,1,0,1,1,1,0,0,1,1,0,0,0,0,0,1,1,0,8
+Libertarian,Senator in Congress,Write-ins,4,3,5,4,1,5,2,5,6,0,4,2,3,2,0,3,0,0,49
+Libertarian,Rep. in Congress,Blanks,2,3,4,3,1,1,0,3,4,1,1,1,1,0,0,0,1,0,26
+Libertarian,Rep. in Congress,Write-ins,2,1,1,2,1,5,2,2,3,0,3,1,2,2,0,4,0,0,31
+Libertarian,Councilor,Blanks,2,4,4,3,2,1,0,5,4,1,1,1,3,1,0,2,1,0,35
+Libertarian,Councilor,Write-ins,2,0,1,2,0,5,2,0,3,0,3,1,0,1,0,2,0,0,22
+Libertarian,Senator in General Court,Blanks,2,4,4,2,2,1,0,3,4,1,1,1,2,1,0,1,1,0,30
+Libertarian,Senator in General Court,Write-ins,2,0,1,3,0,5,2,2,3,0,3,1,1,1,0,3,0,0,27
+Libertarian,Rep. in General Court,Blanks,2,4,4,3,2,1,0,3,5,1,1,1,2,1,0,1,1,0,32
+Libertarian,Rep. in General Court,Write-ins,2,0,1,2,0,5,2,2,2,0,3,1,1,1,0,3,0,0,25
+Libertarian,Register of Probate,Blanks,3,4,4,3,2,1,0,5,5,1,1,1,1,0,0,2,1,0,34
+Libertarian,Register of Probate,Write-ins,1,0,1,2,0,5,2,0,2,0,3,1,2,2,0,2,0,0,23
+,Turnout,Ballots cast,1360,1574,1106,1368,1246,1258,1212,1112,732,588,1398,547,720,471,554,258,199,439,16142
+,Turnout,Registered voters,2953,3480,2562,2838,2811,2779,2657,2628,2076,1792,2960,1529,2011,1673,1689,1076,1349,1642,40505
+Democratic,Turnout,Ballots cast,1213,1374,988,1225,1086,1095,1068,983,631,529,1208,491,650,428,502,231,187,379,14268
+Green-Rainbow,Turnout,Ballots cast,1,0,2,0,1,2,0,1,2,0,2,2,1,0,2,1,1,0,18
+Libertarian,Turnout,Ballots cast,4,4,5,5,2,6,2,5,7,1,4,2,3,2,0,4,1,0,57
+Republican,Turnout,Ballots cast,142,196,111,138,157,155,142,123,92,58,184,52,66,41,50,22,10,60,1799

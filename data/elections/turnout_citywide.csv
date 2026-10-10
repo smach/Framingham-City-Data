@@ -1,0 +1,26 @@
+election_id,election_date,level,type,status,party,registered,ballots_cast,turnout_pct
+2008-11-04_state_general,2008-11-04,state,general,official,,36672,27085,73.9
+2011-04-05_municipal_town,2011-04-05,municipal,town,official,,35083,4732,13.5
+2015-04-07_municipal_town,2015-04-07,municipal,town,official,,35814,2558,7.1
+2016-03-01_state_presidential-primary,2016-03-01,state,presidential-primary,official,Democratic,37243,12358,33.2
+2016-03-01_state_presidential-primary,2016-03-01,state,presidential-primary,official,Green-Rainbow,37243,16,0
+2016-03-01_state_presidential-primary,2016-03-01,state,presidential-primary,official,Republican,37243,4942,13.3
+2016-03-01_state_presidential-primary,2016-03-01,state,presidential-primary,official,United Independent,37243,43,0.1
+2016-03-01_state_presidential-primary,2016-03-01,state,presidential-primary,official,,37243,17316,46.5
+2016-03-29_municipal_town,2016-03-29,municipal,town,official,,37629,5447,14.5
+2017-04-04_municipal_town,2017-04-04,municipal,town,official,,39910,11341,28.4
+2017-09-26_municipal_preliminary,2017-09-26,municipal,preliminary,official,,39996,11006,27.5
+2017-11-07_municipal_general,2017-11-07,municipal,general,official,,40162,15734,39.2
+2019-11-05_municipal_general,2019-11-05,municipal,general,official,,39001,7211,18.5
+2020-09-01_state_primary,2020-09-01,state,primary,official,Democratic,40505,14268,35.2
+2020-09-01_state_primary,2020-09-01,state,primary,official,Green-Rainbow,40505,18,0
+2020-09-01_state_primary,2020-09-01,state,primary,official,Libertarian,40505,57,0.1
+2020-09-01_state_primary,2020-09-01,state,primary,official,Republican,40505,1799,4.4
+2020-09-01_state_primary,2020-09-01,state,primary,official,,40505,16142,39.9
+2021-09-14_municipal_preliminary,2021-09-14,municipal,preliminary,official,,39620,6727,17
+2021-11-02_municipal_general,2021-11-02,municipal,general,official,,39897,12259,30.7
+2022-01-11_municipal_special,2022-01-11,municipal,special,official,,5515,1253,22.7
+2022-09-06_state_primary,2022-09-06,state,primary,unofficial,Democratic,40913,8253,20.2
+2022-09-06_state_primary,2022-09-06,state,primary,unofficial,Republican,40913,1870,4.6
+2022-09-06_state_primary,2022-09-06,state,primary,unofficial,,40913,10123,24.7
+2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,42496,4252,10
