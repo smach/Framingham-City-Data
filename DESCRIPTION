@@ -1,0 +1,33 @@
+Type: project
+Package: FraminghamCityData
+Title: Framingham, Massachusetts City Data
+Version: 0.2.0
+Description: Election results, maps, property and Census data for
+    Framingham, Massachusetts, in original and analysis-friendly formats.
+    This file isn't for building an R package; it lists the packages the
+    project needs so they can be installed in one step with
+    pak::local_install_deps() (and so GitHub Actions knows what to install).
+Authors@R: person("Sharon", "Machlis", role = c("aut", "cre"))
+License: CC0
+Imports:
+    dplyr,
+    tidyr,
+    readr,
+    readxl,
+    stringr,
+    tibble,
+    here,
+    rvest,
+    xml2,
+    sf,
+    DT,
+    rmarkdown,
+    knitr,
+    htmltools
+Suggests:
+    ellmer,
+    leaflet,
+    leaflet.extras,
+    tidycensus,
+    testthat
+Encoding: UTF-8

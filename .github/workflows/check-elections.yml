@@ -1,0 +1,52 @@
+# Looks for new election results on the City Clerk's page. When it finds
+# some, it downloads the PDF, extracts the numbers with Claude, runs the
+# validation checks, and opens a pull request for you to review. Nothing
+# reaches the main branch until you merge it.
+#
+# One-time setup, in the repository's Settings on GitHub:
+#   * Secrets and variables > Actions > New repository secret:
+#       name ANTHROPIC_API_KEY, value your Anthropic API key
+#   * Actions > General > Workflow permissions: tick
+#       "Allow GitHub Actions to create and approve pull requests"
+name: Check for new election results
+
+on:
+  schedule:
+    - cron: "17 12 * * 1"       # every Monday, 12:17 UTC
+    - cron: "17 12 * 9-11 *"    # daily in September-November (election season)
+  workflow_dispatch:             # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: any::ellmer
+
+      - name: Look for new results and extract them
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: Rscript scripts/check_new_elections.R
+
+      - name: Open a pull request if anything was found
+        if: hashFiles('pr_body.md') != ''
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/new-election-results
+          title: "New election results from the City Clerk"
+          body-path: pr_body.md
+          commit-message: "Add new election results (extracted automatically)"
+          add-paths: |
+            data-raw/elections
+            data/elections

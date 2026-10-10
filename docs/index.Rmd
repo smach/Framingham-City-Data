@@ -1,116 +1,140 @@
 ---
-title: "Framingham City Data"
-output: html_document
----
-
----
 title: "Framingham City Data (Unofficial)"
-output: rmarkdown::github_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-pacman::p_load(DT, dplyr, glue)
+# This page is rebuilt automatically by GitHub Actions
+# (.github/workflows/build-site.yml) whenever data or code changes on main.
+# To build it yourself: rmarkdown::render("docs/index.Rmd")
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source(here::here("R/load.R"))
+repo <- "https://github.com/smach/Framingham-City-Data"
+raw  <- "https://raw.githubusercontent.com/smach/Framingham-City-Data/main"
+link <- function(path, text = path) sprintf("<a href='%s/blob/main/%s'>%s</a>", repo, utils::URLencode(path), text)
+elections <- readr::read_csv(here::here("data/elections/elections.csv"), show_col_types = FALSE)
+turnout   <- readr::read_csv(here::here("data/elections/turnout_citywide.csv"), show_col_types = FALSE)
 ```
 
-This project aims to collect data about Framingham, Massachusetts and wrangle it so it is in a form useful for analysis. It focuses largely on election results for now -- more specifically local mayoral and City Council races as well as turnout information -- but there are other files here such as precinct shapefiles and property records.
+This project collects data about Framingham, Massachusetts and puts it in a form that's easy to analyze. It focuses on **election results** -- City and Town races, state and federal races in Framingham, and turnout, all by precinct -- and also has precinct and district maps, property records and Census data.
 
-See a [searchable table of available data files below](#search-available-files). If you know regular expressions, those work in the search and filter boxes.
+Every dataset is here in two forms: the **original files** (the clerk's PDFs, downloaded shapefiles, and so on, in `data-raw/`) and **analysis-friendly versions** (in `data/`).
 
-### Election data
+## Quick start
 
-Election data is in one of two structures -- "tidy", sometimes called "long", with one observation in each row; or more human-readable format, with multiple data points per row. _Tidy election data files are in the data/elections/tidy subdirectory._
+All election results are in one file, one row per election, race, candidate and precinct. In R:
 
-If you are doing analysis in R and other platforms (including as a basis for Excel pivot tables), tidy format is more useful. If you want to combine data sets, tidy is definitely more useful since most tidy data sets have the same column names: **Candidate, District or Precinct, Votes, Race, Year, Election**.  
+```{r echo=TRUE, eval=FALSE}
+library(dplyr)
+results <- readr::read_csv("https://raw.githubusercontent.com/smach/Framingham-City-Data/main/data/elections/results_precinct.csv")
 
-If you are just looking to see results, the non-tidy format will likely be more useful. Those files are in the data/elections directory.
-
-The data generally start in 2017 with Framingham's transition from town to city form of government, although I have a few raw data files from earlier elections. I do not include preliminary elections unless they are city-wide. 
-
-Source: Local election data generally come from PDFs of results provided by the Framingham City Clerk's office. I then extract data from PDF into Excel files using the [CometDocs cloud service](https://www.cometdocs.com/) or [PDF Tables](https://pdftables.com/) and do a fair amount of data wrangling on those results.
-
-
-* GIS shapefiles for Framigham precincts. data/gis/Framingham_Districts_and_Precincts_2018.zip contains official shapefiles pre-2020 Census, which I downloaded from [Framingham Open Data](https://data.framinghamma.gov/Community-Development/Framingham-Districts-and-Precincts/9pzx-4i9g). There are also precinct files emailed to me by Geoffrey W. Kovar, Framingham GIS Manager, via email on July 14, 2017 and a new file of proposed post-2020-Census precincts.
-
-* GIS shapefiles for all Framingham parcels, downloaded from [Open Data Framingham](https://data.framinghamma.gov/Community-Development/Framingham-Parcels/5vrm-nj3j)
-
-* CSV file of which district each precinct belongs to.
-
-* Some R files used to wrangle and analyze data.
-
-### What's where
-
-* Election data in human-friendly format is in the data/elections directory. Election data in analysis-friendly tidy format is in the data/elections/tidy subdirectory. Original election-result PDFs from the City Clerk's office as well as Excel files created from those PDFs via CometDocs are in the data-raw/elections subdirectory.
-
-* GIS files and maps, such as precinct and district shapefiles, are in the data/gis subdirectory.
-
-* R code to generate maps from the GIS files are in the R subdirectory.
-
-* Property valuations are in the data/property subdirectory.
-
-* Some of the R files I used to reshape the data are in the R directory. In addition, the _config.R_ file loads necessary packages for running the other files. And, *get_turnouts.R* generates a tidy data frame of all available election turnout data by precinct, stored in an R object called `all_turnout_data`. **<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/framingham_basemap.R'>R/framingham_basemap.R</a>** creates a map of Framingham precincts, colored by district and searchable by address, using the R leaflet package.
-
-* The CSV of which Framingham precincts make up each district is in the data directory.
-
-## Search available files
-
-```{r echo=FALSE}
-
-available_files <- rio::import("file_index.csv") %>%
-  mutate(
-    Title = stringr::str_replace_all(File, "/.*\\/(.*)$/", "\\1"),
-    File = glue("<a title = '{Title}' href='https://github.com/smach/Framingham-City-Data/blob/main/{File}'>{File}</a>")
-  ) %>%
-  select(-Title)
-
-category_options <- unique(available_files$Categories) %>%
-  paste(collapse = ", ") %>%
-  stringr::str_split(", ") %>%
-  unlist() %>%
-  sort() %>%
-  unique() %>%
-  as.ordered()
-
-# available_files$Categories <- factor(available_files$Categories, levels = category_options, ordered = TRUE)
-
-
-# https://github.com/smach/Framingham-City-Data/blob/main/data/elections/2021_preliminary_turnout_framingham.csv
-
-
-DT::datatable(available_files, filter = 'top', rownames = FALSE, escape = FALSE, options = list(
-pageLength = 15,
-lengthMenu = c(10, 15, 25, 50, 100),
-search = list(regex = TRUE)
-))
-
+# Every mayoral race, candidates only (no blanks or write-ins)
+results |>
+  filter(office == "Mayor", candidate_type == "candidate") |>
+  group_by(election_date, type, candidate) |>
+  summarize(votes = sum(votes), .groups = "drop")
 ```
 
+The same files open in Excel, Python, Datawrapper or anything else that reads CSV.
 
-R users: You can read shapefiles into R with the sf package, such as
+## The main files
 
-```{r eval=FALSE}
-library(sf)
-framgeo <- sf::read_sf("data/gis/FramPrecincts/FramPrecincts.shp")
-
+```{r}
+main <- data.frame(
+  File = c("data/elections/results_precinct.csv", "data/elections/results_district.csv",
+           "data/elections/turnout_precinct.csv", "data/elections/turnout_district.csv",
+           "data/elections/turnout_citywide.csv", "data/elections/elections.csv",
+           "data/elections/by_election/", "data/gis/framingham_precincts.gpkg"),
+  What = c("All results by precinct (tidy format)", "All results by city council district",
+           "Turnout by precinct", "Turnout by city council district", "Citywide turnout, one row per election",
+           "List of elections, including ones not yet collected",
+           "One file per election, laid out like the clerk's table (easy to read in Excel)",
+           "Precinct boundaries for both precinct maps, with city council districts")
+)
+main$File <- vapply(main$File, link, character(1))
+knitr::kable(main, escape = FALSE)
 ```
 
+### What the columns mean
 
-## Info on reproducibility
+**results_precinct.csv**
 
-These are some of the scripts I used to turn raw data into analysis-friendly data:
+| Column | Meaning |
+|---|---|
+| election_id | Unique ID: date, level and type, e.g. `2023-11-07_municipal_general` |
+| election_date | Date of the election |
+| level | `municipal` (City/Town) or `state` (state and federal offices, primaries) |
+| type | `general`, `preliminary`, `special`, `town` (pre-2018 annual town election), `primary`, `presidential-primary` |
+| status | `official` or `unofficial` (election-night) results |
+| party | For primaries, the party ballot; otherwise empty |
+| race | The race exactly as the clerk printed it |
+| office | Standardized office name, e.g. `City Council At-Large`, `School Committee District`, `State Representative` |
+| office_district | District number or name for district offices, e.g. `3` or `6th Middlesex` |
+| seats | Number of seats being elected, when printed |
+| candidate | Candidate name as printed; `Blanks` and `Write-ins` are standardized |
+| candidate_type | `candidate`, `blank`, `write-in`, or `response` (Yes/No on ballot questions) |
+| precinct | Precinct as printed, including sub-precincts such as `9A` |
+| precinct_base | Precinct without the sub-precinct letter (`9A` -> `9`) |
+| city_district | City council district the precinct was in **on that date** (empty before 2012) |
+| votes | Votes |
 
-*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_general_2017_framingham.R'>R/election_general_2017_framingham.R</a>* -- R file to convert November 2017 official results spreadsheet to an analysis-friendly format.
+**turnout_precinct.csv** has the same election columns plus `registered`, `ballots_cast` and `turnout_pct` (always a percent from 0 to 100). For primaries there's a row per party ballot as well as an all-voters row (empty `party`).
 
-*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_preliminary_2017_framingham.R'>R/election_preliminary_2017_framingham.R</a>* -- R file to convert September 2017 official results spreadsheet to an analysis-friendly format.
+**About precincts:** Framingham's precincts were redrawn after the 2020 Census. The 18-precinct map was used through the January 11 2022 special election; the 27-precinct map since the September 2022 state primary. Precinct "4" is a different place on each map, so always look at `election_date` (or use `city_district`, which is correct for each date).
 
-*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_charter_2017.R'>R/election_charter_2017.R</a>* -- R file to convert April 2017 city charter results to analysis-friendly format.
+## Citywide turnout
 
-*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_general_2019.R'>R/election_general_2019.R</a>* -- R file to convert November 2017 official results data to an analysis-friendly format.
+```{r}
+t <- turnout[is.na(turnout$party), c("election_date", "election_id", "registered", "ballots_cast", "turnout_pct")]
+t$election <- elections$name[match(t$election_id, elections$election_id)]
+t <- t[order(t$election_date, decreasing = TRUE), c("election_date", "election", "registered", "ballots_cast", "turnout_pct")]
+names(t) <- c("Date", "Election", "Registered", "Ballots cast", "Turnout %")
+knitr::kable(t, format.args = list(big.mark = ","))
+```
 
-*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_helpers.R'>R/election_helpers.R</a>* -- file with some useful functions for working with Framingham election data.
+## Elections
 
-*<a href='https://github.com/smach/Framingham-City-Data/blob/main/R/election_preliminary_2021_framingham.R'>R/election_preliminary_2021_framingham.R</a>* -- R file to process September 2021 election data.
+Elections marked "No" haven't been collected yet. If you have the clerk's results for one, see *How the data are maintained* below.
 
+```{r}
+e <- elections[order(elections$election_date, decreasing = TRUE), c("election_date", "name", "status", "has_data", "notes")]
+e$has_data <- ifelse(e$has_data, "Yes", "No")
+e$status[is.na(e$status)] <- ""
+e$notes[is.na(e$notes)] <- ""
+names(e) <- c("Date", "Election", "Status", "Have data?", "Notes")
+DT::datatable(e, rownames = FALSE, options = list(pageLength = 10))
+```
 
+## Search all files
 
+Every file in the project. The search boxes accept regular expressions.
 
+```{r}
+catalog <- build_file_catalog()
+catalog$File <- vapply(catalog$File, link, character(1))
+DT::datatable(catalog, filter = "top", rownames = FALSE, escape = FALSE,
+              options = list(pageLength = 15, lengthMenu = c(10, 15, 25, 50, 100), search = list(regex = TRUE)))
+```
+
+## Maps
+
+The precinct files in `data/gis/` work in any mapping tool. In R, `make_precinct_map()` in `r link("R/gis.R")` makes an interactive map of precincts colored by city council district and searchable by address:
+
+```{r echo=TRUE, eval=FALSE}
+source("R/load.R")
+make_precinct_map("2023-11-07", show_house_districts = TRUE)
+```
+
+## How the data are maintained
+
+* **Sources.** Local election results come from the Framingham City Clerk's results PDFs. Older ones were turned into spreadsheets with CometDocs or PDFTables; newer ones are read by Claude (an AI model), and every extraction is **checked automatically**: each row's precinct numbers must add up to the clerk's total, ballots can't exceed registered voters, and so on. The checks for every election are in `r link("data/elections/validation_report.csv")`.
+* **Automation.** A scheduled GitHub Action looks for new results on the clerk's page. When it finds some, it extracts and checks them and opens a pull request for a human to review before anything is published.
+* **Reproducible.** Everything in `data/elections/` is rebuilt from `data-raw/` by `r link("scripts/build_all.R")`; nothing there is edited by hand. The R code is in `r link("R/")`, and the README explains how to add an election.
+
+_This is an unofficial project and isn't affiliated with the City of Framingham. Check official sources before relying on the data for anything important._
+
+_Page built `r format(Sys.Date(), "%B %d, %Y")`._

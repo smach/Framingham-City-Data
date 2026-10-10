@@ -1,0 +1,33 @@
+pattern,description,category,format_note,source
+^data/elections/results_precinct\.csv$,"ALL election results, one row per election x race x candidate x precinct (tidy). Start here for analysis.",Elections,,City Clerk results; built by scripts/build_all.R
+^data/elections/results_district\.csv$,All election results added up by city council district,Elections,,Built from results_precinct.csv
+^data/elections/turnout_precinct\.csv$,"Turnout for every election by precinct: registered voters, ballots cast, turnout percent (and by party for primaries)",Elections,,City Clerk results; built by scripts/build_all.R
+^data/elections/turnout_district\.csv$,Turnout for every election by city council district,Elections,,Built from turnout_precinct.csv
+^data/elections/turnout_citywide\.csv$,"Citywide turnout, one row per election",Elections,,Built from turnout_precinct.csv
+^data/elections/elections\.csv$,"List of elections: which ones have data, plus elections still to be collected",Elections,,
+^data/elections/validation_report\.csv$,Results of the automatic data checks for every election,Elections,,Built by scripts/build_all.R
+^data/elections/by_election/,"One election's results laid out like the clerk's table (races and candidates in rows, precincts in columns) -- easy to read in Excel",Elections,,Built from results_precinct.csv
+^data/legacy/,"Old output file from before the 2026 rebuild, kept for comparison. Use the files in data/elections/ instead.",Legacy,,
+^data/gis/framingham_precincts\.gpkg$,"Precinct boundaries with city council district, both maps (layers precincts_2012_2021 and precincts_2022)",GIS,,Built by scripts/build_gis.R
+^data/gis/framingham_precincts_2012_2021\.geojson$,"Precinct boundaries used 2012 - January 2022 (18 precincts), with city council district",GIS,,Built by scripts/build_gis.R
+^data/gis/framingham_precincts_2022\.geojson$,"Precinct boundaries used since 2022 (27 precincts), with city council district",GIS,,Built by scripts/build_gis.R
+^data/gis/ma_house_districts_2022_framingham\.geojson$,Parts of the four state House districts that are in Framingham (2022 map),GIS,,Built from the statewide 2021 House plan
+^data/gis/framingham_block_groups_2020\.geojson$,2020 Census block groups in Framingham,GIS,,US Census cartographic boundary file
+^data/gis/FramPrecincts/,"Original shapefile of the post-2020-Census precincts, plus the precinct-to-district list",GIS,,Framingham GIS
+^data/gis/FramPrecinctsPre2021Redistricting/,Original shapefile of the 2012-2021 precincts,GIS,,"Framingham GIS Manager, by email July 14 2017"
+^data/gis/FRAMINGHAM_proposed_2020_precincts\.zip$,Zip of the post-2020-Census precinct shapefile,GIS,,Framingham GIS
+^data/gis/Framingham_Districts_and_Precincts_2018\.zip$,2012-2021 precincts and districts shapefile,GIS,,Framingham Open Data (2018)
+^data/gis/Framingham_Parcels_2018\.zip$,All property parcels in 2018,GIS,,Framingham Open Data (August 2018)
+^data/gis/ShapefilesFullMAHouse-2021\.zip$,Statewide 2021 Massachusetts House district plan (shapefile and GeoJSON),GIS,,MA Legislature redistricting committee
+^data/gis/cb_2020_25_bg_500k\.zip$,2020 Census block group boundaries for all of Massachusetts,GIS,,US Census Bureau
+^data/property/assessments_fy,"Property assessments for one fiscal year, one row per property (join to parcels by LOC_ID)",Property,,MassGIS standardized assessors' parcels
+^data/property/parcels_fy,Property parcel boundaries for one fiscal year,Property,,MassGIS standardized assessors' parcels
+^data/property/Real_Property_2017\.csv$,Property tax valuations for fiscal year 2017,Property,,Framingham Open Data
+^data/census/,Census Bureau American Community Survey estimates for Framingham,Census,,US Census Bureau via tidycensus
+^data-raw/elections/elections\.csv$,"The election registry: one row per election, saying where its raw files are and how to read them. Edit this to add elections.",Elections,,
+^data-raw/elections/[^/]+/extracted\.csv$,Results extracted from the PDF by Claude (checked automatically against the clerk's totals),Elections,,Claude via ellmer
+^data-raw/elections/.+\.pdf$,Original results PDF from the City Clerk,Elections,,City Clerk
+^data-raw/elections/.+\.(xlsx|XLS|csv)$,Results spreadsheet converted from the clerk's PDF,Elections,,City Clerk (converted with CometDocs or PDFTables)
+^data-raw/lookups/precinct_districts\.csv$,"Which city council district each precinct is in, for each precinct map, with the dates each map was used",Elections,,Framingham GIS
+^data-raw/census/,Census block listings with precinct assignments (2021),Census,,City of Framingham
+^data-raw/other/,Covid-19 risk assessment for public school ventilation and filtration,Schools,,Framingham Public Schools
