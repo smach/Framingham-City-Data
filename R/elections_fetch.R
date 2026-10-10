@@ -4,10 +4,10 @@
 #   check_clerk_page()   list results PDFs on the City Clerk's page
 #   find_new_results()   which of those aren't in the registry yet
 #   register_election()  add or update a row in the registry
-#   add_election()       download/copy a PDF, extract it with Claude, rebuild
+#   add_election()       add an election from an Acrobat spreadsheet, rebuild
 #
 # The scheduled GitHub Action (.github/workflows/check-elections.yml) uses
-# these to open a pull request whenever the clerk posts new results.
+# these to open an issue whenever the clerk posts new results.
 #
 # NOTE: The clerk's page address and link format below are based on
 # framinghamma.gov's usual layout but have NOT been tested yet (the server
@@ -96,38 +96,40 @@ register_election <- function(election_id, ..., path = proj_path("data-raw", "el
   invisible(reg[i, ])
 }
 
-#' Add one election from a results PDF: copy/download it, extract with Claude,
-#' register it and rebuild
+#' Add one election from a spreadsheet converted in Adobe Acrobat
+#'
+#' Convert the clerk's results PDF to Excel by hand in Acrobat first (see the
+#' README). This copies the spreadsheet, and the PDF if you give it, into
+#' data-raw/elections/<election_id>/, registers the election and rebuilds.
 #'
 #' @param election_id e.g. "2025-11-04_municipal_general".
-#' @param pdf A local PDF path or a URL.
+#' @param xlsx Path to the Acrobat spreadsheet.
 #' @param status "unofficial" or "official".
+#' @param pdf Optional path to the clerk's PDF, kept next to the spreadsheet.
+#' @param source_url Optional web address of the PDF on the clerk's page, so
+#'   the weekly check knows it's been collected.
 #' @param name Readable name, e.g. "November 4 2025 City Election".
-#' @param model,effort Passed to extract_results_llm().
 #' @return That election's validation checks, so you can see right away
-#'   whether the extraction is trustworthy.
-add_election <- function(election_id, pdf, status = "unofficial", name = NA,
-                         model = "claude-opus-5-5", effort = "high") {
+#'   whether the conversion is trustworthy.
+add_election <- function(election_id, xlsx, status = "unofficial", pdf = NA,
+                         source_url = NA, name = NA) {
   folder <- proj_path("data-raw", "elections", election_id)
   dir.create(folder, recursive = TRUE, showWarnings = FALSE)
-  is_url <- grepl("^https?://", pdf)
-  file_name <- if (is_url) paste0(election_id, "_", status, ".pdf") else basename(pdf)
-  local_pdf <- file.path(folder, file_name)
-  if (is_url) utils::download.file(pdf, local_pdf, mode = "wb", quiet = TRUE)
-  else if (normalizePath(pdf) != normalizePath(local_pdf, mustWork = FALSE)) file.copy(pdf, local_pdf, overwrite = TRUE)
+  for (f in stats::na.omit(c(xlsx, pdf))) {
+    dest <- file.path(folder, basename(f))
+    if (normalizePath(f) != normalizePath(dest, mustWork = FALSE)) file.copy(f, dest, overwrite = TRUE)
+  }
 
-  extract_results_llm(local_pdf, out_path = file.path(folder, "extracted.csv"),
-                      model = model, effort = effort)
-
+  # Keep any web addresses already recorded (e.g. unofficial, then official)
   reg <- read_registry()
   old_urls <- reg$source_url[reg$election_id == election_id]
   urls <- unique(stats::na.omit(c(trimws(unlist(strsplit(if (length(old_urls)) old_urls else NA, ";"))),
-                                  if (is_url) pdf)))
+                                  source_url)))
   register_election(
-    election_id, status = status, parser = "extracted_csv", results_files = file_name,
+    election_id, status = status, parser = "clerk_xlsx", results_files = basename(xlsx),
     name = if (is.na(name)) reg$name[reg$election_id == election_id][1] else name,
     source_url = if (length(urls)) paste(urls, collapse = ";") else NA,
-    notes = paste0("Extracted from PDF with ", model, " on ", Sys.Date(), ".")
+    notes = paste0("Converted from the clerk's PDF with Adobe Acrobat on ", Sys.Date(), ".")
   )
   checks <- build_all(quiet = TRUE)
   checks[checks$election_id == election_id, ]

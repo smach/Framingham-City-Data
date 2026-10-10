@@ -67,6 +67,8 @@ build_all <- function(registry = read_registry(), out_dir = proj_path("data", "e
   unlink(by_election_dir, recursive = TRUE)
   for (i in seq_along(built)) {
     id <- ready$election_id[i]
+    # No precinct results (the "has_results" check fails): nothing to lay out
+    if (is.null(built[[i]]$results) || nrow(built[[i]]$results) == 0) next
     wide <- make_wide_results(built[[i]]$results, built[[i]]$turnout)
     write_csv_stable(wide, file.path(by_election_dir, paste0(id, "_results_wide.csv")))
   }

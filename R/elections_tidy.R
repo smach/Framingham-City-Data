@@ -87,11 +87,17 @@ standardize_party <- function(party) {
 #' The old files sometimes dropped blanks and write-ins and sometimes kept
 #' them. Now they are always kept and labeled, so you can filter them out with
 #' `candidate_type == "candidate"` when you don't want them.
+#'
+#' Some clerk files (e.g. the 2024 state primary) use longer labels:
+#' "Times Blank Voted", "Total number of write-ins", and a per-race
+#' "Total Ballots" line. That last one is a race total, not a candidate, so it
+#' is typed "total" and dropped by tidy_results().
 candidate_type <- function(candidate) {
   c <- tolower(clean_label(candidate))
   dplyr::case_when(
-    c %in% c("blank", "blanks") ~ "blank",
-    grepl("^write[- ]?ins?$", c) ~ "write-in",
+    c %in% c("blank", "blanks", "times blank voted") ~ "blank",
+    grepl("^(total number of )?write[- ]?ins?$", c) ~ "write-in",
+    grepl("^total (ballots|votes)( cast)?$", c) ~ "total",
     c %in% c("yes", "no") ~ "response",
     TRUE ~ "candidate"
   )
@@ -136,7 +142,8 @@ election_columns <- function(meta) {
 #'   office_district, seats, candidate, candidate_type, precinct,
 #'   precinct_base, city_district, votes
 tidy_results <- function(extracted, meta, lookup = read_precinct_districts()) {
-  x <- extracted[extracted$section == "results" & extracted$precinct != "Total", ]
+  x <- extracted[extracted$section == "results" & extracted$precinct != "Total" &
+                   candidate_type(extracted$candidate) != "total", ]
   if (nrow(x) == 0) return(NULL)
   offices <- standardize_race(x$race, meta$level)
   out <- data.frame(

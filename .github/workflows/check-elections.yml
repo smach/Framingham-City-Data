@@ -1,24 +1,19 @@
-# Looks for new election results on the City Clerk's page. When it finds
-# some, it downloads the PDF, extracts the numbers with Claude, runs the
-# validation checks, and opens a pull request for you to review. Nothing
-# reaches the main branch until you merge it.
+# Once a week, looks for new election results on the City Clerk's page. When
+# it finds some, it opens a GitHub issue listing them, with the add_election()
+# line to run after you convert each PDF in Adobe Acrobat. It changes nothing
+# in the repository, and it doesn't open a second issue while one is still open.
 #
-# One-time setup, in the repository's Settings on GitHub:
-#   * Secrets and variables > Actions > New repository secret:
-#       name ANTHROPIC_API_KEY, value your Anthropic API key
-#   * Actions > General > Workflow permissions: tick
-#       "Allow GitHub Actions to create and approve pull requests"
+# No setup needed: it uses the repository's built-in GITHUB_TOKEN.
 name: Check for new election results
 
 on:
   schedule:
-    - cron: "17 12 * * 1"       # every Monday, 12:17 UTC
-    - cron: "17 12 * 9-11 *"    # daily in September-November (election season)
+    - cron: "17 12 * * 3"       # every Wednesday, 12:17 UTC (8:17 a.m. EDT)
   workflow_dispatch:             # "Run workflow" button on the Actions tab
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
+  issues: write
 
 jobs:
   check:
@@ -31,22 +26,19 @@ jobs:
           use-public-rspm: true
 
       - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          extra-packages: any::ellmer
 
-      - name: Look for new results and extract them
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Look for new results
         run: Rscript scripts/check_new_elections.R
 
-      - name: Open a pull request if anything was found
-        if: hashFiles('pr_body.md') != ''
-        uses: peter-evans/create-pull-request@v7
-        with:
-          branch: auto/new-election-results
-          title: "New election results from the City Clerk"
-          body-path: pr_body.md
-          commit-message: "Add new election results (extracted automatically)"
-          add-paths: |
-            data-raw/elections
-            data/elections
+      - name: Open an issue if anything was found
+        if: hashFiles('issue_body.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TITLE: "New election results to convert"
+        run: |
+          open=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq 'length')
+          if [ "$open" -gt 0 ]; then
+            echo "An issue titled '$TITLE' is already open; not opening another."
+          else
+            gh issue create --title "$TITLE" --body-file issue_body.md
+          fi

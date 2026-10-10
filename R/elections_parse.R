@@ -2,7 +2,7 @@
 # Read election results into one standard "extracted" layout.
 #
 # The City Clerk's results always look roughly like this, whether they come as
-# a PDF, a spreadsheet converted from a PDF, or an LLM extraction:
+# a PDF, a spreadsheet converted from a PDF, or a hand-made CSV:
 #
 #               1     2     3   ...   18   Total     <- precinct header row
 #   Mayor (1 seat) for 2 years                      <- race header (no numbers)
@@ -155,7 +155,8 @@ parse_clerk_table <- function(raw, default_race = NA_character_) {
   dplyr::bind_rows(out)
 }
 
-#' Read an extracted.csv file (for example, one written by the LLM extractor)
+#' Read an extracted.csv file (results typed or assembled by hand, in the
+#' standard layout, when no clerk spreadsheet can be had)
 #'
 #' Same columns as parse_clerk_table() returns. Checks that the columns are
 #' all there, so a malformed file fails loudly instead of quietly.

@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Framingham City Data (Unofficial)",
+    "section": "",
+    "text": "This project collects data about Framingham, Massachusetts and puts it in a form that’s easy to analyze. It focuses on election results – City and Town races, state and federal races in Framingham, and turnout, all by precinct – and also has precinct and district maps, property records and Census data.\nEvery dataset is here in two forms: the original files (the clerk’s PDFs, downloaded shapefiles, and so on, in data-raw/) and analysis-friendly versions (in data/)."
+  },
+  {
+    "objectID": "index.html#quick-start",
+    "href": "index.html#quick-start",
+    "title": "Framingham City Data (Unofficial)",
+    "section": "Quick start",
+    "text": "Quick start\nAll election results are in one file, one row per election, race, candidate and precinct. In R:\n\nlibrary(dplyr)\nresults &lt;- readr::read_csv(\"https://raw.githubusercontent.com/smach/Framingham-City-Data/main/data/elections/results_precinct.csv\")\n\n# Every mayoral race, candidates only (no blanks or write-ins)\nresults |&gt;\n  filter(office == \"Mayor\", candidate_type == \"candidate\") |&gt;\n  group_by(election_date, type, candidate) |&gt;\n  summarize(votes = sum(votes), .groups = \"drop\")\n\nThe same files open in Excel, Python, Datawrapper or anything else that reads CSV."
+  },
+  {
+    "objectID": "index.html#the-main-files",
+    "href": "index.html#the-main-files",
+    "title": "Framingham City Data (Unofficial)",
+    "section": "The main files",
+    "text": "The main files\n\n\n\n\n\n\n\n\n\nFile\nWhat\n\n\n\n\ndata/elections/results_precinct.csv\nAll results by precinct (tidy format)\n\n\ndata/elections/results_district.csv\nAll results by city council district\n\n\ndata/elections/turnout_precinct.csv\nTurnout by precinct\n\n\ndata/elections/turnout_district.csv\nTurnout by city council district\n\n\ndata/elections/turnout_citywide.csv\nCitywide turnout, one row per election\n\n\ndata/elections/elections.csv\nList of elections, including ones not yet collected\n\n\ndata/elections/by_election/\nOne file per election, laid out like the clerk’s table (easy to read in Excel)\n\n\ndata/gis/framingham_precincts.gpkg\nPrecinct boundaries for both precinct maps, with city council districts\n\n\n\n\n\n\nWhat the columns mean\nresults_precinct.csv\n\n\n\n\n\n\n\nColumn\nMeaning\n\n\n\n\nelection_id\nUnique ID: date, level and type, e.g. 2023-11-07_municipal_general\n\n\nelection_date\nDate of the election\n\n\nlevel\nmunicipal (City/Town) or state (state and federal offices, primaries)\n\n\ntype\ngeneral, preliminary, special, town (pre-2018 annual town election), primary, presidential-primary\n\n\nstatus\nofficial or unofficial (election-night) results\n\n\nparty\nFor primaries, the party ballot; otherwise empty\n\n\nrace\nThe race exactly as the clerk printed it\n\n\noffice\nStandardized office name, e.g. City Council At-Large, School Committee District, State Representative\n\n\noffice_district\nDistrict number or name for district offices, e.g. 3 or 6th Middlesex\n\n\nseats\nNumber of seats being elected, when printed\n\n\ncandidate\nCandidate name as printed; Blanks and Write-ins are standardized\n\n\ncandidate_type\ncandidate, blank, write-in, or response (Yes/No on ballot questions)\n\n\nprecinct\nPrecinct as printed, including sub-precincts such as 9A\n\n\nprecinct_base\nPrecinct without the sub-precinct letter (9A -&gt; 9)\n\n\ncity_district\nCity council district the precinct was in on that date (empty before 2012)\n\n\nvotes\nVotes\n\n\n\nturnout_precinct.csv has the same election columns plus registered, ballots_cast and turnout_pct (always a percent from 0 to 100). For primaries there’s a row per party ballot as well as an all-voters row (empty party).\nAbout precincts: Framingham’s precincts were redrawn after the 2020 Census. The 18-precinct map was used through the January 11 2022 special election; the 27-precinct map since the September 2022 state primary. Precinct “4” is a different place on each map, so always look at election_date (or use city_district, which is correct for each date)."
+  },
+  {
+    "objectID": "index.html#citywide-turnout",
+    "href": "index.html#citywide-turnout",
+    "title": "Framingham City Data (Unofficial)",
+    "section": "Citywide turnout",
+    "text": "Citywide turnout\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nElection\nRegistered\nBallots cast\nTurnout %\n\n\n\n\n2024-11-05\nNovember 5 2024 State Election\n43,783\n30,134\n68.8\n\n\n2023-11-07\nNovember 7 2023 City Election\n42,496\n4,252\n10.0\n\n\n2022-09-06\nSeptember 6 2022 State Primary\n40,913\n10,123\n24.7\n\n\n2022-01-11\nJanuary 11 2022 Special City Election (District 3 City Council)\n5,515\n1,253\n22.7\n\n\n2021-11-02\nNovember 2 2021 City Election\n39,897\n12,259\n30.7\n\n\n2021-09-14\nSeptember 14 2021 City Preliminary Election\n39,620\n6,727\n17.0\n\n\n2020-09-01\nSeptember 1 2020 State Primary\n40,505\n16,142\n39.9\n\n\n2019-11-05\nNovember 5 2019 City Election\n39,001\n7,211\n18.5\n\n\n2017-11-07\nNovember 7 2017 City Election\n40,162\n15,734\n39.2\n\n\n2017-09-26\nSeptember 26 2017 City Preliminary Election\n39,996\n11,006\n27.5\n\n\n2017-04-04\nApril 4 2017 Annual Town Election (city charter vote)\n39,910\n11,341\n28.4\n\n\n2016-03-29\nMarch 29 2016 Annual Town Election\n37,629\n5,447\n14.5\n\n\n2016-03-01\nMarch 1 2016 Presidential Primary\n37,243\n17,316\n46.5\n\n\n2015-04-07\nApril 7 2015 Annual Town Election\n35,814\n2,558\n7.1\n\n\n2011-04-05\nApril 5 2011 Annual Town Election\n35,083\n4,732\n13.5\n\n\n2008-11-04\nNovember 4 2008 State Election\n36,672\n27,085\n73.9"
+  },
+  {
+    "objectID": "index.html#elections",
+    "href": "index.html#elections",
+    "title": "Framingham City Data (Unofficial)",
+    "section": "Elections",
+    "text": "Elections\nElections marked “No” haven’t been collected yet. If you have the clerk’s results for one, see How the data are maintained below."
+  },
+  {
+    "objectID": "index.html#search-all-files",
+    "href": "index.html#search-all-files",
+    "title": "Framingham City Data (Unofficial)",
+    "section": "Search all files",
+    "text": "Search all files\nEvery file in the project. The search boxes accept regular expressions."
+  },
+  {
+    "objectID": "index.html#maps",
+    "href": "index.html#maps",
+    "title": "Framingham City Data (Unofficial)",
+    "section": "Maps",
+    "text": "Maps\nThe precinct files in data/gis/ work in any mapping tool. In R, make_precinct_map() in R/gis.R makes an interactive map of precincts colored by city council district and searchable by address:\n\nsource(\"R/load.R\")\nmake_precinct_map(\"2023-11-07\", show_house_districts = TRUE)"
+  },
+  {
+    "objectID": "index.html#how-the-data-are-maintained",
+    "href": "index.html#how-the-data-are-maintained",
+    "title": "Framingham City Data (Unofficial)",
+    "section": "How the data are maintained",
+    "text": "How the data are maintained\n\nSources. Local election results come from the Framingham City Clerk’s results PDFs. They’re turned into spreadsheets (with CometDocs or PDFTables for older elections, Adobe Acrobat from 2024 on), and every election is checked automatically: each row’s precinct numbers must add up to the clerk’s total, ballots can’t exceed registered voters, and so on. The checks for every election are in data/elections/validation_report.csv.\nAutomation. A scheduled GitHub Action looks for new results on the clerk’s page. When it finds some, it extracts and checks them and opens a pull request for a human to review before anything is published.\nReproducible. Everything in data/elections/ is rebuilt from data-raw/ by scripts/build_all.R; nothing there is edited by hand. The R code is in R/, and the README explains how to add an election.\n\nThis is an unofficial project and isn’t affiliated with the City of Framingham. Check official sources before relying on the data for anything important.\nPage built October 10, 2026."
+  }
+]

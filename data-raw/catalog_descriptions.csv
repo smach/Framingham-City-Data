@@ -25,9 +25,9 @@ pattern,description,category,format_note,source
 ^data/property/Real_Property_2017\.csv$,Property tax valuations for fiscal year 2017,Property,,Framingham Open Data
 ^data/census/,Census Bureau American Community Survey estimates for Framingham,Census,,US Census Bureau via tidycensus
 ^data-raw/elections/elections\.csv$,"The election registry: one row per election, saying where its raw files are and how to read them. Edit this to add elections.",Elections,,
-^data-raw/elections/[^/]+/extracted\.csv$,Results extracted from the PDF by Claude (checked automatically against the clerk's totals),Elections,,Claude via ellmer
+^data-raw/elections/[^/]+/extracted\.csv$,Results typed or assembled by hand in the standard layout (checked automatically against the clerk's totals),Elections,,City Clerk
 ^data-raw/elections/.+\.pdf$,Original results PDF from the City Clerk,Elections,,City Clerk
-^data-raw/elections/.+\.(xlsx|XLS|csv)$,Results spreadsheet converted from the clerk's PDF,Elections,,City Clerk (converted with CometDocs or PDFTables)
+^data-raw/elections/.+\.(xlsx|XLS|csv)$,Results spreadsheet converted from the clerk's PDF,Elections,,City Clerk (converted with CometDocs or PDFTables; Adobe Acrobat from 2024)
 ^data-raw/lookups/precinct_districts\.csv$,"Which city council district each precinct is in, for each precinct map, with the dates each map was used",Elections,,Framingham GIS
 ^data-raw/census/,Census block listings with precinct assignments (2021),Census,,City of Framingham
 ^data-raw/other/,Covid-19 risk assessment for public school ventilation and filtration,Schools,,Framingham Public Schools

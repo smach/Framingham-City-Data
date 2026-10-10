@@ -198,3 +198,12 @@ election_id,election_date,level,type,status,party,city_district,registered,ballo
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,7,3470,290,8.4
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,8,4314,542,12.6
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,9,3030,175,5.8
+2024-11-05_state_general,2024-11-05,state,general,official,,1,6133,4667,76.1
+2024-11-05_state_general,2024-11-05,state,general,official,,2,5661,4265,75.3
+2024-11-05_state_general,2024-11-05,state,general,official,,3,6238,4982,79.9
+2024-11-05_state_general,2024-11-05,state,general,official,,4,5659,4248,75.1
+2024-11-05_state_general,2024-11-05,state,general,official,,5,3857,2433,63.1
+2024-11-05_state_general,2024-11-05,state,general,official,,6,5024,3401,67.7
+2024-11-05_state_general,2024-11-05,state,general,official,,7,3587,2021,56.3
+2024-11-05_state_general,2024-11-05,state,general,official,,8,4530,2788,61.5
+2024-11-05_state_general,2024-11-05,state,general,official,,9,3094,1329,43

@@ -25,7 +25,6 @@ Imports:
     knitr,
     htmltools
 Suggests:
-    ellmer,
     leaflet,
     leaflet.extras,
     tidycensus,

@@ -1,0 +1,4 @@
+# R writes CSVs with LF line endings. Keep them LF on Windows checkouts too,
+# so rebuilding the data doesn't make unchanged files look modified.
+data/**/*.csv text eol=lf
+data-raw/**/*.csv text eol=lf

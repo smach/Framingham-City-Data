@@ -1,54 +1,41 @@
 # check_new_elections.R ---------------------------------------------------------
-# Used by the scheduled GitHub Action (.github/workflows/check-elections.yml).
+# Used by the weekly GitHub Action (.github/workflows/check-elections.yml).
 #
-# 1. Looks at the City Clerk's election results page for PDFs that aren't in
-#    the registry yet.
-# 2. For each one, downloads it and extracts the results with Claude.
-# 3. Writes pr_body.md describing what was added and the validation results.
-#    The Action turns that into a pull request for a human to review.
+# Looks at the City Clerk's election results page for PDFs that aren't in the
+# registry yet and, if it finds any, writes issue_body.md listing them. The
+# Action turns that into a GitHub issue reminding you to convert them in Adobe
+# Acrobat and add them with add_election().
 #
-# It never changes the main branch directly; you merge the pull request.
+# It changes nothing in the repository.
 
 source(here::here("R/load.R"))
 
 new_links <- find_new_results()
-body <- character(0)
 
 if (nrow(new_links) == 0) {
   message("No new results found.")
 } else {
-  for (i in seq_len(nrow(new_links))) {
+  message(nrow(new_links), " new results link(s) found.")
+  entries <- vapply(seq_len(nrow(new_links)), function(i) {
     link <- new_links[i, ]
-    if (is.na(link$election_date)) {
-      body <- c(body, sprintf("- Skipped **%s** (%s): couldn't tell the election date from the link text.",
-                              link$link_text, link$url))
-      next
+    # Suggest an election_id, so the add_election() line is ready to paste
+    id <- if (is.na(link$election_date)) "YYYY-MM-DD_level_type" else {
+      kind <- guess_election_kind(link$link_text)
+      paste(format(link$election_date), kind$level, kind$type, sep = "_")
     }
-    kind <- guess_election_kind(link$link_text)
-    id <- paste(format(link$election_date), kind$level, kind$type, sep = "_")
     status <- if (grepl("unofficial", link$link_text, ignore.case = TRUE)) "unofficial" else "official"
-    message("Adding ", id, " from ", link$url)
-    checks <- tryCatch(
-      add_election(id, link$url, status = status, name = link$link_text),
-      error = function(e) {
-        body <<- c(body, sprintf("- **%s**: extraction failed: %s", id, conditionMessage(e)))
-        NULL
-      }
-    )
-    if (is.null(checks)) next
-    failed <- checks[checks$status != "pass", ]
-    body <- c(body, sprintf("### %s\nSource: %s\n", id, link$url))
-    body <- c(body, if (nrow(failed) == 0) "All validation checks passed.\n" else
-      c("**Checks that need a look:**\n", sprintf("- %s (%s): %s", failed$check, failed$status, failed$detail), ""))
-  }
-}
-
-if (length(body) > 0) {
+    sprintf(paste0("- [%s](%s)\n\n  ```r\n  add_election(\"%s\", \"path/to/spreadsheet.xlsx\", ",
+                   "status = \"%s\",\n               pdf = \"path/to/results.pdf\", source_url = \"%s\")\n  ```"),
+            link$link_text, link$url, id, status, link$url)
+  }, character(1))
   writeLines(c(
-    "New election results found on the City Clerk's page and extracted automatically with Claude.",
+    "The City Clerk's results page has results that aren't in the registry yet.",
     "",
-    "Please spot-check a few numbers against the PDF before merging, especially any checks listed below.",
+    "For each one: download the PDF, export it to an Excel workbook in Adobe",
+    "Acrobat (see the README for scanned PDFs), then in R run",
+    "`source(here::here(\"R/load.R\"))` and the line below it. Check the suggested",
+    "election id first. Close this issue when you're done.",
     "",
-    body
-  ), "pr_body.md")
+    entries
+  ), "issue_body.md")
 }

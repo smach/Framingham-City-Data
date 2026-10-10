@@ -1,8 +1,8 @@
 # elections_validate.R ----------------------------------------------------------
 # Automatic checks for one election's data.
 #
-# These are the safety net that makes automation (including LLM extraction)
-# trustworthy: if a number was misread, the precincts won't add up to the
+# These are the safety net that makes PDF conversion trustworthy: if a number
+# was misread, the precincts won't add up to the
 # clerk's total, or a race will have more votes than ballots cast.
 #
 # validate_election() returns one row per check:

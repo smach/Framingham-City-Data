@@ -4969,3 +4969,460 @@ election_id,election_date,level,type,status,party,race,office,office_district,se
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Heather Klish,candidate,9,47
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Andrew Machkasov,candidate,9,23
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,9,0
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Michael A. Sullivan,candidate,1,3418
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Blanks,blank,1,1182
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Write-ins,write-in,1,67
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Michael A. Sullivan,candidate,2,3218
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Blanks,blank,2,993
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Write-ins,write-in,2,54
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Michael A. Sullivan,candidate,3,3699
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Blanks,blank,3,1204
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Write-ins,write-in,3,79
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Michael A. Sullivan,candidate,4,3176
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Blanks,blank,4,989
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Write-ins,write-in,4,83
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Michael A. Sullivan,candidate,5,1847
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Blanks,blank,5,545
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Write-ins,write-in,5,41
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Michael A. Sullivan,candidate,6,2586
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Blanks,blank,6,747
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Write-ins,write-in,6,68
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Michael A. Sullivan,candidate,7,1554
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Blanks,blank,7,423
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Write-ins,write-in,7,44
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Michael A. Sullivan,candidate,8,2070
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Blanks,blank,8,657
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Write-ins,write-in,8,61
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Michael A. Sullivan,candidate,9,1032
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Blanks,blank,9,258
+2024-11-05_state_general,2024-11-05,state,general,official,,Clerk of Courts,Clerk of Courts,,,Write-ins,write-in,9,39
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,1,2772
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,1,1351
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,1,530
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,1,14
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,2,2600
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,2,1218
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,2,436
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,2,11
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,3,3026
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,3,1471
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,3,482
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,3,3
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,4,2577
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,4,1209
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,4,452
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,4,10
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,5,1524
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,5,657
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,5,245
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,5,7
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,6,2091
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,6,949
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,6,354
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,6,7
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,7,1273
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,7,527
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,7,212
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,7,9
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,8,1671
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,8,811
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,8,299
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,8,7
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,9,810
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,9,384
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,9,131
+2024-11-05_state_general,2024-11-05,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,9,4
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Harris and Walz,candidate,1,3230
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Trump and Vance,candidate,1,1230
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Stein and Caballero-Roca,candidate,1,52
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Blanks,blank,1,47
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Write-ins,write-in,1,37
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Oliver and Ter Maat,candidate,1,35
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Ayyadurai and Ellis,candidate,1,27
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,De La Cruz and Garcia,candidate,1,8
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,West and Abdullah,candidate,1,1
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Sonski and Onak,candidate,1,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Harris and Walz,candidate,2,2911
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Trump and Vance,candidate,2,1166
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Blanks,blank,2,53
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Stein and Caballero-Roca,candidate,2,35
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Oliver and Ter Maat,candidate,2,32
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Write-ins,write-in,2,29
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Ayyadurai and Ellis,candidate,2,24
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,De La Cruz and Garcia,candidate,2,15
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Sonski and Onak,candidate,2,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,West and Abdullah,candidate,2,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Harris and Walz,candidate,3,3533
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Trump and Vance,candidate,3,1277
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Write-ins,write-in,3,40
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Blanks,blank,3,39
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Stein and Caballero-Roca,candidate,3,35
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Oliver and Ter Maat,candidate,3,31
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Ayyadurai and Ellis,candidate,3,16
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,De La Cruz and Garcia,candidate,3,11
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Sonski and Onak,candidate,3,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,West and Abdullah,candidate,3,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Harris and Walz,candidate,4,2899
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Trump and Vance,candidate,4,1214
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Blanks,blank,4,35
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Write-ins,write-in,4,33
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Stein and Caballero-Roca,candidate,4,22
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Oliver and Ter Maat,candidate,4,20
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Ayyadurai and Ellis,candidate,4,17
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,De La Cruz and Garcia,candidate,4,8
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Sonski and Onak,candidate,4,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,West and Abdullah,candidate,4,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Harris and Walz,candidate,5,1694
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Trump and Vance,candidate,5,665
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Stein and Caballero-Roca,candidate,5,23
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Blanks,blank,5,18
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,De La Cruz and Garcia,candidate,5,13
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Write-ins,write-in,5,8
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Ayyadurai and Ellis,candidate,5,7
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Oliver and Ter Maat,candidate,5,5
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Sonski and Onak,candidate,5,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,West and Abdullah,candidate,5,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Harris and Walz,candidate,6,2393
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Trump and Vance,candidate,6,863
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Blanks,blank,6,42
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Stein and Caballero-Roca,candidate,6,27
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Write-ins,write-in,6,27
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Ayyadurai and Ellis,candidate,6,17
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,De La Cruz and Garcia,candidate,6,16
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Oliver and Ter Maat,candidate,6,13
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Sonski and Onak,candidate,6,2
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,West and Abdullah,candidate,6,1
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Harris and Walz,candidate,7,1391
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Trump and Vance,candidate,7,540
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Stein and Caballero-Roca,candidate,7,27
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Blanks,blank,7,22
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,De La Cruz and Garcia,candidate,7,12
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Oliver and Ter Maat,candidate,7,11
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Write-ins,write-in,7,10
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Ayyadurai and Ellis,candidate,7,7
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Sonski and Onak,candidate,7,1
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,West and Abdullah,candidate,7,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Harris and Walz,candidate,8,1811
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Trump and Vance,candidate,8,862
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Blanks,blank,8,37
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Stein and Caballero-Roca,candidate,8,18
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Write-ins,write-in,8,17
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Ayyadurai and Ellis,candidate,8,15
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,De La Cruz and Garcia,candidate,8,14
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Oliver and Ter Maat,candidate,8,13
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,West and Abdullah,candidate,8,1
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Sonski and Onak,candidate,8,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Harris and Walz,candidate,9,819
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Trump and Vance,candidate,9,455
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Blanks,blank,9,15
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Ayyadurai and Ellis,candidate,9,14
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,De La Cruz and Garcia,candidate,9,10
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Stein and Caballero-Roca,candidate,9,8
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Oliver and Ter Maat,candidate,9,4
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Write-ins,write-in,9,4
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,Sonski and Onak,candidate,9,0
+2024-11-05_state_general,2024-11-05,state,general,official,,President/Vice President,President,,,West and Abdullah,candidate,9,0
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Yes,response,1,3060
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,No,response,1,1283
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Blanks,blank,1,324
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Yes,response,2,2875
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,No,response,2,1102
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Blanks,blank,2,288
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Yes,response,3,3292
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,No,response,3,1407
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Blanks,blank,3,283
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Yes,response,4,2808
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,No,response,4,1132
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Blanks,blank,4,308
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Yes,response,5,1557
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,No,response,5,690
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Blanks,blank,5,186
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Yes,response,6,2225
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,No,response,6,942
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Blanks,blank,6,234
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Yes,response,7,1272
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,No,response,7,573
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Blanks,blank,7,176
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Yes,response,8,1795
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,No,response,8,770
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Blanks,blank,8,223
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Yes,response,9,770
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,No,response,9,428
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 1: State Auditor to audit State Legislature,Question 1: State Auditor to audit State Legislature,,,Blanks,blank,9,131
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Yes,response,1,2518
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,No,response,1,2003
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Blanks,blank,1,146
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Yes,response,2,2529
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,No,response,2,1620
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Blanks,blank,2,116
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Yes,response,3,2676
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,No,response,3,2183
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Blanks,blank,3,123
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Yes,response,4,2449
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,No,response,4,1681
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Blanks,blank,4,118
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Yes,response,5,1387
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,No,response,5,944
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Blanks,blank,5,102
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Yes,response,6,1792
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,No,response,6,1479
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Blanks,blank,6,130
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Yes,response,7,1177
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,No,response,7,751
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Blanks,blank,7,93
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Yes,response,8,1654
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,No,response,8,1020
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Blanks,blank,8,114
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Yes,response,9,757
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,No,response,9,488
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 2: Elimination of MCAS,Question 2: Elimination of MCAS,,,Blanks,blank,9,84
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Yes,response,1,2391
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,No,response,1,1966
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Blanks,blank,1,310
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Yes,response,2,2254
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,No,response,2,1757
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Blanks,blank,2,254
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Yes,response,3,2465
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,No,response,3,2254
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Blanks,blank,3,263
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Yes,response,4,2184
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,No,response,4,1772
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Blanks,blank,4,292
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Yes,response,5,1416
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,No,response,5,866
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Blanks,blank,5,151
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Yes,response,6,1790
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,No,response,6,1392
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Blanks,blank,6,219
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Yes,response,7,1193
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,No,response,7,668
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Blanks,blank,7,160
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Yes,response,8,1572
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,No,response,8,1012
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Blanks,blank,8,204
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Yes,response,9,815
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,No,response,9,374
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 3: Transportation Network Drivers right to form unions,Question 3: Transportation Network Drivers right to form unions,,,Blanks,blank,9,140
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,No,response,1,2539
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Yes,response,1,1912
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Blanks,blank,1,216
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,No,response,2,2224
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Yes,response,2,1853
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Blanks,blank,2,188
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,No,response,3,2861
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Yes,response,3,1950
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Blanks,blank,3,171
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,No,response,4,2296
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Yes,response,4,1751
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Blanks,blank,4,201
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,No,response,5,1260
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Yes,response,5,1046
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Blanks,blank,5,127
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,No,response,6,1837
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Yes,response,6,1389
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Blanks,blank,6,175
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,No,response,7,960
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Yes,response,7,915
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Blanks,blank,7,146
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,No,response,8,1394
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Yes,response,8,1215
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Blanks,blank,8,179
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,No,response,9,630
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Yes,response,9,569
+2024-11-05_state_general,2024-11-05,state,general,official,,"Question 4: Legalization to grow, use and possess certain psychedelic substances","Question 4: Legalization to grow, use and possess certain psychedelic substances",,,Blanks,blank,9,130
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,No,response,1,2809
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Yes,response,1,1656
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Blanks,blank,1,202
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,No,response,2,2509
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Yes,response,2,1574
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Blanks,blank,2,182
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,No,response,3,3074
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Yes,response,3,1734
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Blanks,blank,3,174
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,No,response,4,2489
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Yes,response,4,1576
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Blanks,blank,4,183
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,No,response,5,1284
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Yes,response,5,1025
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Blanks,blank,5,124
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,No,response,6,1880
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Yes,response,6,1362
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Blanks,blank,6,159
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,No,response,7,974
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Yes,response,7,919
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Blanks,blank,7,128
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,No,response,8,1467
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Yes,response,8,1156
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Blanks,blank,8,165
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Yes,response,9,652
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,No,response,9,556
+2024-11-05_state_general,2024-11-05,state,general,official,,Question 5: Increase minimum hourly wage of tipped workers,Question 5: Increase minimum hourly wage of tipped workers,,,Blanks,blank,9,121
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Maria C. Curtatone,candidate,1,2916
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,"William ""Billy"" Tauro",candidate,1,1056
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Blanks,blank,1,681
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Write-ins,write-in,1,14
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Maria C. Curtatone,candidate,2,2729
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,"William ""Billy"" Tauro",candidate,2,961
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Blanks,blank,2,565
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Write-ins,write-in,2,10
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Maria C. Curtatone,candidate,3,3210
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,"William ""Billy"" Tauro",candidate,3,1096
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Blanks,blank,3,663
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Write-ins,write-in,3,13
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Maria C. Curtatone,candidate,4,2685
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,"William ""Billy"" Tauro",candidate,4,952
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Blanks,blank,4,592
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Write-ins,write-in,4,19
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Maria C. Curtatone,candidate,5,1567
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,"William ""Billy"" Tauro",candidate,5,518
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Blanks,blank,5,338
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Write-ins,write-in,5,10
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Maria C. Curtatone,candidate,6,2195
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,"William ""Billy"" Tauro",candidate,6,737
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Blanks,blank,6,449
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Write-ins,write-in,6,20
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Maria C. Curtatone,candidate,7,1315
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,"William ""Billy"" Tauro",candidate,7,402
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Blanks,blank,7,296
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Write-ins,write-in,7,8
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Maria C. Curtatone,candidate,8,1750
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,"William ""Billy"" Tauro",candidate,8,614
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Blanks,blank,8,403
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Write-ins,write-in,8,21
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Maria C. Curtatone,candidate,9,845
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,"William ""Billy"" Tauro",candidate,9,269
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Blanks,blank,9,199
+2024-11-05_state_general,2024-11-05,state,general,official,,Register of Deeds,Register of Deeds,,,Write-ins,write-in,9,16
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Katherine M. Clark,candidate,1,3545
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Blanks,blank,1,1016
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Write-ins,write-in,1,106
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Katherine M. Clark,candidate,2,3278
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Blanks,blank,2,901
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Write-ins,write-in,2,86
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Katherine M. Clark,candidate,3,3845
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Blanks,blank,3,1036
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Write-ins,write-in,3,101
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Katherine M. Clark,candidate,4,3288
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Blanks,blank,4,854
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Write-ins,write-in,4,106
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Katherine M. Clark,candidate,5,1894
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Blanks,blank,5,491
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Write-ins,write-in,5,48
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Katherine M. Clark,candidate,6,2640
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Blanks,blank,6,667
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Write-ins,write-in,6,94
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Katherine M. Clark,candidate,7,1592
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Blanks,blank,7,372
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Write-ins,write-in,7,57
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Katherine M. Clark,candidate,8,2113
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Blanks,blank,8,597
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Write-ins,write-in,8,78
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Katherine M. Clark,candidate,9,1049
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Blanks,blank,9,235
+2024-11-05_state_general,2024-11-05,state,general,official,,Representative in Congress,U.S. Representative,,,Write-ins,write-in,9,45
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Elizabeth Ann Warren,candidate,1,3025
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,1,1506
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,1,126
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,1,10
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Elizabeth Ann Warren,candidate,2,2781
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,2,1350
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,2,125
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,2,9
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Elizabeth Ann Warren,candidate,3,3298
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,3,1560
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,3,113
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,3,11
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Elizabeth Ann Warren,candidate,4,2790
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,4,1337
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,4,113
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,4,8
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Elizabeth Ann Warren,candidate,5,1644
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,5,717
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,5,70
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,5,2
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Elizabeth Ann Warren,candidate,6,2288
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,6,1020
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,6,83
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,6,10
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Elizabeth Ann Warren,candidate,7,1420
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,7,528
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,7,63
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,7,10
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Elizabeth Ann Warren,candidate,8,1845
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,8,842
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,8,94
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,8,7
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Elizabeth Ann Warren,candidate,9,894
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,9,374
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,9,55
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,9,6
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Karen E. Spilka,candidate,1,3544
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Blanks,blank,1,1027
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Write-ins,write-in,1,96
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Karen E. Spilka,candidate,2,3307
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Blanks,blank,2,880
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Write-ins,write-in,2,78
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Karen E. Spilka,candidate,3,3811
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Blanks,blank,3,1075
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Write-ins,write-in,3,96
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Karen E. Spilka,candidate,4,3288
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Blanks,blank,4,870
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Write-ins,write-in,4,90
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Karen E. Spilka,candidate,5,1918
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Blanks,blank,5,471
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Write-ins,write-in,5,44
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Karen E. Spilka,candidate,6,2652
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Blanks,blank,6,653
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Write-ins,write-in,6,96
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Karen E. Spilka,candidate,7,1588
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Blanks,blank,7,379
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Write-ins,write-in,7,54
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Karen E. Spilka,candidate,8,2139
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Blanks,blank,8,570
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Write-ins,write-in,8,79
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Karen E. Spilka,candidate,9,1054
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Blanks,blank,9,229
+2024-11-05_state_general,2024-11-05,state,general,official,,Senator in General Court,State Senator,,,Write-ins,write-in,9,46
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Kate Donaghue,candidate,3,805
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Boyd Stewart Conklin,candidate,3,194
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Blanks,blank,3,114
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Write-ins,write-in,3,4
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Danielle W. Gregoire,candidate,1,2268
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Blanks,blank,1,836
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Write-ins,write-in,1,62
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Danielle W. Gregoire,candidate,3,513
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Blanks,blank,3,199
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Write-ins,write-in,3,11
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,4,921
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,4,282
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,4,26
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,5,1921
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,5,469
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,5,43
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,6,1801
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,6,485
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,6,54
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,7,1540
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,7,419
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,7,62
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,8,2138
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,8,574
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,8,76
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,9,1053
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,9,231
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,9,45
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,1,1153
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,1,330
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,1,18
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,2,3256
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,2,939
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,2,70
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,3,2401
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,3,681
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,3,60
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,4,2312
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,4,640
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,4,67
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,6,801
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,6,226
+2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,6,34

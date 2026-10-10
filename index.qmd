@@ -132,7 +132,7 @@ make_precinct_map("2023-11-07", show_house_districts = TRUE)
 
 ## How the data are maintained
 
-* **Sources.** Local election results come from the Framingham City Clerk's results PDFs. Older ones were turned into spreadsheets with CometDocs or PDFTables; newer ones are read by Claude (an AI model), and every extraction is **checked automatically**: each row's precinct numbers must add up to the clerk's total, ballots can't exceed registered voters, and so on. The checks for every election are in `r link("data/elections/validation_report.csv")`.
+* **Sources.** Local election results come from the Framingham City Clerk's results PDFs. They're turned into spreadsheets (with CometDocs or PDFTables for older elections, Adobe Acrobat from 2024 on), and every election is **checked automatically**: each row's precinct numbers must add up to the clerk's total, ballots can't exceed registered voters, and so on. The checks for every election are in `r link("data/elections/validation_report.csv")`.
 * **Automation.** A scheduled GitHub Action looks for new results on the clerk's page. When it finds some, it extracts and checks them and opens a pull request for a human to review before anything is published.
 * **Reproducible.** Everything in `data/elections/` is rebuilt from `data-raw/` by `r link("scripts/build_all.R")`; nothing there is edited by hand. The R code is in `r link("R/")`, and the README explains how to add an election.
 
