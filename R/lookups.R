@@ -20,6 +20,30 @@ read_precinct_districts <- function(path = proj_path("data-raw", "lookups", "pre
     )
 }
 
+#' Read the candidate name fixes
+#'
+#' The clerk sometimes cuts long names short ("Adam Lawrence Freudb"). The raw
+#' spreadsheets keep the name as printed, so they still match the PDF;
+#' data-raw/lookups/candidate_name_fixes.csv lists the corrections, applied by
+#' tidy_results():
+#'   election_id, printed_name, corrected_name, source
+read_candidate_name_fixes <- function(path = proj_path("data-raw", "lookups", "candidate_name_fixes.csv")) {
+  readr::read_csv(path, col_types = readr::cols(.default = readr::col_character()))
+}
+
+#' Replace printed candidate names with corrected ones for one election
+#'
+#' @param candidate Character vector of names as printed.
+#' @param election_id The election the names come from.
+#' @param fixes The table from read_candidate_name_fixes().
+fix_candidate_names <- function(candidate, election_id, fixes = read_candidate_name_fixes()) {
+  fixes <- fixes[fixes$election_id == election_id, ]
+  dict <- stats::setNames(fixes$corrected_name, fixes$printed_name)
+  hit <- candidate %in% names(dict)
+  candidate[hit] <- unname(dict[candidate[hit]])
+  candidate
+}
+
 #' Strip a sub-precinct letter: "9A" -> "9", "21C" -> "21", "4" -> "4"
 #'
 #' Since 2022 some precincts are split into sub-precincts because a state

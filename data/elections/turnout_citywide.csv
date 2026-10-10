@@ -23,5 +23,8 @@ election_id,election_date,level,type,status,party,registered,ballots_cast,turnou
 2022-09-06_state_primary,2022-09-06,state,primary,unofficial,Democratic,40913,8253,20.2
 2022-09-06_state_primary,2022-09-06,state,primary,unofficial,Republican,40913,1870,4.6
 2022-09-06_state_primary,2022-09-06,state,primary,unofficial,,40913,10123,24.7
+2022-11-08_state_general,2022-11-08,state,general,official,,41314,22339,54.1
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,42496,4252,10
 2024-11-05_state_general,2024-11-05,state,general,official,,43783,30134,68.8
+2025-09-16_municipal_preliminary,2025-09-16,municipal,preliminary,official,,5558,252,4.5
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,42090,9689,23

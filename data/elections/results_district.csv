@@ -4750,6 +4750,550 @@ election_id,election_date,level,type,status,party,race,office,office_district,se
 2022-09-06_state_primary,2022-09-06,state,primary,unofficial,Republican,Treasurer,Treasurer,,,Write-ins,write-in,8,23
 2022-09-06_state_primary,2022-09-06,state,primary,unofficial,Republican,Treasurer,Treasurer,,,Blanks,blank,9,31
 2022-09-06_state_primary,2022-09-06,state,primary,unofficial,Republican,Treasurer,Treasurer,,,Write-ins,write-in,9,13
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,1,2439
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,"James R. McMahon, III",candidate,1,1040
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,1,103
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,1,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,2,2310
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,"James R. McMahon, III",candidate,2,866
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,2,62
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,2,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,3,2726
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,"James R. McMahon, III",candidate,3,1107
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,3,98
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,3,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,4,2247
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,"James R. McMahon, III",candidate,4,876
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,4,76
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,4,3
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,5,1274
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,"James R. McMahon, III",candidate,5,432
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,5,44
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,5,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,6,1837
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,"James R. McMahon, III",candidate,6,626
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,6,40
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,6,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,7,1062
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,"James R. McMahon, III",candidate,7,319
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,7,27
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,7,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,8,1382
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,"James R. McMahon, III",candidate,8,508
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,8,50
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,8,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,9,588
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,"James R. McMahon, III",candidate,9,166
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,9,21
+2022-11-08_state_general,2022-11-08,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,9,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,1,2128
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Anthony Amore,candidate,1,1073
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Blanks,blank,1,205
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Daniel Riek,candidate,1,75
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Gloria A. Caballero-Roca,candidate,1,64
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,"Dominic Giannone, III",candidate,1,37
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,1,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,2,2013
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Anthony Amore,candidate,2,883
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Blanks,blank,2,150
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Gloria A. Caballero-Roca,candidate,2,67
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Daniel Riek,candidate,2,65
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,"Dominic Giannone, III",candidate,2,58
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,2,3
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,3,2340
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Anthony Amore,candidate,3,1173
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Blanks,blank,3,220
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Daniel Riek,candidate,3,83
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Gloria A. Caballero-Roca,candidate,3,63
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,"Dominic Giannone, III",candidate,3,53
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,3,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,4,1954
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Anthony Amore,candidate,4,912
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Blanks,blank,4,167
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Gloria A. Caballero-Roca,candidate,4,74
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,"Dominic Giannone, III",candidate,4,48
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Daniel Riek,candidate,4,43
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,4,4
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,5,1085
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Anthony Amore,candidate,5,465
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Blanks,blank,5,86
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Gloria A. Caballero-Roca,candidate,5,45
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Daniel Riek,candidate,5,36
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,"Dominic Giannone, III",candidate,5,34
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,5,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,6,1560
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Anthony Amore,candidate,6,689
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Blanks,blank,6,117
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Gloria A. Caballero-Roca,candidate,6,57
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Daniel Riek,candidate,6,44
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,"Dominic Giannone, III",candidate,6,37
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,6,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,7,874
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Anthony Amore,candidate,7,328
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Gloria A. Caballero-Roca,candidate,7,74
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Blanks,blank,7,67
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,"Dominic Giannone, III",candidate,7,35
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Daniel Riek,candidate,7,30
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,7,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,8,1218
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Anthony Amore,candidate,8,510
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Blanks,blank,8,83
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Gloria A. Caballero-Roca,candidate,8,60
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Daniel Riek,candidate,8,35
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,"Dominic Giannone, III",candidate,8,35
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,8,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,9,505
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Anthony Amore,candidate,9,156
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Blanks,blank,9,48
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Gloria A. Caballero-Roca,candidate,9,31
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,"Dominic Giannone, III",candidate,9,17
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Daniel Riek,candidate,9,16
+2022-11-08_state_general,2022-11-08,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,9,3
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Robert L. Jubinville,candidate,1,2428
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Dashe M. Videira,candidate,1,899
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,1,255
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,1,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Robert L. Jubinville,candidate,2,2270
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Dashe M. Videira,candidate,2,754
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,2,215
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,2,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Robert L. Jubinville,candidate,3,2673
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Dashe M. Videira,candidate,3,990
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,3,266
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,3,3
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Robert L. Jubinville,candidate,4,2184
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Dashe M. Videira,candidate,4,796
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,4,218
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,4,4
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Robert L. Jubinville,candidate,5,1230
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Dashe M. Videira,candidate,5,404
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,5,115
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,5,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Robert L. Jubinville,candidate,6,1793
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Dashe M. Videira,candidate,6,574
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,6,132
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,6,5
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Robert L. Jubinville,candidate,7,1039
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Dashe M. Videira,candidate,7,290
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,7,79
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,7,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Robert L. Jubinville,candidate,8,1350
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Dashe M. Videira,candidate,8,474
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,8,115
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,8,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Robert L. Jubinville,candidate,9,559
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Dashe M. Videira,candidate,9,162
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,9,53
+2022-11-08_state_general,2022-11-08,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,9,2
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,1,2677
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,1,858
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,1,49
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,2,2519
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,2,681
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,2,39
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,3,2905
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,3,971
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,3,56
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,4,2437
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,4,702
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,4,63
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,5,1368
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,5,361
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,5,22
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,6,1972
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,6,489
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,6,43
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,7,1128
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,7,256
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,7,26
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,8,1486
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,8,401
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,8,54
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,9,635
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,9,128
+2022-11-08_state_general,2022-11-08,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,9,13
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Healey and Driscoll,candidate,1,2564
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Diehl and Allen,candidate,1,928
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Reed and Everett,candidate,1,52
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Blanks,blank,1,33
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Write-ins,write-in,1,7
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Healey and Driscoll,candidate,2,2345
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Diehl and Allen,candidate,2,808
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Reed and Everett,candidate,2,56
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Blanks,blank,2,29
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Write-ins,write-in,2,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Healey and Driscoll,candidate,3,2808
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Diehl and Allen,candidate,3,1031
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Reed and Everett,candidate,3,56
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Blanks,blank,3,33
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Write-ins,write-in,3,4
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Healey and Driscoll,candidate,4,2286
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Diehl and Allen,candidate,4,846
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Reed and Everett,candidate,4,35
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Blanks,blank,4,26
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Write-ins,write-in,4,9
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Healey and Driscoll,candidate,5,1284
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Diehl and Allen,candidate,5,416
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Blanks,blank,5,26
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Reed and Everett,candidate,5,21
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Write-ins,write-in,5,4
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Healey and Driscoll,candidate,6,1875
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Diehl and Allen,candidate,6,568
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Reed and Everett,candidate,6,41
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Blanks,blank,6,17
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Write-ins,write-in,6,3
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Healey and Driscoll,candidate,7,1059
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Diehl and Allen,candidate,7,299
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Reed and Everett,candidate,7,26
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Blanks,blank,7,21
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Write-ins,write-in,7,5
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Healey and Driscoll,candidate,8,1397
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Diehl and Allen,candidate,8,492
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Blanks,blank,8,27
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Reed and Everett,candidate,8,22
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Write-ins,write-in,8,3
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Healey and Driscoll,candidate,9,590
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Diehl and Allen,candidate,9,155
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Reed and Everett,candidate,9,16
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Blanks,blank,9,14
+2022-11-08_state_general,2022-11-08,state,general,official,,Governor and Lieutenant Governor,Governor and Lieutenant Governor,,,Write-ins,write-in,9,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Yes,response,1,1967
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,No,response,1,1547
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Blanks,blank,1,70
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Yes,response,2,1925
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,No,response,2,1263
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Blanks,blank,2,51
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Yes,response,3,2129
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,No,response,3,1746
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Blanks,blank,3,57
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Yes,response,4,1804
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,No,response,4,1335
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Blanks,blank,4,63
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Yes,response,5,1034
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,No,response,5,674
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Blanks,blank,5,43
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Yes,response,6,1437
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,No,response,6,1007
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Blanks,blank,6,60
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Yes,response,7,952
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,No,response,7,421
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Blanks,blank,7,37
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Yes,response,8,1185
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,No,response,8,704
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Blanks,blank,8,52
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Yes,response,9,508
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,No,response,9,219
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 1,Question 1,,,Blanks,blank,9,49
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Yes,response,1,2697
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,No,response,1,792
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Blanks,blank,1,95
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Yes,response,2,2482
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,No,response,2,689
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Blanks,blank,2,68
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Yes,response,3,2974
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,No,response,3,852
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Blanks,blank,3,106
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Yes,response,4,2393
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,No,response,4,742
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Blanks,blank,4,67
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Yes,response,5,1357
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,No,response,5,348
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Blanks,blank,5,46
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Yes,response,6,1952
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,No,response,6,500
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Blanks,blank,6,52
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Yes,response,7,1145
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,No,response,7,228
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Blanks,blank,7,37
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Yes,response,8,1479
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,No,response,8,410
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Blanks,blank,8,52
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Yes,response,9,595
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,No,response,9,143
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 2,Question 2,,,Blanks,blank,9,38
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,No,response,1,1872
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Yes,response,1,1558
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Blanks,blank,1,154
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,No,response,2,1726
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Yes,response,2,1386
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Blanks,blank,2,127
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,No,response,3,2033
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Yes,response,3,1739
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Blanks,blank,3,160
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,No,response,4,1644
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Yes,response,4,1458
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Blanks,blank,4,100
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,No,response,5,917
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Yes,response,5,765
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Blanks,blank,5,69
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,No,response,6,1207
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Yes,response,6,1201
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Blanks,blank,6,96
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,No,response,7,682
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Yes,response,7,676
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Blanks,blank,7,52
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,No,response,8,1005
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Yes,response,8,856
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Blanks,blank,8,80
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,No,response,9,372
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Yes,response,9,350
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 3,Question 3,,,Blanks,blank,9,54
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Yes,response,1,2139
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,No,response,1,1368
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Blanks,blank,1,77
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Yes,response,2,2040
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,No,response,2,1140
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Blanks,blank,2,59
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Yes,response,3,2388
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,No,response,3,1464
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Blanks,blank,3,80
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Yes,response,4,1941
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,No,response,4,1214
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Blanks,blank,4,47
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Yes,response,5,1109
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,No,response,5,598
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Blanks,blank,5,44
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Yes,response,6,1594
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,No,response,6,869
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Blanks,blank,6,41
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Yes,response,7,992
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,No,response,7,396
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Blanks,blank,7,22
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Yes,response,8,1265
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,No,response,8,640
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Blanks,blank,8,36
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Yes,response,9,565
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,No,response,9,190
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 4,Question 4,,,Blanks,blank,9,21
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 5 (19th Worcester),Question 5 (19th Worcester),,,Yes,response,3,660
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 5 (19th Worcester),Question 5 (19th Worcester),,,Blanks,blank,3,133
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 5 (19th Worcester),Question 5 (19th Worcester),,,No,response,3,116
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 5 (4th Middlesex),Question 5 (4th Middlesex),,,Yes,response,1,1357
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 5 (4th Middlesex),Question 5 (4th Middlesex),,,No,response,1,714
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 5 (4th Middlesex),Question 5 (4th Middlesex),,,Blanks,blank,1,340
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 5 (4th Middlesex),Question 5 (4th Middlesex),,,Yes,response,3,299
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 5 (4th Middlesex),Question 5 (4th Middlesex),,,No,response,3,196
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 5 (4th Middlesex),Question 5 (4th Middlesex),,,Blanks,blank,3,52
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 6 (4th Middlesex),Question 6 (4th Middlesex),,,Yes,response,1,1809
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 6 (4th Middlesex),Question 6 (4th Middlesex),,,Blanks,blank,1,335
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 6 (4th Middlesex),Question 6 (4th Middlesex),,,No,response,1,267
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 6 (4th Middlesex),Question 6 (4th Middlesex),,,Yes,response,3,442
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 6 (4th Middlesex),Question 6 (4th Middlesex),,,No,response,3,57
+2022-11-08_state_general,2022-11-08,state,general,official,,Question 6 (4th Middlesex),Question 6 (4th Middlesex),,,Blanks,blank,3,48
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,1,2510
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Caroline Colarusso,candidate,1,926
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,1,143
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,1,5
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,2,2338
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Caroline Colarusso,candidate,2,809
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,2,92
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,2,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,3,2786
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Caroline Colarusso,candidate,3,991
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,3,154
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,3,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,4,2257
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Caroline Colarusso,candidate,4,830
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,4,111
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,4,4
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,5,1275
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Caroline Colarusso,candidate,5,408
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,5,65
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,5,3
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,6,1858
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Caroline Colarusso,candidate,6,577
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,6,69
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,6,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,7,1061
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Caroline Colarusso,candidate,7,294
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,7,52
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,7,3
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,8,1403
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Caroline Colarusso,candidate,8,481
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,8,56
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,8,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,9,590
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Caroline Colarusso,candidate,9,153
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,9,32
+2022-11-08_state_general,2022-11-08,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,9,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,1,2674
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Rayla Campbell,candidate,1,777
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Juan Sanchez,candidate,1,70
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,1,62
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,1,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,2,2484
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Rayla Campbell,candidate,2,617
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Juan Sanchez,candidate,2,86
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,2,50
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,2,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,3,2958
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Rayla Campbell,candidate,3,836
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Juan Sanchez,candidate,3,71
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,3,65
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,3,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,4,2377
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Rayla Campbell,candidate,4,686
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Juan Sanchez,candidate,4,73
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,4,60
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,4,6
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,5,1336
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Rayla Campbell,candidate,5,338
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Juan Sanchez,candidate,5,48
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,5,29
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,5,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,6,1921
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Rayla Campbell,candidate,6,482
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Juan Sanchez,candidate,6,72
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,6,29
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,6,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,7,1055
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Rayla Campbell,candidate,7,253
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Juan Sanchez,candidate,7,68
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,7,32
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,7,2
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,8,1439
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Rayla Campbell,candidate,8,405
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Juan Sanchez,candidate,8,58
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,8,39
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,8,0
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,9,570
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Rayla Campbell,candidate,9,142
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Juan Sanchez,candidate,9,42
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,9,21
+2022-11-08_state_general,2022-11-08,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,9,1
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Peter J. Koutoujian,candidate,1,2694
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Blanks,blank,1,839
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Write-ins,write-in,1,51
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Peter J. Koutoujian,candidate,2,2511
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Blanks,blank,2,685
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Write-ins,write-in,2,43
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Peter J. Koutoujian,candidate,3,2910
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Blanks,blank,3,962
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Write-ins,write-in,3,60
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Peter J. Koutoujian,candidate,4,2477
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Blanks,blank,4,672
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Write-ins,write-in,4,53
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Peter J. Koutoujian,candidate,5,1372
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Blanks,blank,5,351
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Write-ins,write-in,5,28
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Peter J. Koutoujian,candidate,6,1985
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Blanks,blank,6,475
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Write-ins,write-in,6,44
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Peter J. Koutoujian,candidate,7,1124
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Blanks,blank,7,259
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Write-ins,write-in,7,27
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Peter J. Koutoujian,candidate,8,1482
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Blanks,blank,8,399
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Write-ins,write-in,8,60
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Peter J. Koutoujian,candidate,9,641
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Blanks,blank,9,120
+2022-11-08_state_general,2022-11-08,state,general,official,,Sheriff,Sheriff,,,Write-ins,write-in,9,15
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Kate Donaghue,candidate,3,647
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Jonathan I. Hostage,candidate,3,219
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Blanks,blank,3,42
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Write-ins,write-in,3,1
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Danielle W. Gregoire,candidate,1,1787
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Blanks,blank,1,592
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Write-ins,write-in,1,32
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Danielle W. Gregoire,candidate,3,396
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Blanks,blank,3,142
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Write-ins,write-in,3,9
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,4,726
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,4,186
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,4,24
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,5,1408
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,5,311
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,5,32
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,6,1405
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,6,311
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,6,35
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,7,1146
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,7,235
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,7,29
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,8,1520
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,8,359
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,8,62
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,9,634
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,9,122
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,9,20
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,1,881
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,1,277
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,1,15
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,2,2506
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,2,685
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,2,48
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,3,1867
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,3,570
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,3,39
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,4,1735
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,4,478
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,4,53
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,6,603
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,6,135
+2022-11-08_state_general,2022-11-08,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,6,15
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,1,2770
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Blanks,blank,1,749
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,1,65
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,2,2576
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Blanks,blank,2,609
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,2,54
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,3,3064
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Blanks,blank,3,792
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,3,76
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,4,2517
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Blanks,blank,4,612
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,4,73
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,5,1417
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Blanks,blank,5,305
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,5,29
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,6,2049
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Blanks,blank,6,404
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,6,51
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,7,1160
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Blanks,blank,7,216
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,7,34
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,8,1530
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Blanks,blank,8,345
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,8,66
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,9,645
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Blanks,blank,9,116
+2022-11-08_state_general,2022-11-08,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,9,15
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,1,2619
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Cristina Crawford,candidate,1,613
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,1,339
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,1,13
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,2,2477
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Cristina Crawford,candidate,2,501
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,2,252
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,2,9
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,3,2921
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Cristina Crawford,candidate,3,646
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,3,347
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,3,18
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,4,2377
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Cristina Crawford,candidate,4,535
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,4,279
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,4,11
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,5,1331
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Cristina Crawford,candidate,5,271
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,5,142
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,5,7
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,6,1909
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Cristina Crawford,candidate,6,418
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,6,166
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,6,11
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,7,1091
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Cristina Crawford,candidate,7,216
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,7,97
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,7,6
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,8,1442
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Cristina Crawford,candidate,8,320
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,8,160
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,8,19
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,9,591
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Cristina Crawford,candidate,9,127
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,9,54
+2022-11-08_state_general,2022-11-08,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,9,4
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,At Large City Councilor (2 seats) for 4 years,City Council At-Large,,2,Janet Leombruno,candidate,1,445
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,At Large City Councilor (2 seats) for 4 years,City Council At-Large,,2,"George P. King, Jr.",candidate,1,415
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,At Large City Councilor (2 seats) for 4 years,City Council At-Large,,2,Blanks,blank,1,246
@@ -4844,7 +5388,7 @@ election_id,election_date,level,type,status,party,race,office,office_district,se
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 4 City Councilor (1 seat) for 2 years,City Council District,4,1,Michael P. Cannon,candidate,4,402
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 4 City Councilor (1 seat) for 2 years,City Council District,4,1,Blanks,blank,4,86
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 4 City Councilor (1 seat) for 2 years,City Council District,4,1,Write-ins,write-in,4,21
-2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 4 School Committee (1 seat) for 2 years,School Committee District,4,1,Adam Lawrence Freudb,candidate,4,414
+2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 4 School Committee (1 seat) for 2 years,School Committee District,4,1,Adam Lawrence Freudberg,candidate,4,414
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 4 School Committee (1 seat) for 2 years,School Committee District,4,1,Blanks,blank,4,85
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 4 School Committee (1 seat) for 2 years,School Committee District,4,1,Write-ins,write-in,4,10
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 5 City Councilor (1 seat) for 2 years,City Council District,5,1,Noval A. Alexander,candidate,5,259
@@ -4869,7 +5413,7 @@ election_id,election_date,level,type,status,party,race,office,office_district,se
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 8 City Councilor (1 seat) for 2 years,City Council District,8,1,John Augusto Stefanini,candidate,8,255
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 8 City Councilor (1 seat) for 2 years,City Council District,8,1,Blanks,blank,8,11
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 8 City Councilor (1 seat) for 2 years,City Council District,8,1,Write-ins,write-in,8,1
-2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 8 School Committee (1 seat) for 2 years,School Committee District,8,1,Jessica Stefanini Barnh,candidate,8,427
+2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 8 School Committee (1 seat) for 2 years,School Committee District,8,1,Jessica Stefanini Barnhill,candidate,8,427
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 8 School Committee (1 seat) for 2 years,School Committee District,8,1,Blanks,blank,8,103
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 8 School Committee (1 seat) for 2 years,School Committee District,8,1,Write-ins,write-in,8,12
 2023-11-07_municipal_general,2023-11-07,municipal,general,unofficial,,District 9 City Councilor (1 seat) for 2 years,City Council District,9,1,Tracey Bryant,candidate,9,126
@@ -5426,3 +5970,248 @@ election_id,election_date,level,type,status,party,race,office,office_district,se
 2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,6,801
 2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,6,226
 2024-11-05_state_general,2024-11-05,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,6,34
+2025-09-16_municipal_preliminary,2025-09-16,municipal,preliminary,official,,District 2 School Committee (1 seat) for 2 years,School Committee District,2,1,Lorena Tovar,candidate,2,146
+2025-09-16_municipal_preliminary,2025-09-16,municipal,preliminary,official,,District 2 School Committee (1 seat) for 2 years,School Committee District,2,1,David Tomas Gordon,candidate,2,81
+2025-09-16_municipal_preliminary,2025-09-16,municipal,preliminary,official,,District 2 School Committee (1 seat) for 2 years,School Committee District,2,1,Luther T. Evans,candidate,2,24
+2025-09-16_municipal_preliminary,2025-09-16,municipal,preliminary,official,,District 2 School Committee (1 seat) for 2 years,School Committee District,2,1,Write-ins,write-in,2,1
+2025-09-16_municipal_preliminary,2025-09-16,municipal,preliminary,official,,District 2 School Committee (1 seat) for 2 years,School Committee District,2,1,Blanks,blank,2,0
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Blanks,blank,1,1722
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Julie Ferrari,candidate,1,1116
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Dennis W. Cardiff,candidate,1,1072
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Steven J. Schneider,candidate,1,993
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Write-ins,write-in,1,11
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Blanks,blank,2,1559
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Julie Ferrari,candidate,2,1018
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Dennis W. Cardiff,candidate,2,979
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Steven J. Schneider,candidate,2,891
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Write-ins,write-in,2,11
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Blanks,blank,3,2048
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Julie Ferrari,candidate,3,1283
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Dennis W. Cardiff,candidate,3,1221
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Steven J. Schneider,candidate,3,1164
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Write-ins,write-in,3,17
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Blanks,blank,4,1288
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Julie Ferrari,candidate,4,979
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Dennis W. Cardiff,candidate,4,938
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Steven J. Schneider,candidate,4,854
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Write-ins,write-in,4,9
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Blanks,blank,5,719
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Julie Ferrari,candidate,5,471
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Dennis W. Cardiff,candidate,5,452
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Steven J. Schneider,candidate,5,401
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Write-ins,write-in,5,6
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Blanks,blank,6,971
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Julie Ferrari,candidate,6,693
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Dennis W. Cardiff,candidate,6,650
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Steven J. Schneider,candidate,6,593
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Write-ins,write-in,6,3
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Blanks,blank,7,529
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Julie Ferrari,candidate,7,397
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Dennis W. Cardiff,candidate,7,377
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Steven J. Schneider,candidate,7,354
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Write-ins,write-in,7,5
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Blanks,blank,8,971
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Julie Ferrari,candidate,8,599
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Dennis W. Cardiff,candidate,8,592
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Steven J. Schneider,candidate,8,470
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Write-ins,write-in,8,8
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Blanks,blank,9,242
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Julie Ferrari,candidate,9,148
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Dennis W. Cardiff,candidate,9,122
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Steven J. Schneider,candidate,9,121
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Cemetery Trustee (2 seats) for 2 years,Cemetery Trustee,,2,Write-ins,write-in,9,0
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Yes,response,1,1195
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,No,response,1,353
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Blanks,blank,1,90
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Yes,response,2,1085
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,No,response,2,318
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Blanks,blank,2,83
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Yes,response,3,1441
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,No,response,3,387
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Blanks,blank,3,83
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Yes,response,4,999
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,No,response,4,299
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Blanks,blank,4,58
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Yes,response,5,516
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,No,response,5,140
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Blanks,blank,5,27
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Yes,response,6,732
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,No,response,6,192
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Blanks,blank,6,46
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Yes,response,7,415
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,No,response,7,114
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Blanks,blank,7,25
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Yes,response,8,619
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,No,response,8,210
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Blanks,blank,8,51
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Yes,response,9,156
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,No,response,9,43
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Charter Amendment Question,Charter Amendment Question,,,Blanks,blank,9,12
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 1 City Councilor (1 seat) for 2 years,City Council District,1,1,Christine A. Long,candidate,1,1294
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 1 City Councilor (1 seat) for 2 years,City Council District,1,1,Blanks,blank,1,322
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 1 City Councilor (1 seat) for 2 years,City Council District,1,1,Write-ins,write-in,1,22
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 1 School Committee (1 seat) for 2 years,School Committee District,1,1,Ricardo Robles,candidate,1,1211
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 1 School Committee (1 seat) for 2 years,School Committee District,1,1,Blanks,blank,1,418
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 1 School Committee (1 seat) for 2 years,School Committee District,1,1,Write-ins,write-in,1,9
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 2 City Councilor (1 seat) for 2 years,City Council District,2,1,Brandon F. Ward,candidate,2,887
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 2 City Councilor (1 seat) for 2 years,City Council District,2,1,Carol J. Spack,candidate,2,536
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 2 City Councilor (1 seat) for 2 years,City Council District,2,1,Blanks,blank,2,61
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 2 City Councilor (1 seat) for 2 years,City Council District,2,1,Write-ins,write-in,2,2
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 2 School Committee (1 seat) for 2 years,School Committee District,2,1,Lorena Tovar,candidate,2,784
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 2 School Committee (1 seat) for 2 years,School Committee District,2,1,David Tomas Gordon,candidate,2,527
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 2 School Committee (1 seat) for 2 years,School Committee District,2,1,Blanks,blank,2,169
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 2 School Committee (1 seat) for 2 years,School Committee District,2,1,Write-ins,write-in,2,6
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 3 City Councilor (1 seat) for 2 years,City Council District,3,1,Mary Kate Feeney,candidate,3,1349
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 3 City Councilor (1 seat) for 2 years,City Council District,3,1,Kenneth Weiss,candidate,3,426
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 3 City Councilor (1 seat) for 2 years,City Council District,3,1,Blanks,blank,3,131
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 3 City Councilor (1 seat) for 2 years,City Council District,3,1,Write-ins,write-in,3,5
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 3 School Committee (1 seat) for 2 years,School Committee District,3,1,Jennifer A. Moshe,candidate,3,1458
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 3 School Committee (1 seat) for 2 years,School Committee District,3,1,Blanks,blank,3,430
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 3 School Committee (1 seat) for 2 years,School Committee District,3,1,Write-ins,write-in,3,23
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 4 City Councilor (1 seat) for 2 years,City Council District,4,1,Michael P. Cannon,candidate,4,791
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 4 City Councilor (1 seat) for 2 years,City Council District,4,1,Steven Belcher,candidate,4,451
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 4 City Councilor (1 seat) for 2 years,City Council District,4,1,Blanks,blank,4,106
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 4 City Councilor (1 seat) for 2 years,City Council District,4,1,Write-ins,write-in,4,8
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 4 School Committee (1 seat) for 2 years,School Committee District,4,1,Adam Lawrence Freudberg,candidate,4,1063
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 4 School Committee (1 seat) for 2 years,School Committee District,4,1,Blanks,blank,4,273
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 4 School Committee (1 seat) for 2 years,School Committee District,4,1,Write-ins,write-in,4,20
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 5 City Councilor (1 seat) for 2 years,City Council District,5,1,Noval A. Alexander,candidate,5,531
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 5 City Councilor (1 seat) for 2 years,City Council District,5,1,Blanks,blank,5,128
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 5 City Councilor (1 seat) for 2 years,City Council District,5,1,Write-ins,write-in,5,24
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 5 School Committee (1 seat) for 2 years,School Committee District,5,1,Judith L. Styer,candidate,5,526
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 5 School Committee (1 seat) for 2 years,School Committee District,5,1,Blanks,blank,5,147
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 5 School Committee (1 seat) for 2 years,School Committee District,5,1,Write-ins,write-in,5,10
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 6 City Councilor (1 seat) for 2 years,City Council District,6,1,"Philip R. Ottaviani, Jr.",candidate,6,706
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 6 City Councilor (1 seat) for 2 years,City Council District,6,1,Blanks,blank,6,225
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 6 City Councilor (1 seat) for 2 years,City Council District,6,1,Write-ins,write-in,6,39
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 6 School Committee (1 seat) for 2 years,School Committee District,6,1,Brent William Lewis,candidate,6,446
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 6 School Committee (1 seat) for 2 years,School Committee District,6,1,Eddie Rodriguez,candidate,6,443
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 6 School Committee (1 seat) for 2 years,School Committee District,6,1,Blanks,blank,6,76
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 6 School Committee (1 seat) for 2 years,School Committee District,6,1,Write-ins,write-in,6,5
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 7 City Councilor (1 seat) for 2 years,City Council District,7,1,Leora Rose Mallach,candidate,7,487
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 7 City Councilor (1 seat) for 2 years,City Council District,7,1,Blanks,blank,7,59
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 7 City Councilor (1 seat) for 2 years,City Council District,7,1,Write-ins,write-in,7,8
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 7 School Committee (1 seat) for 2 years,School Committee District,7,1,Kyle James Shepherd,candidate,7,459
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 7 School Committee (1 seat) for 2 years,School Committee District,7,1,Blanks,blank,7,88
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 7 School Committee (1 seat) for 2 years,School Committee District,7,1,Write-ins,write-in,7,7
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 8 City Councilor (1 seat) for 2 years,City Council District,8,1,John Augusto Stefanini,candidate,8,491
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 8 City Councilor (1 seat) for 2 years,City Council District,8,1,Leslie S. White Harvey,candidate,8,362
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 8 City Councilor (1 seat) for 2 years,City Council District,8,1,Blanks,blank,8,23
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 8 City Councilor (1 seat) for 2 years,City Council District,8,1,Write-ins,write-in,8,4
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 8 School Committee (1 seat) for 2 years,School Committee District,8,1,Jessica Stefanini Barnhill,candidate,8,689
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 8 School Committee (1 seat) for 2 years,School Committee District,8,1,Blanks,blank,8,178
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 8 School Committee (1 seat) for 2 years,School Committee District,8,1,Write-ins,write-in,8,13
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 9 City Councilor (1 seat) for 2 years,City Council District,9,1,Tracey Bryant,candidate,9,175
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 9 City Councilor (1 seat) for 2 years,City Council District,9,1,Blanks,blank,9,26
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 9 City Councilor (1 seat) for 2 years,City Council District,9,1,Write-ins,write-in,9,10
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 9 School Committee (1 seat) for 2 years,School Committee District,9,1,William J. LaBarge,candidate,9,167
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 9 School Committee (1 seat) for 2 years,School Committee District,9,1,Blanks,blank,9,38
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,District 9 School Committee (1 seat) for 2 years,School Committee District,9,1,Write-ins,write-in,9,6
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Blanks,blank,1,3776
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Jenny Dimouro DeArcangelis,candidate,1,1082
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Isabella Lili Petroni,candidate,1,1081
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ruth S. Winett,candidate,1,1081
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Steven C. Malchman,candidate,1,1048
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Matthew Thomas Corcoran,candidate,1,1014
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ronda H. Andrews,candidate,1,720
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,1,26
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Blanks,blank,2,3270
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Isabella Lili Petroni,candidate,2,1002
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Jenny Dimouro DeArcangelis,candidate,2,1002
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ruth S. Winett,candidate,2,1000
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Steven C. Malchman,candidate,2,971
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Matthew Thomas Corcoran,candidate,2,934
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ronda H. Andrews,candidate,2,698
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,2,39
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Blanks,blank,3,4293
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ruth S. Winett,candidate,3,1289
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Isabella Lili Petroni,candidate,3,1278
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Jenny Dimouro DeArcangelis,candidate,3,1237
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Matthew Thomas Corcoran,candidate,3,1202
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Steven C. Malchman,candidate,3,1178
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ronda H. Andrews,candidate,3,972
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,3,17
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Blanks,blank,4,2850
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Isabella Lili Petroni,candidate,4,956
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Jenny Dimouro DeArcangelis,candidate,4,947
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ruth S. Winett,candidate,4,929
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Steven C. Malchman,candidate,4,905
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Matthew Thomas Corcoran,candidate,4,888
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ronda H. Andrews,candidate,4,641
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,4,20
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Blanks,blank,5,1567
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Isabella Lili Petroni,candidate,5,455
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Jenny Dimouro DeArcangelis,candidate,5,451
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Matthew Thomas Corcoran,candidate,5,434
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ruth S. Winett,candidate,5,432
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Steven C. Malchman,candidate,5,422
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ronda H. Andrews,candidate,5,314
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,5,23
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Blanks,blank,6,2046
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Isabella Lili Petroni,candidate,6,675
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Jenny Dimouro DeArcangelis,candidate,6,645
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ruth S. Winett,candidate,6,645
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Steven C. Malchman,candidate,6,622
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Matthew Thomas Corcoran,candidate,6,607
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ronda H. Andrews,candidate,6,564
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,6,16
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Blanks,blank,7,1123
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Jenny Dimouro DeArcangelis,candidate,7,398
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Matthew Thomas Corcoran,candidate,7,389
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ruth S. Winett,candidate,7,374
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Isabella Lili Petroni,candidate,7,373
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Steven C. Malchman,candidate,7,363
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ronda H. Andrews,candidate,7,294
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,7,10
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Blanks,blank,8,2165
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Isabella Lili Petroni,candidate,8,585
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Jenny Dimouro DeArcangelis,candidate,8,569
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Steven C. Malchman,candidate,8,530
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ruth S. Winett,candidate,8,523
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Matthew Thomas Corcoran,candidate,8,510
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ronda H. Andrews,candidate,8,386
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,8,12
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Blanks,blank,9,520
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Jenny Dimouro DeArcangelis,candidate,9,133
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Isabella Lili Petroni,candidate,9,132
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Matthew Thomas Corcoran,candidate,9,129
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ruth S. Winett,candidate,9,124
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Steven C. Malchman,candidate,9,122
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Ronda H. Andrews,candidate,9,106
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Library Trustee (6 seats) for 4 years,Library Trustee,,6,Write-ins,write-in,9,0
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,1,844
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Charlie Sisitsky,candidate,1,779
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,1,8
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,1,7
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Charlie Sisitsky,candidate,2,760
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,2,683
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,2,26
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,2,17
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Charlie Sisitsky,candidate,3,983
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,3,901
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,3,20
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,3,7
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Charlie Sisitsky,candidate,4,825
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,4,511
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,4,12
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,4,8
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Charlie Sisitsky,candidate,5,424
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,5,246
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,5,8
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,5,5
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Charlie Sisitsky,candidate,6,564
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,6,387
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,6,13
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,6,6
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Charlie Sisitsky,candidate,7,318
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,7,219
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,7,10
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,7,7
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Charlie Sisitsky,candidate,8,565
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,8,289
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,8,21
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,8,5
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Charlie Sisitsky,candidate,9,141
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,9,66
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,9,4
+2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,9,0

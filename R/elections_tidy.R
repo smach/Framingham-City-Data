@@ -137,11 +137,14 @@ election_columns <- function(meta) {
 #' @param extracted Extracted data frame for one election.
 #' @param meta The election's registry row.
 #' @param lookup Precinct-to-district table (read_precinct_districts()).
+#' @param name_fixes Corrections for names the clerk cut short
+#'   (read_candidate_name_fixes()).
 #' @return One row per election x race x candidate x precinct, with these columns:
 #'   election_id, election_date, level, type, status, party, race, office,
 #'   office_district, seats, candidate, candidate_type, precinct,
 #'   precinct_base, city_district, votes
-tidy_results <- function(extracted, meta, lookup = read_precinct_districts()) {
+tidy_results <- function(extracted, meta, lookup = read_precinct_districts(),
+                         name_fixes = read_candidate_name_fixes()) {
   x <- extracted[extracted$section == "results" & extracted$precinct != "Total" &
                    candidate_type(extracted$candidate) != "total", ]
   if (nrow(x) == 0) return(NULL)
@@ -153,7 +156,7 @@ tidy_results <- function(extracted, meta, lookup = read_precinct_districts()) {
     office          = offices$office,
     office_district = offices$office_district,
     seats           = offices$seats,
-    candidate       = standardize_candidate(x$candidate),
+    candidate       = fix_candidate_names(standardize_candidate(x$candidate), meta$election_id, name_fixes),
     candidate_type  = candidate_type(x$candidate),
     precinct        = x$precinct,
     precinct_base   = precinct_base(x$precinct),
@@ -212,6 +215,10 @@ tidy_turnout <- function(extracted, meta, lookup = read_precinct_districts()) {
     )
   }
   wide <- wide[!(is.na(wide$ballots_cast) & !is.na(wide$party)), ]
+  # A district-only election (e.g. the 2025 preliminary) can list every
+  # precinct with 0 registered and 0 ballots. Those precincts weren't part of
+  # the election, so drop them rather than report 0/0 turnout.
+  wide <- wide[!(wide$registered %in% 0 & wide$ballots_cast %in% 0), ]
 
   data.frame(
     election_columns(meta)[rep(1, nrow(wide)), ],

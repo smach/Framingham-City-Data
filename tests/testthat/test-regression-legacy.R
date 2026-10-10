@@ -43,6 +43,9 @@ for (i in seq_len(nrow(legacy_results))) {
     old <- old[!is.na(old$votes) & !old$precinct %in% c("Total", "Totals") & old$candidate != "Candidate" &
                  !grepl("turnout|registered|percent", old$candidate, ignore.case = TRUE) &
                  candidate_type(old$candidate) == "candidate", ]
+    # The old files have names as the clerk printed them; apply the same
+    # corrections the build does (data-raw/lookups/candidate_name_fixes.csv)
+    old$candidate <- fix_candidate_names(old$candidate, id)
     new <- built_results[built_results$election_id == id, ]
     # In primaries the same name can only appear in one party; sum across
     # races in case a candidate is listed in two
