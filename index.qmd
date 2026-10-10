@@ -1,17 +1,14 @@
 ---
 title: "Framingham City Data (Unofficial)"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    theme: flatly
 ---
 
-```{r setup, include=FALSE}
+```{r}
+#| label: setup
+#| include: false
 # This page is rebuilt automatically by GitHub Actions
 # (.github/workflows/build-site.yml) whenever data or code changes on main.
-# To build it yourself: rmarkdown::render("docs/index.Rmd")
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+# To build it yourself, from the project folder in a terminal: quarto render
+# Page-wide settings (theme, table of contents, hiding code) are in _quarto.yml.
 source(here::here("R/load.R"))
 repo <- "https://github.com/smach/Framingham-City-Data"
 raw  <- "https://raw.githubusercontent.com/smach/Framingham-City-Data/main"
@@ -28,7 +25,9 @@ Every dataset is here in two forms: the **original files** (the clerk's PDFs, do
 
 All election results are in one file, one row per election, race, candidate and precinct. In R:
 
-```{r echo=TRUE, eval=FALSE}
+```{r}
+#| echo: true
+#| eval: false
 library(dplyr)
 results <- readr::read_csv("https://raw.githubusercontent.com/smach/Framingham-City-Data/main/data/elections/results_precinct.csv")
 
@@ -124,7 +123,9 @@ DT::datatable(catalog, filter = "top", rownames = FALSE, escape = FALSE,
 
 The precinct files in `data/gis/` work in any mapping tool. In R, `make_precinct_map()` in `r link("R/gis.R")` makes an interactive map of precincts colored by city council district and searchable by address:
 
-```{r echo=TRUE, eval=FALSE}
+```{r}
+#| echo: true
+#| eval: false
 source("R/load.R")
 make_precinct_map("2023-11-07", show_house_districts = TRUE)
 ```

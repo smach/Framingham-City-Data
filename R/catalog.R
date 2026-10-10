@@ -4,13 +4,13 @@
 # The old site used a hand-maintained docs/file_index.csv that had to be
 # edited every time a file was added. Now the list is built automatically:
 # every file under data/ and data-raw/ is listed, and its description comes
-# from the first matching pattern in docs/catalog_descriptions.csv. Raw
+# from the first matching pattern in data-raw/catalog_descriptions.csv. Raw
 # election files also get the election's name from the registry. A new
 # election's files show up on the site with no extra work.
 
 #' Build the file catalog for the website
 #' @return A data frame: File, Description, Category, Source.
-build_file_catalog <- function(patterns_path = proj_path("docs", "catalog_descriptions.csv")) {
+build_file_catalog <- function(patterns_path = proj_path("data-raw", "catalog_descriptions.csv")) {
   root <- proj_path()
   files <- list.files(file.path(root, c("data", "data-raw")), recursive = TRUE,
                       full.names = TRUE, all.files = FALSE)

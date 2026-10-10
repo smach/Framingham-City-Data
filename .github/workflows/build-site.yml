@@ -1,5 +1,5 @@
-# Rebuilds the project website (docs/index.html) whenever data, code or the
-# page source changes on main, and commits the result. GitHub Pages keeps
+# Rebuilds the project website with Quarto whenever data, code or the page
+# source changes on main, and commits the result to docs/. GitHub Pages keeps
 # serving the site from the docs/ folder, so no settings change is needed.
 name: Build website
 
@@ -7,10 +7,10 @@ on:
   push:
     branches: [main]
     paths:
+      - "index.qmd"
+      - "_quarto.yml"
       - "data/**"
       - "data-raw/**"
-      - "docs/index.Rmd"
-      - "docs/catalog_descriptions.csv"
       - "R/**"
   workflow_dispatch:
 
@@ -23,25 +23,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: r-lib/actions/setup-pandoc@v2
+      - uses: quarto-dev/quarto-actions/setup@v2
 
       - uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
 
       - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: any::rmarkdown
 
       - name: Render the site
-        run: Rscript -e 'rmarkdown::render("docs/index.Rmd")'
+        run: quarto render
 
       # A push made with the built-in GITHUB_TOKEN doesn't start other
       # workflows, so this can't loop.
-      - name: Commit the rendered page if it changed
+      - name: Commit the rendered site if it changed
         run: |
-          if ! git diff --quiet -- docs/index.html; then
+          git add docs
+          if ! git diff --cached --quiet -- docs; then
             git config user.name "github-actions[bot]"
             git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-            git add docs/index.html
             git commit -m "Rebuild website"
             git push
           fi

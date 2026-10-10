@@ -31,3 +31,4 @@ pattern,description,category,format_note,source
 ^data-raw/lookups/precinct_districts\.csv$,"Which city council district each precinct is in, for each precinct map, with the dates each map was used",Elections,,Framingham GIS
 ^data-raw/census/,Census block listings with precinct assignments (2021),Census,,City of Framingham
 ^data-raw/other/,Covid-19 risk assessment for public school ventilation and filtration,Schools,,Framingham Public Schools
+^data-raw/catalog_descriptions\.csv$,"Descriptions used to build the searchable file list on the website (matched by path pattern). Add a row here when you add a new kind of file.",Website,,

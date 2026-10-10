@@ -8,3 +8,7 @@ index.xlsx
 data-raw/property/*.zip
 # Written by the GitHub Action when it opens a pull request
 pr_body.md
+
+# Quarto's working folders
+/.quarto/
+/_freeze/
