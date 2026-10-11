@@ -15,10 +15,12 @@
 #'
 #' @param meta One registry row.
 #' @param lookup Precinct-to-district table.
+#' @param name_fixes Candidate name corrections.
 #' @return A list with results, turnout and checks.
-build_election <- function(meta, lookup = read_precinct_districts()) {
+build_election <- function(meta, lookup = read_precinct_districts(),
+                           name_fixes = read_candidate_name_fixes()) {
   extracted <- read_election_raw(meta)
-  results <- tidy_results(extracted, meta, lookup)
+  results <- tidy_results(extracted, meta, lookup, name_fixes)
   turnout <- tidy_turnout(extracted, meta, lookup)
   checks <- validate_election(extracted, results, turnout, meta, lookup)
   list(results = results, turnout = turnout, checks = checks)
@@ -33,13 +35,14 @@ build_election <- function(meta, lookup = read_precinct_districts()) {
 build_all <- function(registry = read_registry(), out_dir = proj_path("data", "elections"),
                       quiet = FALSE) {
   lookup <- read_precinct_districts()
+  name_fixes <- read_candidate_name_fixes()
   ready <- registry[registry$parser %in% c("clerk_xlsx", "extracted_csv"), ]
   ready <- ready[order(ready$election_date), ]
 
   built <- lapply(seq_len(nrow(ready)), function(i) {
     meta <- ready[i, ]
     if (!quiet) message("Building ", meta$election_id)
-    build_election(meta, lookup)
+    build_election(meta, lookup, name_fixes)
   })
   results <- dplyr::bind_rows(lapply(built, `[[`, "results"))
   turnout <- dplyr::bind_rows(lapply(built, `[[`, "turnout"))

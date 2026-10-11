@@ -82,3 +82,29 @@ test_that("validation catches a one-seat race with more votes than ballots", {
   checks <- run_checks(raw)
   expect_equal(checks$status[checks$check == "one_seat_races_not_above_ballots"], "fail")
 })
+
+test_that("precincts with 0 registered and 0 ballots are left out of turnout", {
+  # A district-only election lists every precinct, with zeros where no one voted
+  raw <- fake_sheet()
+  raw[c(4:6), 2] <- NA
+  raw[7, 2:5] <- c("0", "90", "92", "182")
+  raw[8, 2:5] <- c("0", "300", "300", "600")
+  ex <- parse_clerk_table(raw)
+  to <- tidy_turnout(ex, fake_meta)
+  expect_equal(to$precinct, c("2", "3"))
+  expect_false(any(is.nan(to$turnout_pct)))
+})
+
+test_that("candidate name fixes apply only to their own election", {
+  fixes <- data.frame(election_id = "2099-11-01_municipal_general",
+                      printed_name = "Jane D", corrected_name = "Jane Doe")
+  raw <- fake_sheet()
+  raw[5, 1] <- "Jane D"
+  ex <- parse_clerk_table(raw)
+  res <- tidy_results(ex, fake_meta, name_fixes = fixes)
+  expect_true("Jane Doe" %in% res$candidate)
+  expect_false("Jane D" %in% res$candidate)
+  other <- fake_meta
+  other$election_id <- "2098-11-01_municipal_general"
+  expect_true("Jane D" %in% tidy_results(ex, other, name_fixes = fixes)$candidate)
+})
