@@ -29,6 +29,28 @@ test_that("dates and election kinds are guessed from link text", {
                                          "municipal town", "state special", "state special-primary"))
 })
 
+test_that("a link counts as known however its address is written", {
+  # The clerk's page drops the title and the browser adds "?bidId="
+  links <- data.frame(link_text = c("November 3, 2026 State Election", "Brand new"),
+                      url = c("https://www.framinghamma.gov/DocumentCenter/View/55543",
+                              "https://www.framinghamma.gov/DocumentCenter/View/99999"))
+  reg <- data.frame(source_url = "https://www.framinghamma.gov/DocumentCenter/View/55543/Official-Results--110326?bidId=")
+  expect_equal(find_new_results(links, reg)$link_text, "Brand new")
+  # Document 5554 isn't document 55543
+  expect_false(url_key("https://x.gov/DocumentCenter/View/5554") == url_key("https://x.gov/DocumentCenter/View/55543"))
+})
+
+test_that("default election names follow the registry's style", {
+  expect_equal(default_election_name("2026-11-03_state_general"), "November 3 2026 State Election")
+  expect_equal(default_election_name("2025-09-16_municipal_preliminary"), "September 16 2025 City Preliminary Election")
+  expect_true(is.na(default_election_name("2030-01-01_municipal_unknown")))
+  # Matches every standard-kind name already in the registry
+  reg <- read_registry()
+  std <- reg[reg$type %in% c("general", "primary", "presidential-primary", "preliminary") |
+               (reg$level == "state" & reg$type %in% c("special", "special-primary")), ]
+  expect_equal(vapply(std$election_id, default_election_name, "", USE.NAMES = FALSE), std$name)
+})
+
 test_that("register_election adds and updates registry rows", {
   tmp <- tempfile(fileext = ".csv")
   file.copy(here::here("data-raw", "elections", "elections.csv"), tmp)

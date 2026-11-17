@@ -6215,3 +6215,684 @@ election_id,election_date,level,type,status,party,race,office,office_district,se
 2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Geoffrey N. Epstein,candidate,9,66
 2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Blanks,blank,9,4
 2025-11-04_municipal_general,2025-11-04,municipal,general,official,,Mayor (1 seat) for 4 years,Mayor,,1,Write-ins,write-in,9,0
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,1,2692
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Michael C. Walsh,candidate,1,979
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,1,97
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,1,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,2,2463
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Michael C. Walsh,candidate,2,835
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,2,89
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,2,1
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,3,3028
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Michael C. Walsh,candidate,3,1124
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,3,122
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,3,3
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,4,2399
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Michael C. Walsh,candidate,4,852
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,4,71
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,4,3
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,5,1415
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Michael C. Walsh,candidate,5,422
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,5,52
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,5,3
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,6,1936
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Michael C. Walsh,candidate,6,619
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,6,65
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,6,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,7,1196
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Michael C. Walsh,candidate,7,328
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,7,28
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,7,3
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,8,1538
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Michael C. Walsh,candidate,8,503
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,8,74
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,8,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Andrea Joy Campbell,candidate,9,690
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Michael C. Walsh,candidate,9,159
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Blanks,blank,9,20
+2026-11-03_state_general,2026-11-03,state,general,official,,Attorney General,Attorney General,,,Write-ins,write-in,9,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,1,2985
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Al Ozonoff,candidate,1,419
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Blanks,blank,1,351
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,1,15
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,2,2711
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Al Ozonoff,candidate,2,393
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Blanks,blank,2,267
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,2,17
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,3,3379
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Al Ozonoff,candidate,3,499
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Blanks,blank,3,378
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,3,21
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,4,2659
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Al Ozonoff,candidate,4,380
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Blanks,blank,4,264
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,4,22
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,5,1522
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Al Ozonoff,candidate,5,201
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Blanks,blank,5,157
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,5,12
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,6,2075
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Al Ozonoff,candidate,6,303
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Blanks,blank,6,233
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,6,13
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,7,1255
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Al Ozonoff,candidate,7,186
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Blanks,blank,7,102
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,7,12
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,8,1628
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Al Ozonoff,candidate,8,271
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Blanks,blank,8,199
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,8,19
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Diana DiZoglio,candidate,9,714
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Al Ozonoff,candidate,9,90
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Blanks,blank,9,59
+2026-11-03_state_general,2026-11-03,state,general,official,,Auditor,Auditor,,,Write-ins,write-in,9,11
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,1,2588
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,1,888
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,1,291
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,1,3
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,2,2383
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,2,765
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,2,238
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,2,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,3,2933
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,3,1037
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,3,302
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,3,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,4,2329
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,4,768
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,4,224
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,4,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,5,1364
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,5,394
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,5,130
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,5,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,6,1872
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,6,561
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,6,190
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,6,1
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,7,1152
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,7,304
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,7,95
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,7,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,8,1462
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,8,478
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,8,172
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,8,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Tamisha L. Civil,candidate,9,668
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,"Francis T. Crimmins, Jr.",candidate,9,152
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Blanks,blank,9,52
+2026-11-03_state_general,2026-11-03,state,general,official,,Councillor,Governor's Council,,,Write-ins,write-in,9,2
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,1,2883
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,1,827
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,1,60
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,2,2646
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,2,695
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,2,47
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,3,3266
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,3,949
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,3,62
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,4,2575
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,4,692
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,4,58
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,5,1479
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,5,377
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,5,36
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,6,2066
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,6,517
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,6,41
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,7,1227
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,7,285
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,7,43
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,8,1639
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,8,427
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,8,51
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Marian T. Ryan,candidate,9,716
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Blanks,blank,9,132
+2026-11-03_state_general,2026-11-03,state,general,official,,District Attorney,District Attorney,,,Write-ins,write-in,9,26
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Healey and Driscoll,candidate,1,2629
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Minogue and Oliver,candidate,1,998
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,James and Kittredge,candidate,1,88
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Blanks,blank,1,53
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Write-ins,write-in,1,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Healey and Driscoll,candidate,2,2386
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Minogue and Oliver,candidate,2,862
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,James and Kittredge,candidate,2,109
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Blanks,blank,2,28
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Write-ins,write-in,2,3
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Healey and Driscoll,candidate,3,2973
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Minogue and Oliver,candidate,3,1147
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,James and Kittredge,candidate,3,99
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Blanks,blank,3,53
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Write-ins,write-in,3,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Healey and Driscoll,candidate,4,2354
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Minogue and Oliver,candidate,4,848
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,James and Kittredge,candidate,4,89
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Blanks,blank,4,30
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Write-ins,write-in,4,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Healey and Driscoll,candidate,5,1378
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Minogue and Oliver,candidate,5,427
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,James and Kittredge,candidate,5,59
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Blanks,blank,5,25
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Write-ins,write-in,5,3
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Healey and Driscoll,candidate,6,1877
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Minogue and Oliver,candidate,6,624
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,James and Kittredge,candidate,6,93
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Blanks,blank,6,26
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Write-ins,write-in,6,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Healey and Driscoll,candidate,7,1160
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Minogue and Oliver,candidate,7,330
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,James and Kittredge,candidate,7,55
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Blanks,blank,7,9
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Write-ins,write-in,7,1
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Healey and Driscoll,candidate,8,1484
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Minogue and Oliver,candidate,8,521
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,James and Kittredge,candidate,8,69
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Blanks,blank,8,38
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Write-ins,write-in,8,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Healey and Driscoll,candidate,9,663
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Minogue and Oliver,candidate,9,164
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,James and Kittredge,candidate,9,35
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Blanks,blank,9,12
+2026-11-03_state_general,2026-11-03,state,general,official,,Governor,Governor,,,Write-ins,write-in,9,0
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Yes,response,1,3157
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,No,response,1,515
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Blanks,blank,1,98
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Yes,response,2,2861
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,No,response,2,436
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Blanks,blank,2,91
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Yes,response,3,3645
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,No,response,3,534
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Blanks,blank,3,98
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Yes,response,4,2751
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,No,response,4,484
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Blanks,blank,4,90
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Yes,response,5,1547
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,No,response,5,290
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Blanks,blank,5,55
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Yes,response,6,2202
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,No,response,6,342
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Blanks,blank,6,80
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Yes,response,7,1295
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,No,response,7,205
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Blanks,blank,7,55
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Yes,response,8,1698
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,No,response,8,343
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Blanks,blank,8,76
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Yes,response,9,692
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,No,response,9,151
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 1: Expanding the Public Records Law,Question 1: Expanding the Public Records Law,,,Blanks,blank,9,31
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Yes,response,1,2427
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,No,response,1,1199
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Blanks,blank,1,144
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Yes,response,2,2225
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,No,response,2,1049
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Blanks,blank,2,114
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Yes,response,3,2735
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,No,response,3,1397
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Blanks,blank,3,145
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Yes,response,4,2171
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,No,response,4,1036
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Blanks,blank,4,118
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Yes,response,5,1302
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,No,response,5,515
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Blanks,blank,5,75
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Yes,response,6,1707
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,No,response,6,806
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Blanks,blank,6,111
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Yes,response,7,1105
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,No,response,7,379
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Blanks,blank,7,71
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Yes,response,8,1377
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,No,response,8,630
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Blanks,blank,8,110
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Yes,response,9,629
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,No,response,9,209
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 2: Collective Bargaining for CPCS Employees,Question 2: Collective Bargaining for CPCS Employees,,,Blanks,blank,9,36
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,No,response,1,2233
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Yes,response,1,1429
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Blanks,blank,1,108
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,No,response,2,2011
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Yes,response,2,1289
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Blanks,blank,2,88
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,No,response,3,2627
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Yes,response,3,1556
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Blanks,blank,3,94
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,No,response,4,1995
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Yes,response,4,1246
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Blanks,blank,4,84
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,No,response,5,1128
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Yes,response,5,704
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Blanks,blank,5,60
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,No,response,6,1502
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Yes,response,6,1061
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Blanks,blank,6,61
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,No,response,7,908
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Yes,response,7,587
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Blanks,blank,7,60
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,No,response,8,1240
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Yes,response,8,796
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Blanks,blank,8,81
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,No,response,9,519
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Yes,response,9,322
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 3: Elimination of State Primaries,Question 3: Elimination of State Primaries,,,Blanks,blank,9,33
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Yes,response,1,2172
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,No,response,1,1499
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Blanks,blank,1,99
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Yes,response,2,2035
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,No,response,2,1242
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Blanks,blank,2,111
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Yes,response,3,2445
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,No,response,3,1725
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Blanks,blank,3,107
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Yes,response,4,2000
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,No,response,4,1222
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Blanks,blank,4,103
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Yes,response,5,1219
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,No,response,5,596
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Blanks,blank,5,77
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Yes,response,6,1643
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,No,response,6,894
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Blanks,blank,6,87
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Yes,response,7,1006
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,No,response,7,485
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Blanks,blank,7,64
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Yes,response,8,1325
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,No,response,8,697
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Blanks,blank,8,95
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Yes,response,9,584
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,No,response,9,251
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 4: Election Day Voter Registration,Question 4: Election Day Voter Registration,,,Blanks,blank,9,39
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,No,response,1,2102
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Yes,response,1,1520
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Blanks,blank,1,148
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,No,response,2,1823
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Yes,response,2,1403
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Blanks,blank,2,162
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,No,response,3,2401
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Yes,response,3,1702
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Blanks,blank,3,174
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,No,response,4,1822
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Yes,response,4,1354
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Blanks,blank,4,149
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,No,response,5,1051
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Yes,response,5,726
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Blanks,blank,5,115
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,No,response,6,1393
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Yes,response,6,1118
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Blanks,blank,6,113
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,No,response,7,821
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Yes,response,7,651
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Blanks,blank,7,83
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,No,response,8,1089
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Yes,response,8,909
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Blanks,blank,8,119
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,No,response,9,431
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Yes,response,9,395
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 5: State Revenue Limit and Rebate,Question 5: State Revenue Limit and Rebate,,,Blanks,blank,9,48
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Yes,response,1,2300
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,No,response,1,1332
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Blanks,blank,1,138
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Yes,response,2,2088
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,No,response,2,1160
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Blanks,blank,2,140
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Yes,response,3,2508
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,No,response,3,1619
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Blanks,blank,3,150
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Yes,response,4,2092
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,No,response,4,1110
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Blanks,blank,4,123
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Yes,response,5,1163
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,No,response,5,621
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Blanks,blank,5,108
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Yes,response,6,1616
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,No,response,6,908
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Blanks,blank,6,100
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Yes,response,7,1030
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,No,response,7,434
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Blanks,blank,7,91
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Yes,response,8,1351
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,No,response,8,655
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Blanks,blank,8,111
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Yes,response,9,582
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,No,response,9,247
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 6: Natural Resource Conservation Fund,Question 6: Natural Resource Conservation Fund,,,Blanks,blank,9,45
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,No,response,1,2024
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Yes,response,1,1618
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Blanks,blank,1,128
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Yes,response,2,1677
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,No,response,2,1576
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Blanks,blank,2,135
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,No,response,3,2323
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Yes,response,3,1817
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Blanks,blank,3,137
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Yes,response,4,1685
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,No,response,4,1509
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Blanks,blank,4,131
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Yes,response,5,1033
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,No,response,5,758
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Blanks,blank,5,101
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Yes,response,6,1388
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,No,response,6,1126
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Blanks,blank,6,110
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Yes,response,7,926
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,No,response,7,546
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Blanks,blank,7,83
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Yes,response,8,1152
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,No,response,8,855
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Blanks,blank,8,110
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Yes,response,9,536
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,No,response,9,297
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 7: Single Family Homes,Question 7: Single Family Homes,,,Blanks,blank,9,41
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,No,response,1,2894
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Yes,response,1,805
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Blanks,blank,1,71
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,No,response,2,2599
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Yes,response,2,705
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Blanks,blank,2,84
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,No,response,3,3255
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Yes,response,3,943
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Blanks,blank,3,79
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,No,response,4,2523
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Yes,response,4,739
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Blanks,blank,4,63
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,No,response,5,1402
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Yes,response,5,455
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Blanks,blank,5,35
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,No,response,6,1931
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Yes,response,6,635
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Blanks,blank,6,58
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,No,response,7,1163
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Yes,response,7,348
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Blanks,blank,7,44
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,No,response,8,1533
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Yes,response,8,515
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Blanks,blank,8,69
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,No,response,9,614
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Yes,response,9,231
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,Question 8: Prohibit Retail Sale of Adult Recreational Use Marijuana,,,Blanks,blank,9,29
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Yes,response,1,2812
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,No,response,1,891
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Blanks,blank,1,67
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Yes,response,2,2557
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,No,response,2,766
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Blanks,blank,2,65
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Yes,response,3,2609
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,No,response,3,1601
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Blanks,blank,3,67
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Yes,response,4,2483
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,No,response,4,783
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Blanks,blank,4,59
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Yes,response,5,1419
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,No,response,5,428
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Blanks,blank,5,45
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Yes,response,6,1980
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,No,response,6,592
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Blanks,blank,6,52
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Yes,response,7,1162
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,No,response,7,352
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Blanks,blank,7,41
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Yes,response,8,1495
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,No,response,8,567
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Blanks,blank,8,55
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Yes,response,9,596
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,No,response,9,248
+2026-11-03_state_general,2026-11-03,state,general,official,,Question 9: Firearms Regulation,Question 9: Firearms Regulation,,,Blanks,blank,9,30
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara E. DeCristofaro,candidate,1,2710
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Blanks,blank,1,660
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara Martorella,candidate,1,375
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Write-ins,write-in,1,25
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara E. DeCristofaro,candidate,2,2451
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Blanks,blank,2,538
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara Martorella,candidate,2,380
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Write-ins,write-in,2,19
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara E. DeCristofaro,candidate,3,3087
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Blanks,blank,3,742
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara Martorella,candidate,3,421
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Write-ins,write-in,3,27
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara E. DeCristofaro,candidate,4,2434
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Blanks,blank,4,533
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara Martorella,candidate,4,335
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Write-ins,write-in,4,23
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara E. DeCristofaro,candidate,5,1371
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Blanks,blank,5,307
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara Martorella,candidate,5,202
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Write-ins,write-in,5,12
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara E. DeCristofaro,candidate,6,1950
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Blanks,blank,6,396
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara Martorella,candidate,6,262
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Write-ins,write-in,6,16
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara E. DeCristofaro,candidate,7,1137
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Blanks,blank,7,213
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara Martorella,candidate,7,190
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Write-ins,write-in,7,15
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara E. DeCristofaro,candidate,8,1485
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Blanks,blank,8,339
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara Martorella,candidate,8,269
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Write-ins,write-in,8,24
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara E. DeCristofaro,candidate,9,639
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Blanks,blank,9,122
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Tara Martorella,candidate,9,100
+2026-11-03_state_general,2026-11-03,state,general,official,,Register of Probate,Register of Probate,,,Write-ins,write-in,9,13
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,1,2928
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,1,749
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,1,93
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,2,2665
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,2,644
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,2,79
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,3,3302
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,3,875
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,3,100
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,4,2649
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,4,584
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,4,92
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,5,1501
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,5,337
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,5,54
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,6,2064
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,6,487
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,6,73
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,7,1260
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,7,241
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,7,54
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,8,1667
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,8,390
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,8,60
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Katherine M. Clark,candidate,9,732
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Blanks,blank,9,112
+2026-11-03_state_general,2026-11-03,state,general,official,,Rep. in Congress,U.S. Representative,,,Write-ins,write-in,9,30
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,1,2840
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Anne R. Brensley,candidate,1,806
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,1,123
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,1,1
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,2,2629
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Anne R. Brensley,candidate,2,677
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,2,77
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,2,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,3,3247
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Anne R. Brensley,candidate,3,907
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,3,119
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,3,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,4,2552
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Anne R. Brensley,candidate,4,698
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,4,73
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,4,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,5,1488
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Anne R. Brensley,candidate,5,344
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,5,57
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,5,3
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,6,2029
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Anne R. Brensley,candidate,6,517
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,6,74
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,6,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,7,1240
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Anne R. Brensley,candidate,7,273
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,7,37
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,7,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,8,1598
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Anne R. Brensley,candidate,8,443
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,8,70
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,8,6
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,William Francis Galvin,candidate,9,689
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Anne R. Brensley,candidate,9,162
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Blanks,blank,9,19
+2026-11-03_state_general,2026-11-03,state,general,official,,Secretary of State,Secretary of State,,,Write-ins,write-in,9,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Edward J. Markey,candidate,1,2651
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,1,913
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Shiya Ayyadurai,candidate,1,72
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,1,65
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Joe Tache,candidate,1,63
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,1,6
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Edward J. Markey,candidate,2,2395
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,2,786
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Shiya Ayyadurai,candidate,2,76
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Joe Tache,candidate,2,73
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,2,53
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,2,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Edward J. Markey,candidate,3,2969
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,3,1082
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Shiya Ayyadurai,candidate,3,85
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,3,67
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Joe Tache,candidate,3,64
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,3,10
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Edward J. Markey,candidate,4,2373
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,4,783
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Shiya Ayyadurai,candidate,4,58
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,4,53
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Joe Tache,candidate,4,50
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,4,8
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Edward J. Markey,candidate,5,1365
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,5,401
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Joe Tache,candidate,5,56
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Shiya Ayyadurai,candidate,5,44
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,5,24
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,5,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Edward J. Markey,candidate,6,1875
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,6,582
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Joe Tache,candidate,6,62
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Shiya Ayyadurai,candidate,6,61
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,6,36
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,6,8
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Edward J. Markey,candidate,7,1148
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,7,298
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Joe Tache,candidate,7,44
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Shiya Ayyadurai,candidate,7,42
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,7,21
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,7,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Edward J. Markey,candidate,8,1488
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,8,467
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Shiya Ayyadurai,candidate,8,72
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Joe Tache,candidate,8,45
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,8,43
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,8,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Edward J. Markey,candidate,9,659
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,John Deaton,candidate,9,149
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Joe Tache,candidate,9,31
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Shiya Ayyadurai,candidate,9,23
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Blanks,blank,9,11
+2026-11-03_state_general,2026-11-03,state,general,official,,Senator in Congress,U.S. Senator,,,Write-ins,write-in,9,1
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Kate Donaghue,candidate,3,728
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Blanks,blank,3,221
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 19th Worcester,State Representative,19th Worcester,,Write-ins,write-in,3,16
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Danielle W. Gregoire,candidate,1,1935
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Blanks,blank,1,600
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Write-ins,write-in,1,43
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Danielle W. Gregoire,candidate,3,503
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Blanks,blank,3,165
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 4th Middlesex,State Representative,4th Middlesex,,Write-ins,write-in,3,7
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,4,710
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,4,192
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,4,18
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,5,1498
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,5,353
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,5,41
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,6,1405
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,6,358
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,6,23
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,7,1240
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,7,278
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,7,37
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,8,1647
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,8,414
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,8,56
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Priscila S. Sousa,candidate,9,716
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Blanks,blank,9,135
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 6th Middlesex,State Representative,6th Middlesex,,Write-ins,write-in,9,23
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,1,943
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,1,231
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,1,18
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,2,2635
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,2,705
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,2,48
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,3,2058
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,3,532
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,3,47
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,4,1909
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,4,455
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,4,41
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Jack Patrick Lewis,candidate,6,662
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Blanks,blank,6,158
+2026-11-03_state_general,2026-11-03,state,general,official,,State Representative - 7th Middlesex,State Representative,7th Middlesex,,Write-ins,write-in,6,18
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,1,2928
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Blanks,blank,1,769
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,1,73
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,2,2692
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Blanks,blank,2,636
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,2,60
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,3,3324
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Blanks,blank,3,879
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,3,74
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,4,2631
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Blanks,blank,4,618
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,4,76
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,5,1502
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Blanks,blank,5,349
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,5,41
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,6,2100
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Blanks,blank,6,472
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,6,52
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,7,1255
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Blanks,blank,7,258
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,7,42
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,8,1655
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Blanks,blank,8,410
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,8,52
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Karen E. Spilka,candidate,9,729
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Blanks,blank,9,123
+2026-11-03_state_general,2026-11-03,state,general,official,,State Senator,State Senator,,,Write-ins,write-in,9,22
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,1,2671
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Elizabeth Dionne,candidate,1,941
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,1,157
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,1,1
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,2,2471
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Elizabeth Dionne,candidate,2,788
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,2,127
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,2,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,3,3017
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Elizabeth Dionne,candidate,3,1092
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,3,163
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,3,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,4,2415
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Elizabeth Dionne,candidate,4,803
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,4,105
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,4,2
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,5,1399
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Elizabeth Dionne,candidate,5,410
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,5,78
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,5,5
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,6,1895
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Elizabeth Dionne,candidate,6,625
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,6,97
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,6,7
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,7,1170
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Elizabeth Dionne,candidate,7,334
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,7,48
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,7,3
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,8,1510
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Elizabeth Dionne,candidate,8,507
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,8,96
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,8,4
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Deborah B. Goldberg,candidate,9,673
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Elizabeth Dionne,candidate,9,174
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Blanks,blank,9,23
+2026-11-03_state_general,2026-11-03,state,general,official,,Treasurer,Treasurer,,,Write-ins,write-in,9,4

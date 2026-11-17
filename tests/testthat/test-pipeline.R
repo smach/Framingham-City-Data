@@ -95,6 +95,30 @@ test_that("precincts with 0 registered and 0 ballots are left out of turnout", {
   expect_false(any(is.nan(to$turnout_pct)))
 })
 
+test_that("a race header that says 'Election' isn't mistaken for a page title", {
+  # 2026: "Question 4: Election Day Voter Registration" was skipped as a title,
+  # so its Yes/No rows landed under the race above it
+  raw <- fake_sheet()
+  raw[3, 1] <- "Question 4: Election Day Voter Registration"
+  ex <- parse_clerk_table(raw)
+  expect_equal(unique(ex$race[ex$section == "results"]),
+               "Question 4: Election Day Voter Registration")
+  # The real page title on row 1 is still skipped
+  expect_false("City Election Official Results" %in% c(ex$race, ex$candidate))
+})
+
+test_that("two-card ballots use Total Card One as ballots cast", {
+  # 2026 reported "Total Card One" / "Total Card Two" instead of "Total Turnout"
+  raw <- fake_sheet()
+  raw[7, ] <- c("Total Card One", "91", "90", "92", "273")
+  raw <- rbind(raw[1:7, ], c("Total Card Two", "89", "90", "92", "271"), raw[8, ])
+  ex <- parse_clerk_table(raw)
+  expect_false(any(grepl("Card", ex$candidate[ex$section == "results"])))
+  to <- tidy_turnout(ex, fake_meta)
+  expect_equal(to$ballots_cast, c(91L, 90L, 92L))
+  expect_equal(to$registered, c(300L, 300L, 300L))
+})
+
 test_that("candidate name fixes apply only to their own election", {
   fixes <- data.frame(election_id = "2099-11-01_municipal_general",
                       printed_name = "Jane D", corrected_name = "Jane Doe")

@@ -95,12 +95,14 @@ parse_clerk_table <- function(raw, default_race = NA_character_) {
   # headers, and page titles such as "City Election Official Results -
   # November 7, 2017" that repeat at the top of each page. Titles are spotted
   # by their wording rather than position: in 2023 a race header sits right
-  # above a repeated page header and must be kept. ---
+  # above a repeated page header and must be kept. Every title so far says
+  # "Results"; don't match on "Election" too, or a race header such as 2026's
+  # "Question 4: Election Day Voter Registration" gets thrown away. ---
   skip <- rep(FALSE, nrow(raw))
   skip[seq_len(header_rows[1])] <- TRUE
   skip[header_rows] <- TRUE
   labels <- clean_label(raw[[1]])
-  skip[grepl("results|election", labels, ignore.case = TRUE) &
+  skip[grepl("results", labels, ignore.case = TRUE) &
          !grepl("turnout|registered", labels, ignore.case = TRUE)] <- TRUE
   # Older town results end with a "Validation" block that repeats office names
   # with numbers -- not results, so stop reading there.
@@ -140,7 +142,9 @@ parse_clerk_table <- function(raw, default_race = NA_character_) {
     }
 
     if (grepl("^percent", label, ignore.case = TRUE)) next  # we recompute percentages ourselves
-    is_turnout <- grepl("turnout|registered", label, ignore.case = TRUE)
+    # Two-card ballots (2026) report ballots cast as "Total Card One" and
+    # "Total Card Two" instead of "Total Turnout"; see tidy_turnout().
+    is_turnout <- grepl("turnout|registered|^Total Card", label, ignore.case = TRUE)
     keep <- !is.na(vals)
     out[[i]] <- data.frame(
       section   = if (is_turnout) "turnout" else "results",

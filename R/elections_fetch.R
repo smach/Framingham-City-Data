@@ -62,14 +62,48 @@ guess_election_kind <- function(text) {
   data.frame(level = level, type = type, stringsAsFactors = FALSE)
 }
 
+#' A key that identifies a results document however its address is written
+#'
+#' The clerk's page links to ".../DocumentCenter/View/55543", but the browser
+#' shows ".../View/55543/Official-Results--110326?bidId=". Both are document
+#' 55543, so compare the document number. Other addresses lose any "?..." part.
+url_key <- function(url) {
+  id <- stringr::str_match(url, stringr::regex("DocumentCenter/View/(\\d+)", ignore_case = TRUE))[, 2]
+  ifelse(is.na(id), sub("[?#].*$", "", url), paste0("DocumentCenter/View/", id))
+}
+
 #' Which links on the clerk's page aren't in the registry yet?
 #'
-#' A link counts as known when its URL is in the registry's source_url column
-#' (one election can list several URLs separated by ";", e.g. unofficial
-#' then official results).
+#' A link counts as known when it points to the same document as a URL in the
+#' registry's source_url column (one election can list several URLs separated
+#' by ";", e.g. unofficial then official results).
 find_new_results <- function(links = check_clerk_page(), registry = read_registry()) {
-  known <- trimws(unlist(strsplit(stats::na.omit(registry$source_url), ";")))
-  links[!links$url %in% known, ]
+  known <- url_key(trimws(unlist(strsplit(stats::na.omit(registry$source_url), ";"))))
+  links[!url_key(links$url) %in% known, ]
+}
+
+#' Readable election name in the registry's style, built from the id
+#'
+#' "2026-11-03_state_general" -> "November 3 2026 State Election". Returns NA
+#' for kinds of election without a standard name.
+default_election_name <- function(election_id) {
+  parts <- strsplit(election_id, "_")[[1]]
+  d <- as.Date(parts[1])
+  kind <- c(
+    state_general                  = "State Election",
+    state_primary                  = "State Primary",
+    `state_presidential-primary`   = "Presidential Primary",
+    state_special                  = "Special State Election",
+    `state_special-primary`        = "Special State Primary",
+    municipal_general              = "City Election",
+    municipal_preliminary          = "City Preliminary Election",
+    municipal_special              = "Special City Election",
+    municipal_town                 = "Town Election"
+  )[paste(parts[2], parts[3], sep = "_")]
+  if (is.na(kind)) return(NA_character_)
+  # month.name rather than format("%B"), so the name doesn't depend on locale
+  paste(month.name[as.integer(format(d, "%m"))], as.integer(format(d, "%d")),
+        format(d, "%Y"), unname(kind))
 }
 
 #' Add a new election to the registry, or update an existing one
@@ -110,7 +144,9 @@ register_election <- function(election_id, ..., path = proj_path("data-raw", "el
 #' @param pdf Optional path to the clerk's PDF, kept next to the spreadsheet.
 #' @param source_url Optional web address of the PDF on the clerk's page, so
 #'   the weekly check knows it's been collected.
-#' @param name Readable name, e.g. "November 4 2025 City Election".
+#' @param name Readable name, e.g. "November 4 2025 City Election". If left
+#'   out, keeps the name already in the registry, or makes one from the id
+#'   (default_election_name()).
 #' @return That election's validation checks, so you can see right away
 #'   whether the conversion is trustworthy.
 add_election <- function(election_id, xlsx, status = "unofficial", pdf = NA,
@@ -125,11 +161,13 @@ add_election <- function(election_id, xlsx, status = "unofficial", pdf = NA,
   # Keep any web addresses already recorded (e.g. unofficial, then official)
   reg <- read_registry()
   old_urls <- reg$source_url[reg$election_id == election_id]
-  urls <- unique(stats::na.omit(c(trimws(unlist(strsplit(if (length(old_urls)) old_urls else NA, ";"))),
+  urls <- unique(stats::na.omit(c(trimws(unlist(strsplit(if (length(old_urls)) old_urls else NA_character_, ";"))),
                                   source_url)))
+  if (is.na(name)) name <- reg$name[reg$election_id == election_id][1]
+  if (is.na(name)) name <- default_election_name(election_id)
   register_election(
     election_id, status = status, parser = "clerk_xlsx", results_files = basename(xlsx),
-    name = if (is.na(name)) reg$name[reg$election_id == election_id][1] else name,
+    name = name,
     source_url = if (length(urls)) paste(urls, collapse = ";") else NA,
     notes = paste0("Converted from the clerk's PDF with Adobe Acrobat on ", Sys.Date(), ".")
   )

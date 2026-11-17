@@ -28,3 +28,4 @@ election_id,election_date,level,type,status,party,registered,ballots_cast,turnou
 2024-11-05_state_general,2024-11-05,state,general,official,,43783,30134,68.8
 2025-09-16_municipal_preliminary,2025-09-16,municipal,preliminary,official,,5558,252,4.5
 2025-11-04_municipal_general,2025-11-04,municipal,general,official,,42090,9689,23
+2026-11-03_state_general,2026-11-03,state,general,official,,43413,23822,54.9

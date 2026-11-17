@@ -182,6 +182,11 @@ tidy_results <- function(extracted, meta, lookup = read_precinct_districts(),
 tidy_turnout <- function(extracted, meta, lookup = read_precinct_districts()) {
   x <- extracted[extracted$section == "turnout" & extracted$precinct != "Total", ]
   if (nrow(x) == 0) return(NULL)
+  # On a two-card ballot every voter gets card one, so "Total Card One" is
+  # ballots cast. Card Two (and any later card) can be lower if a voter left
+  # without it, so it isn't used.
+  x <- x[!grepl("^Total Card", x$candidate, ignore.case = TRUE) |
+           grepl("^Total Card One$", x$candidate, ignore.case = TRUE), ]
   label <- clean_label(x$candidate)
   x$measure <- ifelse(grepl("regist", label, ignore.case = TRUE), "registered", "ballots_cast")
   # Which party, if any, does a turnout row belong to? "Total Turnout" -> NA

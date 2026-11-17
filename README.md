@@ -55,11 +55,13 @@ pak::local_install_deps(dependencies = TRUE)   # installs everything listed in D
 
 **Convert the clerk's results PDF to Excel by hand in Adobe Acrobat** (export it to an Excel workbook). Don't use an AI model or another converter. Acrobat is reliable for PDFs the clerk made from Excel, which is most of them. Scanned PDFs are different: Acrobat has to OCR them, and the results come out with misread numbers (the September 2024 primary scan had about 17% bad cells). For a scan, ask the clerk for the original spreadsheet, or check every row against the validation report.
 
-Then add it, with the spreadsheet, the status and the PDF:
+Then add it, with the spreadsheet, the status, the PDF and the PDF's web address on the clerk's page (so the weekly check knows it's been collected):
 
 ```
-Rscript scripts/add_election.R 2025-11-04_municipal_general ~/Downloads/results.xlsx unofficial ~/Downloads/results.pdf
+Rscript scripts/add_election.R 2026-11-03_state_general ~/Downloads/results.xlsx official ~/Downloads/results.pdf https://www.framinghamma.gov/DocumentCenter/View/55543/Official-Results--110326
 ```
+
+The files can already be in `data-raw/elections/<id>/`. The election's name ("November 3 2026 State Election") is made from the id; to use a different one, add it in quotes as a sixth argument.
 
 That copies both files into `data-raw/elections/<id>/`, updates the registry, rebuilds the data and prints the validation checks. If one fails, the detail says which race and precinct don't add up: compare with the PDF, fix the spreadsheet, and run `Rscript scripts/build_all.R` again. When official results replace unofficial ones, run the same command with the official files and `official`. The clerk sometimes puts the official results at the same web address as the unofficial ones, so check the heading on the PDF itself.
 
@@ -68,7 +70,7 @@ Two kinds of name problems, fixed in different places:
 * **Acrobat split a name across two cells** (in 2025, "Adam Lawrence Freudber" in one cell and "g" in the next). That's a conversion error: fix the cell in the spreadsheet so it matches the PDF, and say so in the registry's `notes`.
 * **The clerk's PDF itself cuts a name short** ("Matthew Thomas Corcora"). Leave the spreadsheet matching the PDF and add a row to `data-raw/lookups/candidate_name_fixes.csv` with the election, the printed name, the full name and where the full name comes from. The build applies it.
 
-From R you can also record the PDF's web address, so the weekly check knows it's been collected: `add_election(id, xlsx, status, pdf = ..., source_url = ...)`.
+From R: `add_election(id, xlsx, status, pdf = ..., source_url = ..., name = ...)`.
 
 ## Common tasks
 

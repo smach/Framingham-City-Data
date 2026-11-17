@@ -3,6 +3,10 @@
 .RData
 .Ruserdata
 index.xlsx
+/.claude/
+# Unused turnout-comparison experiment, kept local only
+R/elections_compare_turnout.R
+tests/testthat/test-compare-turnout.R
 
 # Large raw downloads that scripts can fetch again
 data-raw/property/*.zip
